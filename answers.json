@@ -1,0 +1,39 @@
+{
+  {
+    "q": "What is the function of the power supply?",
+    "t": "single",
+    "a": "to convert AC power into a lower voltage DC power"
+  },
+  {
+    "q": "Which two motherboard components connect to the Northbridge chipset? (Choose two.)",
+    "t": "multiple",
+    "a": "RAM; video card"
+  },
+  {
+    "q": "Refer to the exhibit. To what input device would the cables attach?",
+    "t": "single",
+    "a": "KVM switch"
+  },
+  {
+    "q": "Which three safety guidelines would be recommended for a technician working inside a laser printer? (Choose three.)",
+    "t": "multiple",
+    "a": "Allow the hot area of the laser printer to cool.; Remove jewelry and other accessories.; Secure loose clothing."
+  },
+  {
+    "q": "Match the cloud model with the description.",
+    "t": "matching",
+    "a": "public cloud:uses Internet to provide services;hybrid cloud:consists of two or more types of clouds;community cloud:customized for functional needs;private cloud:available to a single specific organization"
+  },
+  {
+    "q": "",
+    "a": ""
+  },
+  {
+    "q": "",
+    "a": ""
+  },
+  {
+    "q": "",
+    "a": ""
+  }
+}
