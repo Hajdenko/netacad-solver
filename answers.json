@@ -452,7 +452,7 @@
   {
     "q": "What is the purpose of an OLT in a fiber network?",
     "t": "single",
-    "a": "This is the splitter in the street cabinet that has connections for each customer being supplied in the area."
+    "a": "This is located inside the customer premises and interconnects the external optical network to the internal router."
   },
   {
     "q": "A school is installing a new shared printer but the printer is not showing up on the list of available printers. What should the technician do to resolve the issue?",
