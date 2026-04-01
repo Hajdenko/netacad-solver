@@ -484,6 +484,11 @@
     "t": "single",
     "a": "the application and infrastructure layers"
   },
+
+
+
+
+
   {
     "q": "In which situation would an ESD strike potentially cause harm to the PC?",
     "t": "single",
@@ -547,7 +552,7 @@
   {
     "q": "Refer to the exhibit. A technician has been asked to install a video card. Which section of the motherboard will the technician use to install the card?",
     "t": "single",
-    "a": "section A"
+    "a": "section D"
   },
   {
     "q": "When a PC is being assembled, what component is connected to the motherboard with a SATA cable?",
@@ -742,12 +747,12 @@
   {
     "q": "A customer brings in a laptop with a touch screen that is not working correctly — either not responding or providing inaccurate responses. What is a possible cause?",
     "t": "single",
-    "a": "The digitizer is faulty."
+    "a": "Too many apps are open."
   },
   {
     "q": "What are two security risks associated with sharing printers in a corporate environment? (Choose two.)",
     "t": "multiple",
-    "a": "cached files; document viewing in the print queue"
+    "a": "cached files; user authentication"
   },
   {
     "q": "Which change management process component is concerned with the business processes that are affected by changes?",
@@ -817,12 +822,12 @@
   {
     "q": "A technician has been called to investigate a computer rebooting randomly throughout the day. What two pieces of hardware could cause this? (Choose two.)",
     "t": "multiple",
-    "a": "power supply; motherboard"
+    "a": "power supply; CPU"
   },
   {
     "q": "For two days in a row, a user notices the computer reboots several times before eventually starting. What are two suspect components? (Choose two.)",
     "t": "multiple",
-    "a": "power supply; motherboard"
+    "a": "power supply; CPU  "
   },
   {
     "q": "While a user is working on a spreadsheet, the computer reboots. What are two components that could cause this issue? (Choose two.)",
@@ -952,7 +957,7 @@
   {
     "q": "A user complains that recently every printed document has vertical lines and streaks on the paper. What should the technician do?",
     "t": "single",
-    "a": "Clean the printer."
+    "a": "Distribute the toner more evenly within the cartridge."
   },
   {
     "q": "A school installs a new shared printer but it is not showing up on the list of available printers. What should the technician do?",
@@ -982,7 +987,7 @@
   {
     "q": "A photographer gets a 'Document failed to print' message. What are two possible causes? (Choose two.)",
     "t": "multiple",
-    "a": "A cable is loose or disconnected.; The wrong printer type has been selected."
+    "a": "A cable is loose or disconnected.; The printer is no longer shared."
   },
   {
     "q": "A reporter complains that the printer is printing unknown characters. What are two possible causes? (Choose two.)",
@@ -1113,5 +1118,15 @@
     "q": "Match the problem to the possible solution.",
     "t": "matching",
     "a": "The motherboard capacitors are distended, swollen, emitting residue, or bulging.:Replace the motherboard;The user can hear the fans spinning but the PC will not start and there are no beeps from the speaker.:Check fo faulting cable, damaged or mis-seated CPU or other motherbard component prior to replacing the motherboard if required.;After upgrading the single core CPU to a dual core CPU only one CPU graph is seen in the task manager.:Update the BIOS firmware.;The computer does not display any video after installing a new PCle video card.:Connect the auxillary power cable for the adapter card."
-  }
+  },
+  {
+    "q": "A technician is working on a laptop and an app is not loading. What is a probable cause for this situation?",
+    "t": "single",
+    "a": "An app needs to be restarted."
+  },
+  {
+    "q": "A technician is working on a laptop and an app is not responding. What is a probable cause for this situation?",
+    "t": "single",
+    "a": "An app needs to be restarted."
+  },
 ]
