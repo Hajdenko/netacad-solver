@@ -1,4 +1,4 @@
-{
+[
   {
     "q": "What is the function of the power supply?",
     "t": "single",
@@ -10,9 +10,19 @@
     "a": "RAM; video card"
   },
   {
+    "q": "What type of connector can be used to connect an internal hard drive to the motherboard?",
+    "t": "single",
+    "a": "SATA"
+  },
+  {
     "q": "Refer to the exhibit. To what input device would the cables attach?",
     "t": "single",
     "a": "KVM switch"
+  },
+  {
+    "q": "Which is the correct procedure to put out a fire with a fire extinguisher after the pin is pulled?",
+    "t": "single",
+    "a": "Aim at the base of the flame, squeeze the lever, and sweep from side to side."
   },
   {
     "q": "Which three safety guidelines would be recommended for a technician working inside a laser printer? (Choose three.)",
@@ -20,20 +30,458 @@
     "a": "Allow the hot area of the laser printer to cool.; Remove jewelry and other accessories.; Secure loose clothing."
   },
   {
+    "q": "A technician is reorganizing the parts cabinet and has found some thermal paste. When would the technician use thermal paste?",
+    "t": "single",
+    "a": "when installing CPUs"
+  },
+  {
+    "q": "Which two types of expansion slots would be used by a wireless NIC in a computer today? (Choose two.)",
+    "t": "multiple",
+    "a": "PCIe; PCI"
+  },
+  {
+    "q": "Refer to the exhibit. What is the purpose of the device that is shown?",
+    "t": "single",
+    "a": "to read or write data to discs"
+  },
+  {
+    "q": "Refer to the exhibit. What is the motherboard component that is shown?",
+    "t": "single",
+    "a": "front panel cable connectors"
+  },
+  {
+    "q": "Which solid-state storage technology allows a computer BIOS to be upgraded by flashing?",
+    "t": "single",
+    "a": "EEPROM"
+  },
+  {
+    "q": "Which two PC settings can be configured using the BIOS setup utility? (Choose two.)",
+    "t": "multiple",
+    "a": "virtualization support; boot sequence"
+  },
+  {
+    "q": "What type of device provides power to a computer and allows it to be safely shut down in the event of a power loss?",
+    "t": "single",
+    "a": "uninterruptible power supply"
+  },
+  {
+    "q": "Why do laptop computers use CPU throttling techniques?",
+    "t": "single",
+    "a": "to reduce the heat that the CPU may generate"
+  },
+  {
+    "q": "Which two existing components must be compatible with the installation of a new upgraded CPU? (Choose two.)",
+    "t": "multiple",
+    "a": "power supply; motherboard"
+  },
+  {
+    "q": "What are three important considerations when installing a CPU on a motherboard that has just been upgraded? (Choose three.)",
+    "t": "multiple",
+    "a": "Antistatic precautions are taken.; The CPU is correctly aligned and placed in the socket.; The CPU heat sink/fan assembly is correctly installed."
+  },
+  {
+    "q": "What is a possible use for virtual computing?",
+    "t": "single",
+    "a": "to run old applications that are not compatible with current operating systems"
+  },
+  {
+    "q": "A customer has requested a device with a minimum of 64 GB of RAM and the requirement that large numbers of users can test software upgrades in a safe environment. What type of device should be purchased?",
+    "t": "single",
+    "a": "VDI server"
+  },
+  {
+    "q": "True or False?\nThin clients require a network connection to remote servers to perform data processing.",
+    "t": "single",
+    "a": "true"
+  },
+  {
+    "q": "What is the correct disposal process of old computer batteries?",
+    "t": "single",
+    "a": "They must be recycled because they are harmful to the environment."
+  },
+  {
+    "q": "Which component can be easily damaged by the direct spray of compressed air when cleaning inside the computer case?",
+    "t": "single",
+    "a": "fan"
+  },
+  {
+    "q": "During the process of testing a theory of several probable causes to a problem, which should be tested first?",
+    "t": "single",
+    "a": "the easiest and most obvious"
+  },
+  {
+    "q": "Which two items could be used to help establish a plan of action when resolving a computer problem? (Choose two.)",
+    "t": "multiple",
+    "a": "the computer manual; the computer repair history log"
+  },
+  {
+    "q": "What is the preferred method to remove a disc from an optical drive that fails to eject the disc?",
+    "t": "single",
+    "a": "Insert a pin into the small hole on the front of the drive."
+  },
+  {
+    "q": "A technician is called to an office where the computer is randomly rebooting. Which of the given components would most likely cause this issue?",
+    "t": "single",
+    "a": "power supply"
+  },
+  {
+    "q": "Which two devices are considered intermediary devices in a network? (Choose two.)",
+    "t": "multiple",
+    "a": "switch; modem"
+  },
+  {
+    "q": "What are the four layers in the TCP/IP reference model?",
+    "t": "single",
+    "a": "application, transport, internet, network access"
+  },
+  {
+    "q": "Several messages sent to the network administrator are reporting that access to a secure server using HTTPS is failing. After checking recent updates to the company firewall, the administrator learns that the firewall is blocking HTTPS. Which port should be opened to solve the problem?",
+    "t": "single",
+    "a": "443"
+  },
+  {
+    "q": "A computer technician is monitoring traffic on a network where users are complaining about slow network performance. The technician is curious as to whether the new network management software is causing the slowdown. Which two port numbers would the technician be looking for in the captured packets for SNMP traffic? (Choose two.)",
+    "t": "multiple",
+    "a": "161; 162"
+  },
+  {
+    "q": "A technician has been asked to assist with the installation of smart devices in school dormitories. Which two technologies should the technician be familiar with? (Choose two.)",
+    "t": "multiple",
+    "a": "Z-Wave; Zigbee"
+  },
+  {
+    "q": "The current IP configuration of a medium size company with several subnets is done manually and is time-consuming. Because of increased network growth, a technician needs a simpler way for IP configuration of workstations. Which service or protocol would simplify the workstation IP configuration task?",
+    "t": "single",
+    "a": "DHCP"
+  },
+  {
+    "q": "Which IPv6 address represents the most compressed form of the IPv6 address 2001:0db8:cafe:0100:0f0d:0000:0000:00AA/96",
+    "t": "single",
+    "a": "2001:db8:cafe:100:f0d::AA/96"
+  },
+  {
+    "q": "What is the full decompressed form of the IPv6 address 2001:420:59:0:1::a/64?",
+    "t": "single",
+    "a": "2001:0420:0059:0000:0001:0000:0000:000a"
+  },
+  {
+    "q": "A support desk technician is asking a customer a series of questions about a problem connecting to the network. Which step of the troubleshooting process is the technician applying?",
+    "t": "single",
+    "a": "Identify the problem."
+  },
+  {
+    "q": "What are three common solutions for a PC that displays an IP address starting with 169.254.x.x? (Choose three.)",
+    "t": "multiple",
+    "a": "Turn on the device that is acting as a DHCP server.; Enable the client machine to receive an IPv4 address automatically.; Use the ipconfig /release and ipconfig /renew commands to request a new IPv4 address."
+  },
+  {
+    "q": "A user with a laptop is trying to connect to a wireless network, but no wireless networks are showing. What is a quick way for the user to ensure that the wireless NIC is enabled?",
+    "t": "single",
+    "a": "Use a function key."
+  },
+  {
+    "q": "Which laptop device would accept an SD card?",
+    "t": "single",
+    "a": "card reader"
+  },
+  {
+    "q": "What are two indications that a mobile device battery needs to be replaced? (Choose two.)",
+    "t": "multiple",
+    "a": "The battery is leaking.; The battery overheats."
+  },
+  {
+    "q": "What two steps must be taken before performing a cleaning procedure on a laptop computer? (Choose two.)",
+    "t": "multiple",
+    "a": "Disconnect the laptop from the electrical outlet.; Remove all installed batteries."
+  },
+  {
+    "q": "A tire store needs to use carbon copy paper to print customer invoices so that both the store and the customer have a copy. What is the best printer solution?",
+    "t": "single",
+    "a": "impact printer"
+  },
+  {
+    "q": "In what two situations is a virtual printer used? (Choose two.)",
+    "t": "multiple",
+    "a": "A user sends a printed document to a remote destination through the cloud.; A document is printed to a PDF or other file type."
+  },
+  {
+    "q": "What printer feature allows a computer to work while print jobs are waiting in queue to be printed?",
+    "t": "single",
+    "a": "buffering"
+  },
+  {
+    "q": "A user on a home network wants to share a printer from a Windows 7 computer. What must the user do in order for other Windows 7 computers in the house to obtain the proper driver?",
+    "t": "single",
+    "a": "The person doing the sharing must use the Additional Drivers button in order to designate the driver to be used by the other Windows 7 computers."
+  },
+  {
+    "q": "For cleaning a laser printer, what should be used to pick up excess particles of toner?",
+    "t": "single",
+    "a": "a HEPA-capable vacuum"
+  },
+  {
+    "q": "What is the difference between cloud computing and a data center?",
+    "t": "single",
+    "a": "Cloud computing solutions are network resources and services provided to the clients through the use of services from data centers."
+  },
+  {
+    "q": "Which technology provides a solution for PC virtualization?",
+    "t": "single",
+    "a": "hypervisor"
+  },
+  {
+    "q": "What is an example of cloud computing?",
+    "t": "single",
+    "a": "a service that offers on-demand access to shared resources"
+  },
+  {
+    "q": "Which Cloud computing service would be best for a new organization that cannot afford physical servers and networking equipment and must purchase network services on-demand?",
+    "t": "single",
+    "a": "IaaS"
+  },
+  {
     "q": "Match the cloud model with the description.",
     "t": "matching",
     "a": "public cloud:uses Internet to provide services;hybrid cloud:consists of two or more types of clouds;community cloud:customized for functional needs;private cloud:available to a single specific organization"
   },
   {
-    "q": "",
-    "a": ""
+    "q": "A customer comes into a computer parts and service store. The customer is looking for a device to allow users to tap and pay for their purchases. What device should the store owner recommend to accomplish the required task?",
+    "t": "single",
+    "a": "NFC device"
   },
   {
-    "q": "",
-    "a": ""
+    "q": "A customer comes into a computer parts and service store. The customer is looking for a device to allow secure access to the main doors of the company by swiping an ID card. What device should the store owner recommend to accomplish the required task?",
+    "t": "single",
+    "a": "magstripe reader"
   },
   {
-    "q": "",
-    "a": ""
+    "q": "A customer comes into a computer parts and service store. The customer is looking for a device to scan some old family photos into a laptop. What device should the store owner recommend to accomplish the required task?",
+    "t": "single",
+    "a": "flatbed scanner"
+  },
+  {
+    "q": "A customer comes into a computer parts and service store. The customer is looking for a device to display a promotional presentation to a large audience at a conference. What device should the store owner recommend to accomplish the required task?",
+    "t": "single",
+    "a": "projector"
+  },
+  {
+    "q": "A customer comes into a computer parts and service store. The customer is looking for a device to simplify inventory ordering and control in the customer retail store. What device should the store owner recommend to accomplish the required task?",
+    "t": "single",
+    "a": "barcode scanner"
+  },
+  {
+    "q": "A customer comes into a computer parts and service store. The customer is looking for a device to train pilots how to land and take off in a computer simulation environment. What device should the store owner recommend to accomplish the required task?",
+    "t": "single",
+    "a": "joystick or gamepad"
+  },
+  {
+    "q": "A customer comes into a computer parts and service store. The customer is looking for a device to share a keyboard and mouse between two computers. What device should the store owner recommend to accomplish the required task?",
+    "t": "single",
+    "a": "KVM switch"
+  },
+  {
+    "q": "A customer comes into a computer parts and service store. The customer is looking for a device to verify the identity of the receiver when a purchased product is delivered by courier to the door of a customer. What device should the store owner recommend to accomplish the required task?",
+    "t": "single",
+    "a": "signature pad"
+  },
+  {
+    "q": "A customer comes into a computer parts and service store. The customer is looking for a device to provide secure access to the central server room using a retinal scan. What device should the store owner recommend to accomplish the required task?",
+    "t": "single",
+    "a": "biometric scanner"
+  },
+  {
+    "q": "A customer comes into a computer parts and service store. The customer is looking for a device to help a person with accessibility issues input instructions into a laptop by using a pen. What device should the store owner recommend to accomplish the required task?",
+    "t": "single",
+    "a": "stylus"
+  },
+  {
+    "q": "A consultant has been asked to help decide on the best power protection for some equipment in a company that trades electricity and energy nation-wide. The company has multiple cubicles where the energy traders work. Each cubicle has a computer, an IP phone, and eight monitors. All devices need power and the ability to protect the equipment from power spikes. Which protection device would be best to use for each computer station?",
+    "t": "single",
+    "a": "a surge protector"
+  },
+  {
+    "q": "A consultant has been asked to help decide on the best power protection for some equipment in a company that provides payroll services to small businesses. The company has staff that require a PC, laser printer, and IP phone from 8 a.m. to 5 p.m. Monday through Friday. The power protection device needs to be able to provide protection for an overvoltage situation. Which protection device would be best to use for each computer station?",
+    "t": "single",
+    "a": "a surge protector"
+  },
+  {
+    "q": "A consultant has been asked to help decide on the best power protection for some equipment in a company that specializes in PC technical support for senior citizens. The company is a 24/7 operation. Each technician is assigned to a computer that has an IP phone with a headset and two monitors. All devices need power and the ability to protect the equipment from power spikes. Which protection device would be best to use for each computer station?",
+    "t": "single",
+    "a": "a surge protector"
+  },
+  {
+    "q": "A consultant has been asked to help decide on the best power protection for some equipment in a company that trades electricity and energy nation-wide. The company has multiple cubicles where the energy traders work. Each cubicle has a computer, an IP phone, and eight monitors. All devices need consistent quality power, the ability to use the equipment 24/7, and the ability to save information about the current transaction if the power goes out. Which protection device would be best to use for each computer station?",
+    "t": "single",
+    "a": "a UPS"
+  },
+  {
+    "q": "A consultant has been asked to help decide on the best power protection for some equipment in a company that provides payroll services to small businesses. The company has staff that require a PC, laser printer, and IP phone from 8 a.m. to 5 p.m. Monday through Friday. The power protection device needs to be able to provide conditioned power at all times the ability to save payroll information if the power goes out. Which protection device would be best to use for each computer station?",
+    "t": "single",
+    "a": "a UPS"
+  },
+  {
+    "q": "A consultant has been asked to help decide on the best power protection for some equipment in a company that specializes in PC technical support for senior citizens. The company is a 24/7 operation. Each technician is assigned to a computer that has an IP phone with a headset and two monitors. All devices need quality power, the ability to finish the current call if the power goes out, and constant battery charging. Which protection device would be best to use for each computer station?",
+    "t": "single",
+    "a": "a UPS"
+  },
+  {
+    "q": "A user is building a new computer system. Why would the user select a DDR3?",
+    "t": "single",
+    "a": "to install a memory module"
+  },
+  {
+    "q": "A user is building a new computer system. Why would the user select external screws?",
+    "t": "single",
+    "a": "to install a power supply into a PC tower case"
+  },
+  {
+    "q": "A user is building a new computer system. Why would the user select a part that has a 3.5 inch (8.89 cms) form factor?",
+    "t": "single",
+    "a": "to install an internal HDD"
+  },
+  {
+    "q": "A user is building a new computer system. Why would the user select an HDMI cable?",
+    "t": "single",
+    "a": "to attach a digital monitor"
+  },
+  {
+    "q": "A user is building a new computer system. Why would the user select a DVI cable?",
+    "t": "single",
+    "a": "to attach a digital monitor"
+  },
+  {
+    "q": "A user is building a new computer system. Why would the user select a media reader?",
+    "t": "single",
+    "a": "to copy files from an SD card"
+  },
+  {
+    "q": "A user is building a new computer system. Why would the user select an RJ-45 connector?",
+    "t": "single",
+    "a": "to connect a device to a wired network"
+  },
+  {
+    "q": "How many bits are used to represent the host address of a computer with the IP address of 192.168.1.25 and a subnet mask of 255.255.255.0?",
+    "t": "single",
+    "a": "8"
+  },
+  {
+    "q": "How many bits are used to represent the network address of a host with an IP address of 192.168.150.16 and a subnet mask of 255.255.0.0?",
+    "t": "single",
+    "a": "16"
+  },
+  {
+    "q": "How many bits are used to represent a MAC address?",
+    "t": "single",
+    "a": "48"
+  },
+  {
+    "q": "How many bits are used to represent an IPv4 address?",
+    "t": "single",
+    "a": "32"
+  },
+  {
+    "q": "How many bits are used to represent an IPv6 address?",
+    "t": "single",
+    "a": "128"
+  },
+  {
+    "q": "How many bits are used to represent the OUI part of the MAC address of a NIC card?",
+    "t": "single",
+    "a": "24"
+  },
+  {
+    "q": "A computer user logs a problem stating that the computer is emitting a loud clicking noise. Which device should the technician check first?",
+    "t": "single",
+    "a": "hard drive"
+  },
+  {
+    "q": "While a technician is installing a printer, the technician hears a loud clicking noise. Which device should the technician check first?",
+    "t": "single",
+    "a": "hard drive"
+  },
+  {
+    "q": "While working in a computer training room, the technician notices that one computer emits a loud clicking noise. Which device should the technician check first?",
+    "t": "single",
+    "a": "hard drive"
+  },
+  {
+    "q": "Every time a user turns on the computer in the morning, the user hears a loud clicking noise. Which device should the technician check first?",
+    "t": "single",
+    "a": "hard drive"
+  },
+  {
+    "q": "When a co-worker steps into another office, the co-worker notices that the computer is making a loud clicking noise and asks about it. The technician is contacted to investigate. Which device should the technician check first?",
+    "t": "single",
+    "a": "hard drive"
+  },
+  {
+    "q": "When a user turns on a workstation, the screen displays an \"Invalid Boot Disk\" error. The user calls the help desk. Which device should the technician check first?",
+    "t": "single",
+    "a": "hard drive"
+  },
+  {
+    "q": "A technician is working on a laptop and an app is not loading. What is a possible solution for this situation?",
+    "t": "single",
+    "a": "Perform a reset."
+  },
+  {
+    "q": "A technician is working on a laptop and an app is not responding. What is a possible solution for this situation?",
+    "t": "single",
+    "a": "Perform a reset."
+  },
+  {
+    "q": "A technician is working on a laptop and an error message about decryption appears when opening an email. What is a possible solution for this situation?",
+    "t": "single",
+    "a": "Install an appropriate certificate."
+  },
+  {
+    "q": "A technician is working on a laptop and a key on the keyboard is not responding as it should. What is a possible solution for this situation?",
+    "t": "single",
+    "a": "Clean with compressed air."
+  },
+  {
+    "q": "A technician is working on a laptop and the GPS is not functioning. What is a probable cause for this situation?",
+    "t": "single",
+    "a": "A service is disabled."
+  },
+  {
+    "q": "What is the purpose of a network load balancer?",
+    "t": "single",
+    "a": "to prevent network timeouts and slow server responses"
+  },
+  {
+    "q": "What is the purpose of an OLT in a fiber network?",
+    "t": "single",
+    "a": "This is the splitter in the street cabinet that has connections for each customer being supplied in the area."
+  },
+  {
+    "q": "A school is installing a new shared printer but the printer is not showing up on the list of available printers. What should the technician do to resolve the issue?",
+    "t": "single",
+    "a": "Manually add the printer IP address."
+  },
+  {
+    "q": "A Windows 10 computer has several printers configured in the Control Panel Devices and Printers window. Which printer will the computer choose to be the first option for printing?",
+    "t": "single",
+    "a": "the printer that is set as the default printer"
+  },
+  {
+    "q": "What is the purpose of the Server Message Block (SMB) protocol on Windows networks?",
+    "t": "single",
+    "a": "file sharing"
+  },
+  {
+    "q": "A user on a home network wants to share a printer from a Windows 10 computer. What must the user do in order for other Windows 10 computers in the house to obtain the proper driver?",
+    "t": "single",
+    "a": "Nothing. Windows automatically provides the driver."
+  },
+  {
+    "q": "What are two probable causes of a VoIP implementation experiencing dropouts, echoes, or glitches? (Choose two.)",
+    "t": "multiple",
+    "a": "high latency; high jitter"
+  },
+  {
+    "q": "The SDN controller controls which layers in the SDN framework?",
+    "t": "single",
+    "a": "the application and infrastructure layers"
   }
-}
+]
