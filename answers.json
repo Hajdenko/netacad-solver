@@ -172,7 +172,7 @@
   {
     "q": "What are three common solutions for a PC that displays an IP address starting with 169.254.x.x? (Choose three.)",
     "t": "multiple",
-    "a": "Turn on the device that is acting as a DHCP server.; Enable the client machine to receive an IPv4 address automatically.; Use the ipconfig /release and ipconfig /renew commands to request a new IPv4 address."
+    "a": "Turn on the device that is acting as a DHCP server.; Reboot the client machine that is using the 169.254.x.x address.; Use the ipconfig /release and ipconfig /renew commands to request a new IPv4 address."
   },
   {
     "q": "A user with a laptop is trying to connect to a wireless network, but no wireless networks are showing. What is a quick way for the user to ensure that the wireless NIC is enabled?",
