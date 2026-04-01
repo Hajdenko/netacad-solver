@@ -483,5 +483,635 @@
     "q": "The SDN controller controls which layers in the SDN framework?",
     "t": "single",
     "a": "the application and infrastructure layers"
+  },
+  {
+    "q": "In which situation would an ESD strike potentially cause harm to the PC?",
+    "t": "single",
+    "a": "when replacing a mechanical hard drive with an M.2 SSD"
+  },
+  {
+    "q": "A person has started a new technical job. In which situation would ESD be an issue?",
+    "t": "single",
+    "a": "when installing a processor"
+  },
+  {
+    "q": "A technician is about to begin preventive maintenance on a company PC. In which situation would ESD be an issue?",
+    "t": "single",
+    "a": "when installing a processor|when replacing a motherboard|when installing RAM"
+  },
+  {
+    "q": "An instructor has given a student an assignment to assemble a PC. In which situation should the student be aware that ESD is an issue?",
+    "t": "single",
+    "a": "when installing RAM"
+  },
+  {
+    "q": "What two motherboard components control the system boot operations? (Choose two.)",
+    "t": "multiple",
+    "a": "BIOS chip; UEFI chip"
+  },
+  {
+    "q": "A technician is upgrading an ATX motherboard with another ATX motherboard. Which component might be affected by this and need to be upgraded and bought as an additional purchase?",
+    "t": "single",
+    "a": "CPU"
+  },
+  {
+    "q": "A customer has requested that a PC be built that will support eSATA. Which component should be checked to be sure that this feature is supported?",
+    "t": "single",
+    "a": "chipset"
+  },
+  {
+    "q": "Which memory module used to hold instructions for booting a PC and loading the OS, but is still used on adapters even though the memory contents cannot be changed?",
+    "t": "single",
+    "a": "ROM"
+  },
+  {
+    "q": "What is a characteristic of DDR SDRAM?",
+    "t": "single",
+    "a": "It transfers data twice per clock cycle compared to once per clock cycle for SDRAM."
+  },
+  {
+    "q": "What are two safety hazards when dealing with laser printers? (Choose two.)",
+    "t": "multiple",
+    "a": "high voltage; hot components"
+  },
+  {
+    "q": "Which component requires a technician to install screws externally through the PC case?",
+    "t": "single",
+    "a": "power supply"
+  },
+  {
+    "q": "A technician is installing an internal HDD. To which motherboard connector will the technician connect the data cable?",
+    "t": "single",
+    "a": "SATA"
+  },
+  {
+    "q": "Refer to the exhibit. A technician has been asked to install a video card. Which section of the motherboard will the technician use to install the card?",
+    "t": "single",
+    "a": "section A"
+  },
+  {
+    "q": "When a PC is being assembled, what component is connected to the motherboard with a SATA cable?",
+    "t": "single",
+    "a": "the optical drive"
+  },
+  {
+    "q": "A technician is troubleshooting a computer that is experiencing hardware failure detected by the BIOS. What is one way this failure is indicated?",
+    "t": "single",
+    "a": "The computer emits a pattern of beeps indicating the failing device."
+  },
+  {
+    "q": "Which three features can be configured in the BIOS settings to secure a computer? (Choose three.)",
+    "t": "multiple",
+    "a": "drive encryption; TPM; passwords"
+  },
+  {
+    "q": "What is the purpose of RAID adapters?",
+    "t": "single",
+    "a": "to connect multiple storage devices for redundancy or speed"
+  },
+  {
+    "q": "When a new motherboard is being installed, between which two components must thermal compound be applied? (Choose two.)",
+    "t": "multiple",
+    "a": "CPU; heat sink"
+  },
+  {
+    "q": "What is the purpose of a Safety Data Sheet?",
+    "t": "single",
+    "a": "to specify procedures for dealing with potentially hazardous materials"
+  },
+  {
+    "q": "Which negative environmental factor does cleaning the inside of a computer reduce?",
+    "t": "single",
+    "a": "dust"
+  },
+  {
+    "q": "What is a recommended procedure to follow when cleaning computer components?",
+    "t": "single",
+    "a": "Hold cans of compressed air upright while spraying."
+  },
+  {
+    "q": "On the production floor, a furniture plant has laptops for process monitoring and reporting. Which condition is most likely to adversely affect a laptop used in this environment?",
+    "t": "single",
+    "a": "the dust"
+  },
+  {
+    "q": "After a technician tests a theory of probable causes, what two actions should the technician take if the testing did not identify an exact cause? (Choose two.)",
+    "t": "multiple",
+    "a": "Establish a new theory of probable causes.; Document each test tried that did not correct the problem."
+  },
+  {
+    "q": "What would happen if a PC that contains a power supply that does not automatically adjust for input voltage is set to 230 volts and attaches to an outlet in the United States?",
+    "t": "single",
+    "a": "The PC would not turn on."
+  },
+  {
+    "q": "Which type of network spans a single building or campus and provides services and applications to people within a common organizational structure?",
+    "t": "single",
+    "a": "LAN"
+  },
+  {
+    "q": "What are two types of wired high-speed Internet connections? (Choose two.)",
+    "t": "multiple",
+    "a": "cable; DSL"
+  },
+  {
+    "q": "In what two situations would UDP be better than TCP as the preferred transport protocol? (Choose two.)",
+    "t": "multiple",
+    "a": "when a faster delivery mechanism is needed; when applications do not need to guarantee delivery of the data"
+  },
+  {
+    "q": "The current IP configuration of a small company is done manually and is time-consuming. Which service would simplify the workstation IP configuration task?",
+    "t": "single",
+    "a": "DHCP"
+  },
+  {
+    "q": "A company is looking for a next-generation firewall that provides VPN functionality, IDS/IPS functionality, and DoS/DDoS protection. Which device would be best suited for this task?",
+    "t": "single",
+    "a": "UTM"
+  },
+  {
+    "q": "A student discovers that the computer has been assigned the IP address 169.254.100.88. What could cause a computer to get such an IP address?",
+    "t": "single",
+    "a": "unreachable DHCP server"
+  },
+  {
+    "q": "What three values must be added to the IPv4 properties of a NIC in order for a computer to have basic connectivity with the network? (Choose three.)",
+    "t": "multiple",
+    "a": "subnet mask; default gateway; IP address"
+  },
+  {
+    "q": "A device has an IPv6 address of 2001:0DB8:75a3:0214:0607:1234:aa10:ba01 /64. What is the host identifier of the device?",
+    "t": "single",
+    "a": "0607:1234:aa10:ba01"
+  },
+  {
+    "q": "How can a user prevent specific applications from accessing a Windows computer over a network?",
+    "t": "single",
+    "a": "Block specific TCP or UDP ports in Windows Firewall."
+  },
+  {
+    "q": "A technician has been asked to configure Wi-Fi calling on a corporate mobile device. In which situation would this feature be most advantageous?",
+    "t": "single",
+    "a": "when in an area with poor cellular coverage"
+  },
+  {
+    "q": "Which statement is true about laptops?",
+    "t": "single",
+    "a": "Most of the internal components that are designed for laptops cannot be used for desktops."
+  },
+  {
+    "q": "Which standard provides a bridge between laptop hardware and the operating system and a way for technicians to configure power management schemes?",
+    "t": "single",
+    "a": "ACPI"
+  },
+  {
+    "q": "Which two laptop components are considered replaceable by the customer? (Choose two.)",
+    "t": "multiple",
+    "a": "battery; RAM"
+  },
+  {
+    "q": "A user wants to synchronize apps, movies, music, and ebooks between mobile devices. What are the two types of connections used? (Choose two.)",
+    "t": "multiple",
+    "a": "Wi-Fi; USB"
+  },
+  {
+    "q": "A technician is explaining the differences between inkjet printers and laser printers to a customer. Which two comparisons should the technician make? (Choose two.)",
+    "t": "multiple",
+    "a": "Inkjet printers are less expensive as an initial purchase than laser printers.; The laser printer output is dry after printing, but an inkjet printer may still have wet ink on the paper after printing."
+  },
+  {
+    "q": "A user chooses the collate option and prints two copies of a three-page document. What is the order in which the pages are printed?",
+    "t": "single",
+    "a": "pages 1, 2, 3, 1, 2, 3"
+  },
+  {
+    "q": "A color laser printer is used to print documents with graphics and photographs and users complain that printing takes too long. Which component should be upgraded?",
+    "t": "single",
+    "a": "RAM"
+  },
+  {
+    "q": "What service is available for Windows to provide software print server services to MAC OS clients?",
+    "t": "single",
+    "a": "Bonjour Print Server"
+  },
+  {
+    "q": "Which three components are typically found in laser printer maintenance kits? (Choose three.)",
+    "t": "multiple",
+    "a": "fuser assembly; pickup rollers; transfer rollers"
+  },
+  {
+    "q": "A technician is installing a new printer in a cool, damp environment. After setup the printer test page jams. What is the most likely cause?",
+    "t": "single",
+    "a": "too much humidity"
+  },
+  {
+    "q": "A data center updated a physical server to host multiple operating systems on a single CPU. What networking trend is being implemented?",
+    "t": "single",
+    "a": "virtualization"
+  },
+  {
+    "q": "How does virtualization help with disaster recovery within a data center?",
+    "t": "single",
+    "a": "Hardware does not have to be identical."
+  },
+  {
+    "q": "Which two hypervisors are suitable to support virtual machines in a data center? (Choose two.)",
+    "t": "multiple",
+    "a": "VMware ESX/ESXi; Microsoft Hyper-V 2012"
+  },
+  {
+    "q": "A web designer opens multiple applications in different virtual desktops on a Windows 10 computer. What technology is being used?",
+    "t": "single",
+    "a": "Windows Virtual Desktop"
+  },
+  {
+    "q": "Which Cloud computing service would be best for an organization that needs to collaboratively create applications and deliver them over the web?",
+    "t": "single",
+    "a": "PaaS"
+  },
+  {
+    "q": "Which statement describes a feature of SDRAM?",
+    "t": "single",
+    "a": "It can process overlapping instructions in parallel."
+  },
+  {
+    "q": "A technician is troubleshooting a server that displays the error message 'RAID not found' after a power outage. What is a possible cause?",
+    "t": "single",
+    "a": "The external RAID controller is not receiving power."
+  },
+  {
+    "q": "A customer brings in a laptop with a touch screen that is not working correctly — either not responding or providing inaccurate responses. What is a possible cause?",
+    "t": "single",
+    "a": "The digitizer is faulty."
+  },
+  {
+    "q": "What are two security risks associated with sharing printers in a corporate environment? (Choose two.)",
+    "t": "multiple",
+    "a": "cached files; document viewing in the print queue"
+  },
+  {
+    "q": "Which change management process component is concerned with the business processes that are affected by changes?",
+    "t": "single",
+    "a": "assessment"
+  },
+  {
+    "q": "A computer technician is installing a RAID that uses mirroring and striping. Which RAID level is the technician using?",
+    "t": "single",
+    "a": "10"
+  },
+  {
+    "q": "A computer technician is installing a RAID that uses mirroring. Which RAID level is the technician using?",
+    "t": "single",
+    "a": "1"
+  },
+  {
+    "q": "A computer technician is installing a RAID that uses striping with parity. Which RAID level is the technician using?",
+    "t": "single",
+    "a": "5"
+  },
+  {
+    "q": "A computer technician is installing a RAID that uses striping. Which RAID level is the technician using?",
+    "t": "single",
+    "a": "0"
+  },
+  {
+    "q": "A computer technician is installing a RAID that uses striping with double parity. Which RAID level is the technician using?",
+    "t": "single",
+    "a": "6"
+  },
+  {
+    "q": "How should the technician dispose of an old battery?",
+    "t": "single",
+    "a": "Recycle following local regulations."
+  },
+  {
+    "q": "How should the technician dispose of a broken monitor?",
+    "t": "single",
+    "a": "Recycle following local regulations."
+  },
+  {
+    "q": "How should the technician dispose of an old power supply?",
+    "t": "single",
+    "a": "Recycle following local regulations."
+  },
+  {
+    "q": "How should the technician dispose of old RAM?",
+    "t": "single",
+    "a": "Recycle following local regulations."
+  },
+  {
+    "q": "How should the technician dispose of an old motherboard?",
+    "t": "single",
+    "a": "Recycle following local regulations."
+  },
+  {
+    "q": "How should the technician dispose of an old hard drive?",
+    "t": "single",
+    "a": "Recycle following local regulations."
+  },
+  {
+    "q": "After continuous morning use, a computer suddenly reboots without user intervention. What are the two most likely hardware parts that could cause this problem? (Choose two.)",
+    "t": "multiple",
+    "a": "CPU; power supply"
+  },
+  {
+    "q": "A technician has been called to investigate a computer rebooting randomly throughout the day. What two pieces of hardware could cause this? (Choose two.)",
+    "t": "multiple",
+    "a": "power supply; motherboard"
+  },
+  {
+    "q": "For two days in a row, a user notices the computer reboots several times before eventually starting. What are two suspect components? (Choose two.)",
+    "t": "multiple",
+    "a": "power supply; motherboard"
+  },
+  {
+    "q": "While a user is working on a spreadsheet, the computer reboots. What are two components that could cause this issue? (Choose two.)",
+    "t": "multiple",
+    "a": "CPU; power supply"
+  },
+  {
+    "q": "A client packet is received by a server with a destination port number of 137. What service application is the client requesting?",
+    "t": "single",
+    "a": "NetBIOS (NetBT)"
+  },
+  {
+    "q": "A client packet is received by a server with a destination port number of 22. What service application is the client requesting?",
+    "t": "single",
+    "a": "SSH"
+  },
+  {
+    "q": "A client packet is received by a server with a destination port number of 143. What service application is the client requesting?",
+    "t": "single",
+    "a": "IMAP"
+  },
+  {
+    "q": "A client packet is received by a server with a destination port number of 23. What service application is the client requesting?",
+    "t": "single",
+    "a": "Telnet"
+  },
+  {
+    "q": "A client packet is received by a server with a destination port number of 161. What service application is the client requesting?",
+    "t": "single",
+    "a": "SNMP"
+  },
+  {
+    "q": "A client packet is received by a server with a destination port number of 389. What service application is the client requesting?",
+    "t": "single",
+    "a": "LDAP"
+  },
+  {
+    "q": "A client packet is received by a server with a destination port number of 25. What service application is the client requesting?",
+    "t": "single",
+    "a": "SMTP"
+  },
+  {
+    "q": "A client packet is received by a server with a destination port number of 427. What service application is the client requesting?",
+    "t": "single",
+    "a": "SLP"
+  },
+  {
+    "q": "A client packet is received by a server with a destination port number of 53. What service application is the client requesting?",
+    "t": "single",
+    "a": "DNS"
+  },
+  {
+    "q": "Which is the compressed format of the IPv6 address 2001:0db8:0000:0000:0000:a0b0:0008:0001?",
+    "t": "single",
+    "a": "2001:db8::a0b0:8:1"
+  },
+  {
+    "q": "Which is the compressed format of the IPv6 address fe80:09ea:0000:2200:0000:0000:0fe0:0290?",
+    "t": "single",
+    "a": "fe80:9ea:0:2200::fe0:290"
+  },
+  {
+    "q": "Which is the compressed format of the IPv6 address 2002:0042:0010:c400:0000:0000:0000:0909?",
+    "t": "single",
+    "a": "2002:42:10:c400::909"
+  },
+  {
+    "q": "Which is the compressed format of the IPv6 address 2002:0420:00c4:1008:0025:0190:0000:0990?",
+    "t": "single",
+    "a": "2002:420:c4:1008:25:190::990"
+  },
+  {
+    "q": "Which is the compressed format of the IPv6 address 2001:0db8:0000:0000:0ab8:0001:0000:1000?",
+    "t": "single",
+    "a": "2001:db8::ab8:1:0:1000"
+  },
+  {
+    "q": "Which is the compressed format of the IPv6 address fe80:0000:0000:0000:0220:0b3f:f0e0:0029?",
+    "t": "single",
+    "a": "fe80::220:b3f:f0e0:29"
+  },
+  {
+    "q": "Which is the compressed format of the IPv6 address fe80:9ea0:0000:2020:0000:00bf:00e0:9290?",
+    "t": "single",
+    "a": "fe80:9ea0::2020:0:bf:e0:9290"
+  },
+  {
+    "q": "What ACPI power state describes when the CPU and RAM are off and the contents of RAM have been saved to a temporary file on the hard drive?",
+    "t": "single",
+    "a": "S4"
+  },
+  {
+    "q": "What ACPI power state describes when the CPU and RAM are still receiving power but unused devices are powered down?",
+    "t": "single",
+    "a": "S1"
+  },
+  {
+    "q": "What ACPI power state describes when the CPU is off, but the RAM is refreshed?",
+    "t": "single",
+    "a": "S2"
+  },
+  {
+    "q": "What ACPI power state describes when the computer is off?",
+    "t": "single",
+    "a": "S5"
+  },
+  {
+    "q": "What ACPI power state describes when the CPU is off and the RAM is set to a slow refresh rate, often called suspend mode?",
+    "t": "single",
+    "a": "S3"
+  },
+  {
+    "q": "What ACPI power state describes when the computer is on and the CPU is running?",
+    "t": "single",
+    "a": "S0"
+  },
+  {
+    "q": "A reporter is printing high resolution photographs but the color laser printer is going extremely slowly. What should the technician do to resolve the issue?",
+    "t": "single",
+    "a": "Add more RAM to the printer."
+  },
+  {
+    "q": "A new printer installed in a mine constantly jams when test pages are printed. What should the technician do to resolve the issue?",
+    "t": "single",
+    "a": "Move the printer to a less-humid location."
+  },
+  {
+    "q": "A user complains that recently every printed document has vertical lines and streaks on the paper. What should the technician do?",
+    "t": "single",
+    "a": "Clean the printer."
+  },
+  {
+    "q": "A school installs a new shared printer but it is not showing up on the list of available printers. What should the technician do?",
+    "t": "single",
+    "a": "Manually add the printer IP address."
+  },
+  {
+    "q": "Employees send print jobs to a newly installed printer but the jobs never print. What should the technician do?",
+    "t": "single",
+    "a": "The printer is connected to the wrong port. Modify the port."
+  },
+  {
+    "q": "Users notice that the colors on their printed documents are different from the colors on their computer screens. What should the technician do?",
+    "t": "single",
+    "a": "Calibrate the printer."
+  },
+  {
+    "q": "After a preventive maintenance on the department printer, users complain the printer is no longer available. What should the technician do?",
+    "t": "single",
+    "a": "Check that the printer is plugged into a power source."
+  },
+  {
+    "q": "Employees of a small business complain that the printer is printing faded images. What should the technician do?",
+    "t": "single",
+    "a": "Replace the toner cartridge."
+  },
+  {
+    "q": "A photographer gets a 'Document failed to print' message. What are two possible causes? (Choose two.)",
+    "t": "multiple",
+    "a": "A cable is loose or disconnected.; The wrong printer type has been selected."
+  },
+  {
+    "q": "A reporter complains that the printer is printing unknown characters. What are two possible causes? (Choose two.)",
+    "t": "multiple",
+    "a": "The wrong or an outdated printer driver is installed.; The printer has been installed on the wrong port."
+  },
+  {
+    "q": "A manager complains that the printer is printing incorrect colors. What are two possible causes? (Choose two.)",
+    "t": "multiple",
+    "a": "The print heads might need to be cleaned and calibrated.; An incorrect cartridge could be installed."
+  },
+  {
+    "q": "A technician complains that the print appears faded on the paper. What are two possible causes? (Choose two.)",
+    "t": "multiple",
+    "a": "The toner cartridge is low.; The paper might be incompatible with the printer."
+  },
+  {
+    "q": "A librarian complains that the printer control panel displays no image. What are two possible causes? (Choose two.)",
+    "t": "multiple",
+    "a": "The contrast of the screen may be set too low.; The printer is not turned on."
+  },
+  {
+    "q": "A teacher complains that the paper is creased after printing. What are two possible causes? (Choose two.)",
+    "t": "multiple",
+    "a": "The paper-feed tray might not be firmly adjusted against the edges of the printer.; The paper might be loaded incorrectly."
+  },
+  {
+    "q": "A receptionist's impact printer produces faded or light characters. What are two possible causes? (Choose two.)",
+    "t": "multiple",
+    "a": "The ribbon may be worn out.; The ribbon may be damaged."
+  },
+  {
+    "q": "A photographer complains that the paper is not being fed into the printer. What are two possible causes? (Choose two.)",
+    "t": "multiple",
+    "a": "The paper may be wrinkled.; The printer could be set to print to a different paper size than is currently loaded."
+  },
+  {
+    "q": "A laptop has an NVMe drive (C:) and a mechanical hard drive (D:). The user notices the D: drive is not there when trying to save. What should the technician do to see if the drive is recognized by the OS?",
+    "t": "single",
+    "a": "Use the Disk Management Control Panel."
+  },
+  {
+    "q": "A computer has two mechanical hard drives. The user notices the D: drive is not an option when saving. What should the technician do to see if the drive is recognized by the OS?",
+    "t": "single",
+    "a": "Use File Explorer."
+  },
+  {
+    "q": "A user reports that a drive that was present in save options yesterday is now no longer an option. What should the technician do to see if the drive is recognized by the OS?",
+    "t": "single",
+    "a": "Use Device Manager."
+  },
+  {
+    "q": "A computer uses an SSD for the OS and a mechanical hard drive for data. The user reports data can no longer be saved to the mechanical drive. What should the technician do?",
+    "t": "single",
+    "a": "Use File Explorer.|Use Device Manager."
+  },
+  {
+    "q": "A technician is working on a laptop and an app is not loading. What is a probable cause?",
+    "t": "single",
+    "a": "An app needs to be restarted."
+  },
+  {
+    "q": "A technician is working on a laptop and an app is not responding. What is a probable cause?",
+    "t": "single",
+    "a": "An app needs to be restarted."
+  },
+  {
+    "q": "A technician is working on a laptop and an error message about decryption appears when opening an email. What is a probable cause?",
+    "t": "single",
+    "a": "A digital certificate is missing."
+  },
+  {
+    "q": "Students using the same printer complain that recently printed documents contain unknown characters. What should the technician do?",
+    "t": "single",
+    "a": "Re-install the printer driver."
+  },
+  {
+    "q": "An office assistant is getting 'memory overload' error messages when printing large legal documents. What should the technician do?",
+    "t": "single",
+    "a": "Add more memory to the printer."
+  },
+  {
+    "q": "A technician is working on a laptop and the GPS is not functioning. What is a probable cause?",
+    "t": "single",
+    "a": "Airplane mode is turned on.|A service is disabled."
+  },
+  {
+    "q": "A user complains that the printer is printing pages with no image on them. What should the technician do?",
+    "t": "single",
+    "a": "Replace the toner cartridge."
+  },
+  {
+    "q": "A software engineer needs to test an application in both Windows 10 Enterprise and Windows 11 environments on a Windows 10 Pro workstation. What two technologies can help? (Choose two.)",
+    "t": "multiple",
+    "a": "dual boot; client-side virtualization"
+  },
+  {
+    "q": "Which protocol is used by Windows for file and printer sharing?",
+    "t": "single",
+    "a": "SMB"
+  },
+  {
+    "q": "Which laptop LCD technology uses tilting crystals to provide a much higher contrast ratio than other types?",
+    "t": "single",
+    "a": "Vertical alignment (VA)"
+  },
+  {
+    "q": "What is the purpose of the Server Message Block (SMB) protocol on Windows networks?",
+    "t": "single",
+    "a": "file sharing"
+  },
+  {
+    "q": "Match the memory type to the feature. (Not all options are used.)",
+    "t": "matching",
+    "a": "DDR4 SDRAM:It's connector has 288 pins and has advanced error correction features available;DDR SDRAM:It's connector has 184 pins and is able to support two writes and two reads per CPU clock cycle.;DDR3 SDRAM:It's connector has 240 pins and consumes 1.5 Volts of power.;DDR2 SDRAM:It's connector has 240 pins and consumes 1.8 Volts of power."
+  },
+  {
+    "q": "Match the memory type to the feature.",
+    "t": "matching",
+    "a": "DDR4 SDRAM:It's connector has 288 pins and has advanced error correction features available;DDR SDRAM:It's connector has 184 pins and is able to support two writes and two reads per CPU clock cycle.;DDR3 SDRAM:It's connector has 240 pins and consumes 1.5 Volts of power.;DDR2 SDRAM:It's connector has 240 pins and consumes 1.8 Volts of power."
+  },
+  {
+    "q": "Match the problem to the possible solution. (Not all options are used.)",
+    "t": "matching",
+    "a": "The motherboard capacitors are distended, swollen, emitting residue, or bulging.:Replace the motherboard;The user can hear the fans spinning but the PC will not start and there are no beeps from the speaker.:Check fo faulting cable, damaged or mis-seated CPU or other motherbard component prior to replacing the motherboard if required.;After upgrading the single core CPU to a dual core CPU only one CPU graph is seen in the task manager.:Update the BIOS firmware.;The computer does not display any video after installing a new PCle video card.:Connect the auxillary power cable for the adapter card."
+  },
+  {
+    "q": "Match the problem to the possible solution.",
+    "t": "matching",
+    "a": "The motherboard capacitors are distended, swollen, emitting residue, or bulging.:Replace the motherboard;The user can hear the fans spinning but the PC will not start and there are no beeps from the speaker.:Check fo faulting cable, damaged or mis-seated CPU or other motherbard component prior to replacing the motherboard if required.;After upgrading the single core CPU to a dual core CPU only one CPU graph is seen in the task manager.:Update the BIOS firmware.;The computer does not display any video after installing a new PCle video card.:Connect the auxillary power cable for the adapter card."
   }
 ]
