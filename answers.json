@@ -1128,5 +1128,225 @@
     "q": "A technician is working on a laptop and an app is not responding. What is a probable cause for this situation?",
     "t": "single",
     "a": "An app needs to be restarted."
+  },
+  {
+    "q": "A support technician wants to upgrade a system to Windows 10 but is unsure whether the hardware and software on the existing system are compatible. What tool or utility would be the best choice for the user?",
+    "t": "single",
+    "a": "Get Windows 10 app"
+  },
+  {
+    "q": "True or False? When a user is working on a system that uses a network file system, there is no difference between accessing a file stored locally or on another computer on the network.",
+    "t": "single",
+    "a": "True"
+  },
+  {
+    "q": "Which file system is used to access files over a network?",
+    "t": "single",
+    "a": "NFS"
+  },
+  {
+    "q": "Which command line utility was developed by Microsoft to allow users to transfer files and settings to a new edition of Windows OS during an upgrade to Windows 10?",
+    "t": "single",
+    "a": "User State Migration Tool"
+  },
+  {
+    "q": "What term is used to describe a logical drive that can be formatted to store data?",
+    "t": "single",
+    "a": "partition"
+  },
+  {
+    "q": "When would the PXE option be used when repairing a PC?",
+    "t": "single",
+    "a": "The computer needs a replacement operating system."
+  },
+  {
+    "q": "Which statement describes dynamic disks in a PC that is running Windows 10 Pro?",
+    "t": "single",
+    "a": "They have the ability to create volumes that span across more than one disk."
+  },
+  {
+    "q": "What are two types of computer user interface? (Choose two.)",
+    "t": "multiple",
+    "a": "CLI; GUI"
+  },
+  {
+    "q": "Which key, when pressed during the boot process, will allow the user to choose to start Windows in safe mode?",
+    "t": "single",
+    "a": "F8"
+  },
+  {
+    "q": "Which statement accurately describes the GUID partition table?",
+    "t": "single",
+    "a": "It is commonly used in computers with UEFI firmware."
+  },
+  {
+    "q": "A technician wishes to deploy Windows 10 Pro upgrade to a group of employee PCs on the network and ensure that the user state migrates successfully. Which tool would the technician use to do this?",
+    "t": "single",
+    "a": "User State Migration"
+  },
+  {
+    "q": "What feature of an operating system allows it to support two or more CPUs?",
+    "t": "single",
+    "a": "multiprocessing"
+  },
+  {
+    "q": "A user installs a new sound card driver in a computer that is working properly. After the installation of the drivers for the new sound card, the computer fails to boot. Which quick fix can the user implement to return to the previous working state?",
+    "t": "single",
+    "a": "Boot to Last Known Good Configuration."
+  },
+  {
+    "q": "Which term best describes the process of breaking a program into smaller parts that can be loaded as needed by the operating system?",
+    "t": "single",
+    "a": "multithreading"
+  },
+  {
+    "q": "Which component of a CPU architecture allows the CPU immediate access to data?",
+    "t": "single",
+    "a": "registers"
+  },
+  {
+    "q": "What are two default account types provided by Windows 10? (Choose two.)",
+    "t": "multiple",
+    "a": "Standard User; Administrator"
+  },
+  {
+    "q": "Which operation in Windows 10 is limited to users with Administrator privileges only?",
+    "t": "single",
+    "a": "Install software programs."
+  },
+  {
+    "q": "Which statement describes formatting?",
+    "t": "single",
+    "a": "It is a process to create a file system in a partition or volume for file storage."
+  },
+  {
+    "q": "What is a possible situation when it might be necessary to boot Windows 7 from a USB device, a CD, or a DVD?",
+    "t": "single",
+    "a": "to repair the system"
+  },
+  {
+    "q": "Which statement describes a primary partition?",
+    "t": "single",
+    "a": "It is a physical section of a hard disk. It can contain an operating system to boot the system and cannot be subdivided."
+  },
+  {
+    "q": "Which program file is loaded by the boot manager in a Windows boot process?",
+    "t": "single",
+    "a": "winload.exe"
+  },
+  {
+    "q": "Which tab would be used to set the priority for a process in Windows 10 Task Manager?",
+    "t": "single",
+    "a": "Details"
+  },
+  {
+    "q": "True or False? Multithreading describes an operating system that can support two or more CPUs.",
+    "t": "single",
+    "a": "False"
+  },
+  {
+    "q": "What is the default file system used during a fresh installation of Windows 7?",
+    "t": "single",
+    "a": "NTFS"
+  },
+  {
+    "q": "True or False? Smartphones require an operating system before they can be operated.",
+    "t": "single",
+    "a": "True"
+  },
+  {
+    "q": "A manager wants to install Windows 10 directly onto a computer and needs help with the setup process. What tool or utility would be the best choice for the user?",
+    "t": "single",
+    "a": "Upgrade Assistant"
+  },
+  {
+    "q": "Which statement describes the active partition?",
+    "t": "single",
+    "a": "It is used to boot an operating system by default."
+  },
+  {
+    "q": "Which statement describes an extended partition?",
+    "t": "single",
+    "a": "It is often used to organize data storage by subdividing it into as many as 23 logical sections."
+  },
+  {
+    "q": "Which statement describes the master boot record (MBR)?",
+    "t": "single",
+    "a": "It takes the first 512 bytes on the disk and contains the boot loader, an executable program that allows a user to choose from multiple operating systems."
+  },
+  {
+    "q": "True or False? Multitasking describes a computer operating system that is capable of running multiple applications at the same time.",
+    "t": "single",
+    "a": "True"
+  },
+  {
+    "q": "Which statement describes a logical drive?",
+    "t": "single",
+    "a": "It is a section of an extended partition on an MBR. It can be used to separate information for administrative purposes."
+  },
+  {
+    "q": "True or False? The registry is a database that only contains information about the device drivers on a computer.",
+    "t": "single",
+    "a": "False"
+  },
+  {
+    "q": "A technician has just purchased a new Windows 10 PC and wants to transfer selected files, folders, profiles, and applications from the old Windows PC. What tool or utility would be the best choice for the user?",
+    "t": "single",
+    "a": "PCmover Express"
+  },
+  {
+    "q": "A technician needs to capture the company user accounts, files, operating system settings, and application settings for migration into the new Windows 10 installation. What tool or utility would be the best choice for the user?",
+    "t": "single",
+    "a": "User State Migration Tool"
+  },
+  {
+    "q": "True or False? DirectX is a collection of APIs related to multimedia tasks for Microsoft Windows.",
+    "t": "single",
+    "a": "True"
+  },
+  {
+    "q": "Which operating system does not support Windows Easy Transfer to transfer information from one computer to another?",
+    "t": "single",
+    "a": "Windows 10"
+  },
+  {
+    "q": "An analyst is running Windows 7 on the PC and is planning to migrate to Windows 8.1. The analyst wants help migrating the personal files and settings into the newer version. What tool or utility would be the best choice for the user?",
+    "t": "single",
+    "a": "Windows Easy Transfer"
+  },
+  {
+    "q": "True or False? Modern operating systems boot the computer, manage the file system, and support only one user, task, or CPU.",
+    "t": "single",
+    "a": "False"
+  },
+  {
+    "q": "At the end of the boot process of Windows 10, the login program file winlogon.exe loads. Which program loads winlogon.exe?",
+    "t": "single",
+    "a": "ntoskrnl.exe"
+  },
+  {
+    "q": "True or False? When a hardware device is installed, the operating system needs to use a device driver to access and use that hardware.",
+    "t": "single",
+    "a": "True"
+  },
+  {
+    "q": "True or False? Windows 10 64-bit version can be installed on as little as 1GB of hard drive space.",
+    "t": "single",
+    "a": "False"
+  },
+  {
+    "q": "Which statement is a feature of the Windows 8 operating system?",
+    "t": "single",
+    "a": "It supports a touch screen interface."
+  },
+  {
+    "q": "True or False? A 32-bit operating system can address up to a maximum of 4 GB of RAM.",
+    "t": "single",
+    "a": "True"
+  },
+  {
+    "q": "Which statement describes a recovery partition?",
+    "t": "single",
+    "a": "It is a section of the disk, that is inaccessible to the user, containing an image that can be used to restore the computer to its original configuration."
   }
 ]
