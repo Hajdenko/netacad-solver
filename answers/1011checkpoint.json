@@ -1,0 +1,126 @@
+[
+  {
+    "q": "A user needs to display a list of current processes running on a local or a remote computer. What is the best Windows command to select to do the job?",
+    "a": "tasklist"
+  },
+  {
+    "q": "A technician is troubleshooting a computer that has two monitors attached. The technician wants to disable one of them to see if that changes the symptoms exhibited. Which Windows tool would the technician use to disable the monitor?",
+    "a": "Device Manager"
+  },
+  {
+    "q": "A user in a corporate environment is reporting that a Windows computer used by part-time employees is running slowly after a Windows update. Which two actions should a technician take to help in this situation? (Choose two.)",
+    "a": "Disable unneeded processes.;Run Disk Cleanup."
+  },
+  {
+    "q": "A technician wishes to view all the processes that are running for the active user on a Windows 10 PC. What option must be selected on the Windows Task Manager in order to do this?",
+    "a": "Show processes under the User tab."
+  },
+  {
+    "q": "A technician changes the length of the local user password to five characters using the Local Security Policy snap-in. The technician tries to create a password of \"dave\" for the local user account of \"dave\" but it fails because of the Windows 10 password complexity requirements. Which password would meet the requirements?",
+    "a": "D@ve4"
+  },
+  {
+    "q": "A user is trying to install a new application on a Windows 10 PC but the application fails to install fully. The user tries to uninstall the application but fails to uninstall it. What can the user do to remove the application from the PC without affecting existing applications and data?",
+    "a": "Restore using a System Restore point."
+  },
+  {
+    "q": "The IT department has just purchased 15 wireless access points in order to provide full wireless coverage for all 100 employees within the company and is looking to deploy the most secure and scalable wireless implementation. Which open source authentication method would perform authentication on behalf of all 15 wireless network devices?",
+    "a": "RADIUS"
+  },
+  {
+    "q": "A user is trying to share a printer attached to a Windows 10 PC but is unable to do so. What account should be used to do that?",
+    "a": "administrator"
+  },
+  {
+    "q": "A technician uses Microsoft Deployment Image Servicing and Management (DISM) tool to create a Windows image file on one of the workstations running Windows 10. When the technician tries to clone another workstation with the image file, the workstation exhibits network connectivity issues on completion. What could cause this?",
+    "a": "The SID of the original PC is not cleared when creating the image with DISM."
+  },
+  {
+    "q": "A technician is troubleshooting a Windows 10 PC with a frozen Internet Explorer window. Which command can the technician run, as an administrator at a command prompt, to terminate the Internet Explorer process that has hung?",
+    "a": "taskkill /f /im iexplorer.exe"
+  },
+  {
+    "q": "A technician is troubleshooting a Windows 10 PC that is taking a long time to start up. The technician needs to identify which user applications are causing the greatest delay in the startup of the PC. Which tool should the technician use?",
+    "a": "Task Manager"
+  },
+  {
+    "q": "A technician calls the help desk with the following situation. \"I am trying to save a file to my RAID drive but my system cannot find it.\" What advice should the help desk agent give to the caller?",
+    "a": "Check the RAID controller, because it may need to be replaced."
+  },
+  {
+    "q": "A user wishes to upgrade a PC to Windows 10 from a PC that is running a 32-bit version of Windows 7. Which two editions of Windows 10 will support this upgrade? (Choose two).",
+    "a": "32-bit Windows Home;32-bit version of Windows 10 Pro"
+  },
+  {
+    "q": "A manager calls the help desk with the following situation. \"What can be done to improve the printing performance of the departmental laser printer?\" What advice should the help desk agent give to the caller?",
+    "a": "Upgrade the RAM in the printer."
+  },
+  {
+    "q": "A technician wishes to prepare the computers in the network for disaster recovery. The network consists of a variety of desktops and laptops from different vendors. All the computers are running either a 32-bit version of Windows 10 Pro or a 64-bit version of Windows 10 Pro. How would the technician prepare the recovery media?",
+    "a": "Prepare individual recovery discs for all the computers."
+  },
+  {
+    "q": "A user wants to copy a group of files from one Windows directory to another. What is the best Windows command to select to do the job?",
+    "a": "robocopy"
+  },
+  {
+    "q": "An administrator calls the help desk with the following situation. \"I need to make changes to a file. I can open it but I am unable to make changes.\" What advice should the help desk agent give to the caller?",
+    "a": "Check the permissions for this file."
+  },
+  {
+    "q": "A manager calls the help desk with the following situation. \"I need to be able to view and download files but not delete them.\" What advice should the help desk agent give to the caller?",
+    "a": "Set the file permissions to read and execute."
+  },
+  {
+    "q": "A user has been told by the systems administrator that the group policy settings for user workstations are modified. The user has been asked to synchronize the workstation with the new settings. What is the best Windows command to select to do the job?",
+    "a": "gpupdate"
+  },
+  {
+    "q": "A manager calls the help desk with the following situation. \"Many employees leave their desks for extended periods of time with their PCs still logged in and unlocked.\" What advice should the help desk agent give to the caller?",
+    "a": "If using Windows, set the idle timeout and screen lock."
+  },
+  {
+    "q": "A user of a Windows 10 PC wants to automatically sync the user profile across various Windows 10 devices that the user owns. How can the user accomplish this?",
+    "a": "Have the user sign into all devices with the Microsoft account of the user."
+  },
+  {
+    "q": "An IT support person calls the help desk with the following situation. \"I need to add a new printer but I can't see it on the list of available printers.\" What advice should the help desk agent give to the caller?",
+    "a": "Enter the IP address or browse for it on the network."
+  },
+  {
+    "q": "A user wants to end one or more processes on a PC based on process ID or image name. What is the best Windows command to select to do the job?",
+    "a": "taskkill"
+  },
+  {
+    "q": "An IT support person calls the help desk with the following situation. \"I added a new PC to my LAN. I can ping other devices on my LAN but not any remote devices.\" What advice should the help desk agent give to the caller?",
+    "a": "Check the IP address configuration on the new PC, because the default gateway may be incorrect."
+  },
+  {
+    "q": "A user sees an unfamiliar IP address in the web server log file and wants to verify the organization that owns the IP address. What is the best Windows command to select to do the job?",
+    "a": "nslookup"
+  },
+  {
+    "q": "A user notices errors for some Windows operations and suspects that some system files might be corrupted. The user wants to scan and verify the integrity of all system files and replace corrupted files with correct versions. What is the best Windows command to select to do the job?",
+    "a": "sfc"
+  },
+  {
+    "q": "A user needs to manage the drives, disks, partitions, volumes, and virtual drives of a PC. What is the best Windows command to select to do the job?",
+    "a": "diskpart"
+  },
+  {
+    "q": "An administrator calls the help desk with the following situation. \"I need to use an application that is not supported by Windows on my PC.\" What advice should the help desk agent give to the caller?",
+    "a": "Create a virtual machine with an OS that supports the application."
+  },
+  {
+    "q": "A user is trying to create a new Windows directory for storing files related to a new project. What is the best Windows command to select to do the job?",
+    "a": "md"
+  },
+  {
+    "q": "A user has deleted all the files from a directory and wants to remove the empty directory. What is the best Windows command to select to do the job?",
+    "a": "rd"
+  },
+  {
+    "q": "An IT support person calls the help desk with the following situation. \"What can be done to improve the printing performance of the departmental laser printer?\" What advice should the help desk agent give to the caller?",
+    "a": "Upgrade the RAM in the printer."
+  }
+]

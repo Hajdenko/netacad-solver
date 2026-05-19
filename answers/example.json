@@ -1,0 +1,69 @@
+[
+
+  {
+
+    "_comment": "=== TYP 1: MCQ – jedna správná odpověď ===",
+
+    "q": "What is the purpose of the POST test?",
+
+    "a": "to check the hardware during computer startup"
+
+  },
+
+  {
+
+    "_comment": "=== TYP 1b: MCQ – jedna správná, alternativní wording (oddělen |) ===",
+
+    "_note": "Použij | pokud se stejná odpověď v různých verzích testu může lišit drobnou formulací",
+
+    "q": "Which type of connector is used to connect a hard drive using a SATA interface?",
+
+    "a": "SATA connector|Serial ATA connector"
+
+  },
+
+  {
+
+    "_comment": "=== TYP 2: MCQ – více správných odpovědí (oddělit ;) ===",
+
+    "_note": "Přesný počet ; oddělených položek musí odpovídat počtu checkboxů v otázce",
+
+    "q": "Which two characteristics describe RAM? (Choose two.)",
+
+    "a": "data is lost when the computer is powered off;RAM is temporary storage"
+
+  },
+
+  {
+
+    "_comment": "=== TYP 2b: MCQ – více správných, alternativní wording v každé skupině ===",
+
+    "q": "Which two features are characteristics of flash memory? (Choose two.)",
+
+    "a": "non-volatile storage|data is retained without power;portable|can be removed while powered on"
+
+  },
+
+  {
+
+    "_comment": "=== TYP 3: Matching – kategorie:možnost, páry odděleny ; ===",
+
+    "_note": "Hodnoty musí být podřetězcem textu zobrazeného v UI (case-insensitive). Pořadí párů nehraje roli.",
+
+    "q": "Match the type of memory with its description.",
+
+    "a": "RAM:temporary storage that loses data when power is removed;ROM:read-only memory that retains data without power;cache:high-speed memory located close to the CPU;flash:non-volatile memory used in USB drives and SSDs"
+
+  },
+
+  {
+
+    "_comment": "=== TYP 3b: Matching – kratší verze se dvěma páry ===",
+
+    "q": "Match the connector type to its use.",
+
+    "a": "RJ-45:used to connect network cables;RJ-11:used to connect telephone cables"
+
+  }
+
+]

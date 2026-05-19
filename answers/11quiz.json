@@ -1,0 +1,78 @@
+[
+  {
+    "q": "Why would an administrator use Windows Remote Desktop and Windows Remote Assistant?",
+    "a": "to connect to a remote computer over the network to control its applications and data"
+  },
+  {
+    "q": "How many Libraries are created for each user by default on a new Windows 10 installation?",
+    "a": "6"
+  },
+  {
+    "q": "What are two file attributes in the Windows environment? (Choose two.)",
+    "a": "read-only;archive"
+  },
+  {
+    "q": "A help desk technician is talking to a user to clarify a technical problem that the user is having. What are two examples of open-ended questions that the technician might use to help determine the issue? (Choose two.)",
+    "a": "What updates have you performed lately?;What happens when you try to access your files?"
+  },
+  {
+    "q": "Match the commands to the task.",
+    "a": "ping:verifies basic connectivity to the targeted IP or host name;nslookup:verifies the successful name resolution of a host name;tracert:verifies the route taken by a packet;ipconfig:verifies the default gateway configured on a host"
+  },
+  {
+    "q": "In which folder are application files for 32-bit programs typically located on a computer that is running a 64-bit edition of Windows 7?",
+    "a": "C:\\Program Files (x86)"
+  },
+  {
+    "q": "A user notices that some of the programs that are installed before upgrading to Windows 7 no longer function properly. What can the user do to fix this problem?",
+    "a": "Reinstall the programs in Compatibility Mode."
+  },
+  {
+    "q": "A corporation has expanded to include multiple remote offices around the globe. Which technology should be used to allow the remote offices to communicate and share network resources privately?",
+    "a": "VPN"
+  },
+  {
+    "q": "A user logs into Active Directory on a workstation and the user home directory does not redirect to a network share on a file server. A technician suspects that the group policy setting is incorrect. Which command can the technician use to verify the group policy settings?",
+    "a": "gpresult"
+  },
+  {
+    "q": "Which Windows utility can be used to schedule a regular backup for preventive maintenance?",
+    "a": "Windows Task Scheduler"
+  },
+  {
+    "q": "Which two issues are likely to cause BSOD errors? (Choose two.)",
+    "a": "device driver errors;RAM failing"
+  },
+  {
+    "q": "A user wants to configure a password on a Windows 10 PC when the PC is woken from hibernation. Where can the user configure this?",
+    "a": "Settings, Accounts"
+  },
+  {
+    "q": "Which TCP port number would be used for remotely connecting to a network switch and configuring it via an unencrypted connection?",
+    "a": "3389"
+  },
+  {
+    "q": "A technician notices that an application is not responding to commands and that the computer seems to respond slowly when applications are opened. What is the best administrative tool to force the release of system resources from the unresponsive application?",
+    "a": "Task Manager"
+  },
+  {
+    "q": "What are three common causes of operating systems problems? (Choose three.)",
+    "a": "a corrupted registry;virus infection;failed service pack installation"
+  },
+  {
+    "q": "What is true about restore points?",
+    "a": "Restore points should always be created before making changes to a system."
+  },
+  {
+    "q": "After solving a problem on a computer, a technician checks the event log to ensure that there are no new error messages. At which step of the troubleshooting process is this action taking place?",
+    "a": "Verify the solution and full system functionality."
+  },
+  {
+    "q": "A technician is designing a hardware preventive maintenance plan for a company. Which strategy should be included in the plan?",
+    "a": "Schedule and document routine maintenance tasks."
+  },
+  {
+    "q": "In which folder are application files for 32-bit programs typically located on a computer that is running a 64-bit edition of Windows 10?",
+    "a": "C:\\Program Files (x86)"
+  }
+]

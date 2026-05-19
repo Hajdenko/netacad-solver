@@ -1,0 +1,62 @@
+[
+  {
+    "q": "Which two characteristics of network traffic are being monitored if a network technician configures the company firewall to operate as a packet filter? (Choose two.)",
+    "a": "ports;protocols"
+  },
+  {
+    "q": "As data is being stored on a local hard disk, which method would secure the data from unauthorized access?",
+    "a": "data encryption"
+  },
+  {
+    "q": "Which type of security threat uses email that appears to be from a legitimate sender and asks the email recipient to visit a website to enter confidential information?",
+    "a": "phishing"
+  },
+  {
+    "q": "A corporate executive has asked the IT department to provide a solution to ensure data security of removable drives that are being taken off the premises. Which security solution should be recommended?",
+    "a": "BitLocker To Go"
+  },
+  {
+    "q": "When configuring Windows security, which term is used to mean a rule assocated with an object such as a folder or printer?",
+    "a": "permission"
+  },
+  {
+    "q": "When a support technician is troubleshooting a security issue on a system, which action should the technician take just before documenting the findings and closing the ticket?",
+    "a": "Ensure that all applications are working."
+  },
+  {
+    "q": "A technician discovers that an employee has attached an unauthorized wireless router to the company network so that the employee can get Wi-Fi coverage while outside taking a break. The technician immediately reports this to a supervisor. What are two actions that the company should take in response to this situation? (Choose two.)",
+    "a": "Immediately remove the device from the network.;Consult the company security policy to decide on actions to take against the employee."
+  },
+  {
+    "q": "A technician has recently joined an organization and during the first week on the job, discovers a security breach. What policy should the technician implement after the security breach has occurred?",
+    "a": "incident handling policy"
+  },
+  {
+    "q": "A technician has recently changed jobs from supporting a small company to a large company in the security group. What are two types of passwords the larger company could use to secure a workstation? (Choose two.)",
+    "a": "login;BIOS"
+  },
+  {
+    "q": "When a user turns on the PC on Wednesday, the PC displays a message indicating that all of the user files have been locked. In order to get the files unencrypted, the user is supposed to send an email and include a specific ID in the email title. The message also includes ways to buy and submit bitcoins as payment for the file decryption. After inspecting the message, the technician suspects a security breach occurred. What type of malware could be responsible?",
+    "a": "ransomware"
+  },
+  {
+    "q": "Which type of hard drive format is commonly performed at the factory where the drive is assembled?",
+    "a": "low-level"
+  },
+  {
+    "q": "A technician in a small business is configuring the local security policy for a computer. Which configuration setting would the technician use to require the user to change the password after 90 days?",
+    "a": "Maximum password age"
+  },
+  {
+    "q": "Which action could be used to determine if a host is compromised and flooding traffic onto the network?",
+    "a": "Disconnect the host from the network."
+  },
+  {
+    "q": "Which is an example of social engineering?",
+    "a": "an unidentified person claiming to be a technician collecting user information from employees"
+  },
+  {
+    "q": "Which issue can occur when browsing the internet and is often initiated by the destination website?",
+    "a": "pop-up"
+  }
+]

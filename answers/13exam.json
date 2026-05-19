@@ -1,0 +1,142 @@
+[
+  {
+    "q": "A high technology company has an issue with unauthorized people gaining access into the company by following an authorized employee through the secure entrance. Which two measures could help with this security breach? (Choose two.)",
+    "a": "mantrap;security guard that checks IDs"
+  },
+  {
+    "q": "A user calls the help desk reporting that a laptop is not performing as expected. Upon checking the laptop, a technician notices that some system files have been renamed and file permissions have changed. What could cause these problems?",
+    "a": "The laptop is infected by a virus."
+  },
+  {
+    "q": "A user receives a phone call from a person who claims to represent IT services and then asks that user for confirmation of username and password for auditing purposes. Which security threat does this phone call represent?",
+    "a": "social engineering"
+  },
+  {
+    "q": "Refer to the exhibit. The security policy of an organization allows employees to connect to the office intranet from their homes. Which type of security policy is this?",
+    "a": "remote access"
+  },
+  {
+    "q": "A manager approaches a PC repair person with the issue that users are coming in to the company in the middle of the night to play games on their computers. What might the PC repair person do to help in this situation?",
+    "a": "Limit the login times."
+  },
+  {
+    "q": "Refer to the exhibit. Which type of workstation password is being used?",
+    "a": "BIOS"
+  },
+  {
+    "q": "Which security technique or device wipes the data from a hard drive by being placed near the drive platter for at least 2 minutes?",
+    "a": "degaussing wand"
+  },
+  {
+    "q": "A SOHO company has hired a technician to come in and configure and secure the computers. The technician has decided to configure a local security policy for the machines. Which setting would the technician use to ensure that the user did not make their password the same as their own user account name?",
+    "a": "meet complexity requirements"
+  },
+  {
+    "q": "Which type of firewall serves as a relay between users and servers on the Internet, inspects all traffic, and allows or denies traffic based on a set of rules?",
+    "a": "proxy firewall"
+  },
+  {
+    "q": "Which two algorithms are used for hash encoding to guarantee the integrity of data? (Choose two.)",
+    "a": "SHA;MD5"
+  },
+  {
+    "q": "A retail store wants to secure laptops that are on display. The store manager also wants a record of which employees enter the backroom where inventory is kept. Which security option would work best for this situation?",
+    "a": "cable locks and a token-based lock on the backroom"
+  },
+  {
+    "q": "How can users working on a shared computer keep their personal browsing history hidden from other workers that may use this computer?",
+    "a": "Operate the web browser in private browser mode."
+  },
+  {
+    "q": "The IT department is reporting that a company web server is receiving an abnormally high number of web page requests from different locations simultaneously. Which type of security attack is occurring?",
+    "a": "DDoS"
+  },
+  {
+    "q": "What would cause a Microsoft Windows update to fail?",
+    "a": "A required prior update was not installed."
+  },
+  {
+    "q": "A customer uses Internet Explorer and Microsoft Edge as browsers on the computer. The customer asks the technician how to configure the computer to detect and filter phishing websites, to analyze websites for suspicious items, and to check downloads against a list of known malicious files and sites. Which web security feature should the technician demonstrate?",
+    "a": "SmartScreen Filter"
+  },
+  {
+    "q": "A technician is preparing to encrypt a corporate drive by using Microsoft BitLocker. Which BIOS option will the technician need to enable?",
+    "a": "TPM"
+  },
+  {
+    "q": "After confirming the removal of a virus from a computer, how should the technician ensure and verify the full functionality of the system?",
+    "a": "Check for the latest OS patches and updates."
+  },
+  {
+    "q": "Which two statements characterize wireless network security? (Choose two.)",
+    "a": "Using the default IP address on an access point makes hacking easier.;With SSID broadcast disabled, an attacker must know the SSID to connect."
+  },
+  {
+    "q": "What are signatures as they relate to security threats?",
+    "a": "one or more code patterns within a specific type of malware"
+  },
+  {
+    "q": "Which two items are used in asymmetric encryption? (Choose two.)",
+    "a": "a private key;a public key"
+  },
+  {
+    "q": "A user notices that files created and saved locally last week are missing and asks the technician to investigate. The technician suspects there has been a security breach. Which type of malware could be responsible?",
+    "a": "Trojan"
+  },
+  {
+    "q": "A technician has been asked by a manager to recommend a security solution for protecting a computer against rootkits. Which security technique should the technician recommend?",
+    "a": "antimalware"
+  },
+  {
+    "q": "A technician has been asked by a manager to recommend a security solution for protecting a computer against Trojans. Which security technique should the technician recommend?",
+    "a": "antimalware"
+  },
+  {
+    "q": "When would a PC repair person want to deploy the idle timeout feature?",
+    "a": "when users are leaving their desk but remaining logged on"
+  },
+  {
+    "q": "A college student logs onto a college computer for the first time. Which security policy category should be presented to the student?",
+    "a": "acceptable use policies"
+  },
+  {
+    "q": "A technician is configuring rights and permissions in Windows 7. Which tool will the technician use?",
+    "a": "Local Users and Groups"
+  },
+  {
+    "q": "An IT technician wants to create a rule on two Windows 10 computers to prevent an installed application from accessing the public Internet. Which tool would the technician use to accomplish this task?",
+    "a": "Windows Defender Firewall with Advanced Security"
+  },
+  {
+    "q": "A newly created company has fifteen Windows 10 computers that need to be installed before the company can open for business. What is a best practice that the technician should implement when configuring the Windows Firewall?",
+    "a": "After implementing third party security software for the company, the technician should verify that the Windows Firewall is disabled."
+  },
+  {
+    "q": "A technician has been asked by a manager to recommend a security solution for protecting a computer against spyware. Which security technique should the technician recommend?",
+    "a": "antimalware"
+  },
+  {
+    "q": "A technician has been asked by a manager to recommend a security solution for protecting a computer against worms. Which security technique should the technician recommend?",
+    "a": "antimalware"
+  },
+  {
+    "q": "A technician has been asked by a manager to recommend a security solution for protecting a computer against ransomware. Which security technique should the technician recommend?",
+    "a": "antimalware"
+  },
+  {
+    "q": "A technician has been asked by a manager to recommend a security solution for protecting a computer against keyloggers. Which security technique should the technician recommend?",
+    "a": "antimalware"
+  },
+  {
+    "q": "A system administrator has been asked to protect the sensitive data on the Windows 7 computers of all management employees. Which Windows feature can be used to selectively encrypt individual files within the user accounts of each manager?",
+    "a": "EFS"
+  },
+  {
+    "q": "A group of users on the same network are all complaining about their computers running slowly. After investigating, the technician determines that these computers are part of a zombie network. Which type of malware is used to control these computers?",
+    "a": "botnet"
+  },
+  {
+    "q": "A technician has been asked by a manager to recommend a security solution for protecting a computer against adware programs. Which security technique should the technician recommend?",
+    "a": "antimalware"
+  }
+]

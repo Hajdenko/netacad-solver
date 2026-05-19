@@ -1,0 +1,70 @@
+[
+  {
+    "q": "A user has an iOS device. What will happen if the user forgets the passcode to unlock the device?",
+    "a": "The user must perform a full restore from a backup saved in iTunes or iCloud."
+  },
+  {
+    "q": "What three tasks can be done with the iOS device Home button? (Choose three.)",
+    "a": "wake the device;return to the home screen;open audio controls"
+  },
+  {
+    "q": "A company is creating a new website to be hosted on a Linux server. The system administrator creates the group \"webteam\" and assigns team members to it. The administrator then creates the directory \"webpages\" for storing files. Later that day, one of the team members reports of being unable to create files in the \"webpages\" directory or subdirectories. The administrator uses the ls -l command to view the file permissions. The result displayed is drwxr-xr– . What should the administrator do to allow team members to add and edit files?",
+    "a": "Issue the command chmod 775 –R webpages."
+  },
+  {
+    "q": "Which two location-specific services can the GPS feature on a mobile device offer? (Choose two.)",
+    "a": "delivering local advertising;displaying local weather information"
+  },
+  {
+    "q": "A user presses the Recent Apps icon on an Android-based smartphone to see a list of recently used apps. What should the user do to remove an app from the list?",
+    "a": "Swipe the app to either side."
+  },
+  {
+    "q": "Which feature of an Android or iOS mobile device helps prevent malicious programs from infecting the device?",
+    "a": "Mobile device apps are run in a sandbox that isolates them from other resources."
+  },
+  {
+    "q": "What two preventive maintenance tasks should be scheduled to occur automatically? (Choose two.)",
+    "a": "executing a backup;checking the disks for bad sectors"
+  },
+  {
+    "q": "Match the Linux CLI commands to their function. (Not all options are used.)",
+    "a": "rm:removes files;man:displays the documentation for a specific command;ls:displays the files inside a directory;cd:changes the current directory;mkdir:creates a directory under the current directory"
+  },
+  {
+    "q": "Which two terms describe unlocking Android and iOS mobile devices to allow users full access to the file system and full access to the kernel module? (Choose two.)",
+    "a": "rooting;jailbreaking"
+  },
+  {
+    "q": "What are two features of the Android operating system? (Choose two.)",
+    "a": "Android is open source and allows anyone to contribute to its development and evolution.;Android has been implemented on devices such as cameras, smart TVs, and e-book readers."
+  },
+  {
+    "q": "A system administrator is using the crontab command to edit an entry on a Linux server. Which service is the administrator configuring?",
+    "a": "scheduling a task to run at a specific time and date"
+  },
+  {
+    "q": "Which three methods can be used to unlock a smartphone? (Choose three.)",
+    "a": "passcode;swipe pattern;biometric information"
+  },
+  {
+    "q": "True of False? Android and OS X are based on the Unix operating system.",
+    "a": "true"
+  },
+  {
+    "q": "What are two types of cloud-enabled services for mobile devices? (Choose two.)",
+    "a": "locator apps;remote backup"
+  },
+  {
+    "q": "A person with an Android mobile device holds down the power button and the volume down button until the device turns off. The person then turns the device back on. What was this person doing to the device?",
+    "a": "a standard reset of the device"
+  },
+  {
+    "q": "How is the representation of apps in the Windows Phone operating system interface different from the representations used in Android and iOS?",
+    "a": "Windows Phone uses rectangles that can display active content and that can also be resized."
+  },
+  {
+    "q": "Which two tasks can be done with the iOS device Home button? (Choose two.)",
+    "a": "wake the device;return to the home screen"
+  }
+]

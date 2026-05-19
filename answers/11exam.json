@@ -1,0 +1,186 @@
+[
+  {
+    "q": "A user tries to install an application on a Windows 10 Pro PC but it fails. The user tries to uninstall the application but it fails to uninstall. What option can be used to address this issue without loss of data or applications?",
+    "a": "Use Restore Point."
+  },
+  {
+    "q": "A user is troubleshooting a connectivity issue from the PC to a web server and wants to see a list of the traffic stops between the PC and the web server. What is the best Windows command to select to do the job?",
+    "a": "tracert"
+  },
+  {
+    "q": "Which three levels of RAID are supported by Windows 10 Pro? (Choose three.)",
+    "a": "0;1;5"
+  },
+  {
+    "q": "A user calls the help desk and reports that the workstation, when powering up, displays error messages about an invalid system disk or invalid boot disk. The technician checks the workstation and makes sure that the cable is firmly connected between the hard drive and the motherboard. What is another likely cause of the problem?",
+    "a": "The MBR/GPT is corrupted."
+  },
+  {
+    "q": "A technician is attempting to diagnose and rectify a common boot problem on a Windows 10 installation. Which Windows 10 advanced recovery option should the technician use?",
+    "a": "Startup Repair"
+  },
+  {
+    "q": "A user of a Windows 10 PC wants to automatically sync the user profile across various Windows 10 devices that the user owns. How can the user accomplish this?",
+    "a": "Have the user sign into all devices with the Microsoft account of the user."
+  },
+  {
+    "q": "Which question is an open ended question that could be used when helping a customer troubleshoot a Windows problem?",
+    "a": "What programs have you installed recently?"
+  },
+  {
+    "q": "A user is reporting that a file has been shared specifically with another user on the network, but the other user opens the file and is unable to save it once edited. What is the probable cause?",
+    "a": "The user shared the document with Read permissions."
+  },
+  {
+    "q": "Which statement is true regarding libraries in Windows 10?",
+    "a": "Libraries allow Windows 10 to link mutiple different directories.|Libraries allow Windows 10 to link multiple different directories."
+  },
+  {
+    "q": "A user notes that the username and password are automatically populated in the Microsoft Edge browser when logging into a secure site. When the user tries to log into the same site using Google Chrome, the username and password do not save automatically. Why is this occurring?",
+    "a": "Google Chrome does not automatically save web credentials."
+  },
+  {
+    "q": "A user wishes to view an ISO disk image file on a Windows 10 Pro PC. How can this be done?",
+    "a": "Use File Explorer to locate the ISO file and mount the file using the Disk Image tools."
+  },
+  {
+    "q": "Which feature is included with both macOS and Apple iOS to establish a Wi-Fi direct connection between devices to simplify file transfer?",
+    "a": "AirDrop"
+  },
+  {
+    "q": "A technician notices that a program that is listed in the registry of a Windows computer is not found on that computer. What is a possible solution to the problem?",
+    "a": "Reinstall the application. Then, run the uninstall program."
+  },
+  {
+    "q": "A computer technician is attempting to modify settings in the Network Adapter > Properties > Advanced tab > Speed and Duplex. What is a possible effect (or impact) if this option is configured incorrectly?",
+    "a": "The network connection may experience issues."
+  },
+  {
+    "q": "A technician has successfully removed malware from a PC and finds that when the system is rebooted error messages are displayed about missing and corrupt system files. What utility can the technician use to replace or fix any corrupted system files?",
+    "a": "SFC"
+  },
+  {
+    "q": "What is the purpose of Windows 10 ReadyBoost?",
+    "a": "It enables Windows to treat an external flash device, such as a USB drive, as a hard drive cache."
+  },
+  {
+    "q": "Where are 32-bit program files located in a 64-bit version of Windows 10 Pro?",
+    "a": "c:\\Program files (x86)"
+  },
+  {
+    "q": "A technician is troubleshooting a PC. The display shows an \"Invalid Boot Disk\" error after the POST. What is a probable cause?",
+    "a": "The MBR is corrupted."
+  },
+  {
+    "q": "A technician is troubleshooting a Windows 10 PC with a frozen Internet Explorer window. Which command can the technician run, as an administrator at a command prompt, to terminate the Internet Explorer process that has hung?",
+    "a": "taskkill /f /im iexplorer.exe"
+  },
+  {
+    "q": "A user reports that a PC is losing files, not opening some files, and is performing slowly. The technician suspects problems with the hard drive. What should be done to protect the data that is on the PC and to determine the source of the problem, without risking total drive failure?",
+    "a": "Back up all important files, then run chkdsk."
+  },
+  {
+    "q": "A technician has been asked to reinstall the OS on a computer that has a corrupted operating system. The technician inserts the installation media in the optical drive. What would be the most likely action the technician should perform next?",
+    "a": "Change the boot sequence in the BIOS."
+  },
+  {
+    "q": "A technician is troubleshooting a Windows 7 laptop that takes significantly longer than expected when performing a file search. What is the possible cause?",
+    "a": "The index service is not running."
+  },
+  {
+    "q": "A user is looking for a file but can not find it in the Document folder. The user wants to move to the Download directory to check there. What is the best Windows command to select to do the job?",
+    "a": "cd"
+  },
+  {
+    "q": "A user needs to display a list of current processes running on a local or a remote computer. What is the best Windows command to select to do the job?",
+    "a": "tasklist"
+  },
+  {
+    "q": "A Windows 8 computer locks up with a stop error during startup and then automatically reboots. The automatic restart setting is making it difficult to see any error messages. What can be done so that the error messages can be viewed?",
+    "a": "Access the Advanced Startup options menu before the OS loads to disable the auto restart function."
+  },
+  {
+    "q": "A technician is working on a Windows 10 PC that keeps freezing occasionally after a driver update. System restore has been turned off. What option can be used to address this issue without loss of data or applications?",
+    "a": "Reset this PC."
+  },
+  {
+    "q": "A company has recently deployed Active Directory and now a workstation cannot connect to a network resource. A technician takes corrective action by modifying group policy settings. Which command should the technician use to make the workstation synchronize with the new settings?",
+    "a": "gpupdate"
+  },
+  {
+    "q": "A technician wishes to create a dynamic volume on a Windows 10 PC that has two physical hard drives. The technician wants to achieve maximum write performance with data fault tolerance. What type of dynamic volume should be created to achieve this?",
+    "a": "RAID 1 volume"
+  },
+  {
+    "q": "Which file sharing mechanism is included with Microsoft Windows 10 to provide simple file sharing via Wi-Fi and Bluetooth?",
+    "a": "Nearby Sharing"
+  },
+  {
+    "q": "A company is implementing a wireless network and using wireless devices as part of the corporate environment. Which two server-based authentication methods should the company consider in the wireless network design? (Choose two.)",
+    "a": "RADIUS;TACACS"
+  },
+  {
+    "q": "A Windows 10 computer suddenly started experiencing network connectivity issues after the latest Windows updates completed a week ago. What option can be used to address this issue without loss of data or applications?",
+    "a": "Reset this PC."
+  },
+  {
+    "q": "A client installed a new driver for a device three weeks ago; however, this driver is causing the system to freeze occasionally and the client wishes to revert back to the old driver. What option can be used to address this issue without loss of data or applications?",
+    "a": "Reset this PC."
+  },
+  {
+    "q": "A technician is troubleshooting a Windows 10 PC that will not do any windows updates automatically or manually. What option can be used to address this issue without loss of data or applications?",
+    "a": "Delete all the files in C:\\Windows\\SoftwareDistribution folder and restart the PC."
+  },
+  {
+    "q": "A user is trying to create a new Windows directory for storing files related to a new project. What is the best Windows command to select to do the job?",
+    "a": "md"
+  },
+  {
+    "q": "A user has to shutdown several remote computers one at a time. What is the best Windows command to select to do the job?",
+    "a": "shutdown"
+  },
+  {
+    "q": "A user has just installed a new hard drive into the PC and needs to prepare it to store Windows files. What is the best Windows command to select to do the job?",
+    "a": "format"
+  },
+  {
+    "q": "A user is experiencing issues with system startup and with failing to open some files. The user wants to determine the source of any hard drive issues. What is the best Windows command to select to do the job?",
+    "a": "chkdsk"
+  },
+  {
+    "q": "A user suspects someone has hacked into the PC and wants to verify activity on the PC by displaying all active TCP connections to the PC. What is the best Windows command to select to do the job?",
+    "a": "netstat"
+  },
+  {
+    "q": "A user has an important file that is used in many projects and needs to move that file to a different Windows directory while maintaining it in the current location. What is the best Windows command to select to do the job?",
+    "a": "copy"
+  },
+  {
+    "q": "A user is reorganizing files within different directories to accommodate new projects and needs to relocate a file from one Windows directory to another one. What is the best Windows command to select to do the job?",
+    "a": "move"
+  },
+  {
+    "q": "Match the Windows 10 Registry key with its description. (Not all options are used.)",
+    "a": "HKEY_LOCAL_MACHINE:all of the configuration settings for the hardware and software configured on the computer for all users;HKEY_CLASSES_ROOT:settings about the file system, file associations, shortcuts used when you ask Windows to run a file, or view a directory;HKEY_CURRENT_USER:data about the preferences of the currently logged on user, including personalization settings, default devices, and programs, etc;HKEY_CURRENT_CONFIG:information about the current hardware profile of the machine"
+  },
+  {
+    "q": "Match the categories in the Windows 10 Control Panel to the function.",
+    "a": "System and Security:provides access to administrative tools for configuring security and a wide range of system functions;Network and Internet:allows configuration of networking, file sharing, the default Microsoft browser, and infrared file exchange settings;Hardware and Sound:provides access to configuration of devices such as printers, media devices, power, and mobility;Program:provides access to allow activation or deactivation of a wide range of Windows features;User Accounts:enables administration of Windows user accounts and management of Web and Windows Credentials including the file encryption certificates;Ease of Access:provides access for configuration of speech recognition and text to speech services"
+  },
+  {
+    "q": "Match the folders in a 64-bit Windows 10 PC to their description. (Not all options are used.)",
+    "a": "Temporary Files:contains files created by the OS and programs that are needed for a short period of time and are usually automatically deleted when the application or the OS is finished using them;Program Files (x86):used by application installation programs to install software. All 32-bit programs are installed in this folder;System Folder:contains most of the files that are used to run the computer"
+  },
+  {
+    "q": "Match the folders in a 32-bit Windows 10 PC to their description. (Not all options are used.)",
+    "a": "Temporary Files:contains files created by the OS and programs that are needed for a short period of time and are usually automatically deleted when the application or the OS is finished using them;Program Files (x86):used by application installation programs to install software. All 32-bit programs are installed in this folder;System Folder:contains most of the files that are used to run the computer"
+  },
+  {
+    "q": "Match the message types in the Windows 10 Event Viewer with their description. (Not all options are used.)",
+    "a": "Information:a successful event is logged;Critical:immediate attention is required;Success Audit:a security event has been successful;Error:a problem exists, but no immediate action is required;Warning:there is an indication of a potential problem with a software component that is not functioning ideally"
+  },
+  {
+    "q": "Match the Internet Options to the descriptions used to configure Microsoft Internet Explorer. (Not all options are used.)",
+    "a": "Connections:allows for Dial-up, VPN, and Proxy Server settings to be configured;Programs:allows IE to be set as the default web browser, enables browser add-ons, allows for the HTML editor to be set for IE, and allows for the selection of programs used for internet services;Advanced:allows for IE settings to be reset to their default state;Content:allows for adjustment of AutoComplete settings, and configuration of the feeds and web slices that can be viewed in IE;General:allows for selecting the default home page, viewing and deleting browsing history, adjusting search settings, and customizing the browser appearance"
+  }
+]
