@@ -1,14 +1,15 @@
 (function () {
-    const CFG = window.__NC_CONFIG__ || {};
-    const API_KEY   = CFG.apiKey  || '';
-    const API_URL   = CFG.apiUrl  || 'https://api.groq.com/openai/v1/chat/completions';
-    const MODEL     = CFG.model   || 'qwen/qwen3-32b';
-    const DEBUG     = CFG.debug   === true;
+    // ── Configuration ─────────────────────────────────────────────────────────
+    const API_KEY = 'YOUR_API_KEY';
+    const API_URL = 'https://api.groq.com/openai/v1/chat/completions';
+    const MODEL   = 'qwen/qwen3-32b';
+    const DEBUG   = false;
+    // ─────────────────────────────────────────────────────────────────────────
 
     const log = DEBUG ? (...a) => console.log('[NC]', ...a) : () => {};
     const err = (...a) => console.error('[NC]', ...a);
 
-    if (!API_KEY) { err('Missing apiKey in window.__NC_CONFIG__'); return; }
+    if (!API_KEY || API_KEY === 'YOUR_API_KEY') { err('Set your API_KEY in the configuration block'); return; }
 
     const GITHUB_OWNER  = 'Hajdenko';
     const GITHUB_REPO   = 'netacad-solver';
