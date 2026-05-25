@@ -1,11 +1,11 @@
-(function () {
-    // ── Configuration ─────────────────────────────────────────────────────────
-    const API_KEY = 'YOUR_API_KEY';
-    const API_URL = 'https://api.groq.com/openai/v1/chat/completions';
-    const MODEL   = 'qwen/qwen3-32b';
-    const DEBUG   = false;
-    // ─────────────────────────────────────────────────────────────────────────
+// ── Configuration ─────────────────────────────────────────────────────────────
+const API_KEY = 'YOUR_API_KEY';
+const API_URL = 'https://api.groq.com/openai/v1/chat/completions';
+const MODEL   = 'qwen/qwen3-32b';
+const DEBUG   = false;
+// ──────────────────────────────────────────────────────────────────────────────
 
+(function () {
     const log = DEBUG ? (...a) => console.log('[NC]', ...a) : () => {};
     const err = (...a) => console.error('[NC]', ...a);
 
