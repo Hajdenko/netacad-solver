@@ -1,0 +1,74 @@
+[
+  {
+    "q": "What is considered ethical behavior by a technician when communicating with a customer?",
+    "a": "A technician must only send solicited emails."
+  },
+  {
+    "q": "A programmer uses an operator to compare two variable values within a program. The variable A is assigned a value of 5 and the valuable B is assigned a value of 7. Which condition test syntax would have provided the result of \"true\"?",
+    "a": "A != B"
+  },
+  {
+    "q": "A programmer is building a script in order to calculate the corporate bank account balance within two decimal places. Which data type would be used in the script to represent the balance?",
+    "a": "float"
+  },
+  {
+    "q": "What two roles or tasks are associated with the level one technician? (Choose two.)",
+    "a": "gathering customer information to initiate a work order;escalating a trouble ticket to a level two technician"
+  },
+  {
+    "q": "What action should a technician avoid when dealing with a talkative customer?",
+    "a": "asking social questions such as \"How are you today?\""
+  },
+  {
+    "q": "Which programming language utilizes scripts that are interpreted and executed line by line when the script is run?",
+    "a": "PowerShell"
+  },
+  {
+    "q": "Which statement best describes a call center?",
+    "a": "It is a place to provide computer support to customers."
+  },
+  {
+    "q": "What approach should a technician take when receiving a call from a stressed customer?",
+    "a": "Try to establish a rapport with the customer."
+  },
+  {
+    "q": "A customer is explaining a problem with a computer to a technician. The technician recognizes the problem prior to the customer finishing the explanation. What should the technician do?",
+    "a": "Wait politely for the customer to finish explaining the problem."
+  },
+  {
+    "q": "Which situation would require that a support desk call be given the highest priority?",
+    "a": "The company cannot operate because of a system failure."
+  },
+  {
+    "q": "Once a technician understands a customer complaint, it is common to ask closed-ended questions. Which question is a close-ended one?",
+    "a": "Is this the first time the error occurred?"
+  },
+  {
+    "q": "A customer is upset and wants to speak to a specific technician to resolve a problem immediately. The requested technician is away from the office for the next hour. What is the best way to handle this call?",
+    "a": "Make an offer to help the customer immediately, and advise the customer that otherwise the requested technician will call the customer back within two hours."
+  },
+  {
+    "q": "In which situation would it be appropriate for a technician to back up personal and confidential data from a computer belonging to a customer?",
+    "a": "if the customer permits it"
+  },
+  {
+    "q": "A supervisor received a complaint that one of the technicians was rude and disrespectful. Which action by the technician most likely caused the customer to complain?",
+    "a": "The technician interrupted a number of times to ask questions."
+  },
+  {
+    "q": "A technician working on a computer discovers what is suspected to be illegal activity. Which three pieces of information should be immediately documented? (Choose three.)",
+    "a": "why the computer was accessed by the technician;evidence of the suspected illegal activity;location of the computer"
+  },
+  {
+    "q": "What category of technician uses remote access software to update a computer belonging to a customer?",
+    "a": "level two technicians"
+  },
+  {
+    "q": "What is the correct way to conduct a telephone call to troubleshoot a computer problem?",
+    "a": "Maintain professional behavior at all times."
+  },
+  {
+    "q": "What are two examples of displaying professional communication skills while talking to a customer? (Choose two.)",
+    "a": "the use of active listening, with occasional interjections such as \"I see\" or \"I understand\";clarifying what customers say after they have finished their explanations"
+  }
+]

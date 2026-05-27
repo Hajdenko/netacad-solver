@@ -1,0 +1,94 @@
+[
+  {
+    "q": "Which feature on a Cisco router permits the forwarding of traffic for which there is no specific route?",
+    "a": "gateway of last resort"
+  },
+  {
+    "q": "Which three advantages are provided by static routing? (Choose three.)",
+    "a": "Static routing does no advertise over the network, thus providing better security.;The path a static route uses to send data is known.;Static routing typically uses less network bandwidth and fewer CPU operations than dynamic routing does."
+  },
+  {
+    "q": "What are two functions of dynamic routing protocols? (Choose two.)",
+    "a": "to discover the network;to maintain routing tables"
+  },
+  {
+    "q": "What is an advantage of using dynamic routing protocols instead of static routing?",
+    "a": "ability to actively search for new routes if the current path becomes unavailable"
+  },
+  {
+    "q": "Which value represents the \"trustworthiness\" of a route and is used to determine which route to install into the routing table when there are multiple routes toward the same destination?",
+    "a": "administrative distance"
+  },
+  {
+    "q": "Which packet-forwarding method does a router use to make switching decisions when it is using a forwarding information base and an adjacency table?",
+    "a": "Cisco Express Forwarding"
+  },
+  {
+    "q": "Which type of route would typically be used on a border router so that devices inside the company could access the Internet?",
+    "a": "default"
+  },
+  {
+    "q": "What are two functions of a router? (Choose two.)",
+    "a": "A router connects multiple IP networks.;It determines the best path to send packets."
+  },
+  {
+    "q": "When a router learns that multiple paths are available to a destination network from the same routing protocol, which factor is considered by a router to choose the best path to forward a packet?",
+    "a": "the lowest metric"
+  },
+  {
+    "q": "Which two route source codes are automatically created within a routing table whenever a router interface is configured with an IP address and activated? (Choose two.)",
+    "a": "C;L"
+  },
+  {
+    "q": "What value is indicated by the 1 in the [1/0] portion of the output?",
+    "a": "administrative distance"
+  },
+  {
+    "q": "Which type of static route creates a gateway of last resort?",
+    "a": "default static route"
+  },
+  {
+    "q": "What are two common types of static routes in routing tables? (Choose two)",
+    "a": "a static route to a specific network;a default static route"
+  },
+  {
+    "q": "What are two reasons why an administrator might choose to use static routing rather than dynamic routing? (Choose two.)",
+    "a": "Static routing uses less router processing and bandwidth.;Static routing is more secure."
+  },
+  {
+    "q": "What address and prefix length is used when configuring an IPv6 default static route?",
+    "a": "::/0"
+  },
+  {
+    "q": "What are two advantages of static routing over dynamic routing? (Choose two.)",
+    "a": "Static routing is more secure because it does not advertise routes to other routers.;Static routing uses fewer router resources than dynamic routing."
+  },
+  {
+    "q": "What type of route allows a router to forward packets even though its routing table contains no specific route to the destination network?",
+    "a": "default route"
+  },
+  {
+    "q": "The network administrator configures the router with the ip route 172.16.1.0 255.255.255.0 172.16.2.2 command. How will this route appear in the routing table?",
+    "a": "S 172.16.1.0 [1/0] via 172.16.2.2"
+  },
+  {
+    "q": "R1 is configured with the ip route 10.1.0.0 255.255.0.0 g0/0/0 command. What happens if the G0/0/0 interface goes down?",
+    "a": "The static route is removed from the routing table."
+  },
+  {
+    "q": "What static route identifies the gateway IP address to which the router sends all IP packets for which it does not have a learned route?",
+    "a": "Default static route"
+  },
+  {
+    "q": "On which type of network would a dynamic routing protocol be implemented in?",
+    "a": "On a network that commonly experiences topology changes."
+  },
+  {
+    "q": "Which value in a routing table is used to compare routes received from a routing protocol?",
+    "a": "metric"
+  },
+  {
+    "q": "A network administrator configures the G0/0/0 interface with the ip address 10.1.1.0 255.255.255.0 command. However, when the administrator issues the show ip route command, the routing table does not show the directly connected network. What is the possible cause of the problem?",
+    "a": "The G0/0/0 interface has not been activated."
+  }
+]

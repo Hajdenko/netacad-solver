@@ -1,0 +1,590 @@
+[
+  {
+    "q": "What two motherboard components control the system boot operations? (Choose two.)",
+    "a": "BIOS chip;UEFI chip"
+  },
+  {
+    "q": "What motherboard chip controls high speed CPU communication to RAM and the video card?",
+    "a": "Northbridge"
+  },
+  {
+    "q": "Which two procedures can help protect against ESD when working on a computer system? (Choose two.)",
+    "a": "the use of an antistatic wrist strap;the use of an antistatic mat"
+  },
+  {
+    "q": "Which software tool will protect against viruses and spyware on a Windows PC?",
+    "a": "Windows Defender"
+  },
+  {
+    "q": "Which cleaning material should be used to clean component contacts?",
+    "a": "isopropyl alcohol"
+  },
+  {
+    "q": "A technician is troubleshooting a problem where many websites return a \"certificate not valid\" error. The technician notices that the date and time are not current and resets these to the correct settings. The previously inaccessible websites are now accessible. However, when the computer is restarted the same problem reoccurs. What can the technician do to prevent the date and time from resetting?",
+    "a": "Replace the CMOS battery."
+  },
+  {
+    "q": "When a new motherboard is being installed, between which two components must thermal compound be applied? (Choose two.)",
+    "a": "CPU;heat sink"
+  },
+  {
+    "q": "A specific computer has an issue that could not be resolved by the help desk technician. The on-site technician finds that Windows updates have been disabled. The technician re-enables the update service, configures the computer for automatic updates, downloads and installs all missing updates, ensures the computer boots successfully, and verifies with the customer that the issue has been resolved. Which step, if any, is next?",
+    "a": "Document the findings, actions, and outcomes."
+  },
+  {
+    "q": "What should a technician do before beginning any troubleshooting steps on a customer computer?",
+    "a": "Perform a data backup."
+  },
+  {
+    "q": "Which document can be signed by both a user and a computer repair shop to release the shop from backing up user data?",
+    "a": "liability release form"
+  },
+  {
+    "q": "A technician is troubleshooting a 4-year-old computer that takes a long time to boot, and identifies that the BIOS rediscovers all the hardware at every boot. What action would fix this problem?",
+    "a": "Replace the CMOS battery."
+  },
+  {
+    "q": "Which location on a hard disk is used by the BIOS to search for operating system instructions in order to boot a PC?",
+    "a": "the active partition"
+  },
+  {
+    "q": "A technician is asked to set up one hard drive that will support two operating systems and will store data files in three separate drive locations. Which partition settings will support these requirements?",
+    "a": "2 primary, 1 active, 1 extended, 3 logical"
+  },
+  {
+    "q": "A user installs a new sound card driver in a computer that is working properly. After the installation of the drivers for the new sound card, the computer fails to boot. Which quick fix can the user implement to return to the previous working state?",
+    "a": "Boot to Last Known Good Configuration."
+  },
+  {
+    "q": "A technician uses the shrink volume feature of the disk management utility and splits the partition. What must the technician do next in order to make use of the new space?",
+    "a": "Partition the unallocated space."
+  },
+  {
+    "q": "A technician is using the six troubleshooting steps in an attempt to repair a PC. After completing the steps needed to test a theory and determine the cause, the technician still has not solved the problem. Which two steps are likely to be taken next by the technician to establish a plan of action and resolve the problem? (Choose two.)",
+    "a": "Perform an Internet search.;Access helpdesk repair logs."
+  },
+  {
+    "q": "On a computer that will not boot, which two actions are recommended in the troubleshooting process after verifying the obvious issues such as power to the computer and display, non-bootable media, and the BIOS boot order options? (Choose two.)",
+    "a": "Remove unnecessary peripherals.;Use the Last Known Good Configuration."
+  },
+  {
+    "q": "What is the distance limitation of a single data run for UTP cabling without adding networking devices?",
+    "a": "330 ft (100 m)"
+  },
+  {
+    "q": "What is the default subnet mask for a Class A network?",
+    "a": "255.0.0.0"
+  },
+  {
+    "q": "Which network protocol is used to automatically assign an IP address to a computer on a network?",
+    "a": "DHCP"
+  },
+  {
+    "q": "Which open standards-based wireless security mode supports the highest level of security?",
+    "a": "WPA2"
+  },
+  {
+    "q": "What are two network requirements necessary to establish a VPN connection between a remote computer and a private company LAN? (Choose two.)",
+    "a": "Internet access;VPN client"
+  },
+  {
+    "q": "The corporate security policy states that all remote connections use only secure tunnels for data communications. Which encryption technique secures data traveling across the public Internet as if it were traveling across the corporate LAN?",
+    "a": "VPN"
+  },
+  {
+    "q": "What type of WAN connection would use 3G or 4G?",
+    "a": "cellular"
+  },
+  {
+    "q": "True or False? An intrusion detection system works inline and has the ability to drop malicious traffic.",
+    "a": "false"
+  },
+  {
+    "q": "Where can a technician enable ACPI mode on a laptop?",
+    "a": "BIOS"
+  },
+  {
+    "q": "Which two actions must be performed before installing RAM into a laptop? (Choose two.)",
+    "a": "Remove the battery.;Disconnect AC power."
+  },
+  {
+    "q": "Which two items would be part of a laptop preventive maintenance kit? (Choose two.)",
+    "a": "compressed air;soft cloth"
+  },
+  {
+    "q": "What is the purpose of running mobile device apps in a sandbox?",
+    "a": "to prevent malicious programs from infecting the device"
+  },
+  {
+    "q": "A user has installed a new printer. Which two pieces of information about the printer operation are provided by printing a test page from the computer? (Choose two.)",
+    "a": "verification that driver software is working correctly;confirmation that printer and computer are communicating"
+  },
+  {
+    "q": "A technician wants to add a new shared network printer to a computer. The printer is not shown in the list of available printers. What two actions can the technician take to add the printer? (Choose two.)",
+    "a": "Enter the printer IP address.;Browse for the printer on the network."
+  },
+  {
+    "q": "A technician is installing a new printer in a cool, damp environment. After the printer cabling is done, and the software and print driver are installed, the printer test page jams. What is the most likely cause of the print failure?",
+    "a": "too much humidity"
+  },
+  {
+    "q": "What type of security attack is being launched when a hacker calls a company to obtain computer login information and pretends to be an employee?",
+    "a": "social engineering"
+  },
+  {
+    "q": "Which two aspects of a computer can be protected by setting the BIOS password? (Choose two.)",
+    "a": "hard drive settings;operating system booting"
+  },
+  {
+    "q": "After logging into a computer, a user can view files but is unable to download the files. What action can the administrator take to allow the user to download the files while preventing deletion of the files?",
+    "a": "Set the file permissions to Read and Execute."
+  },
+  {
+    "q": "The PC support person has heard of an instance where departmental secretaries go to lunch and leave their computers unlocked and remain logged into their account. Which Windows feature would the technician use to help in this situation?",
+    "a": "idle timeout and screen lock"
+  },
+  {
+    "q": "A customer is angry and calls to complain that the service scheduled on the computer took longer than expected. The technician reviews the work order and notices that the service was performed by a new employee. How should the technician respond?",
+    "a": "Listen to the complaint and then apologize for any inconvenience caused by the lengthy service on the computer."
+  },
+  {
+    "q": "During the troubleshooting of software that is installed on a computer system, a level one technician requires help from a level two technician. The file shown in the exhibit must be sent to the level two technician. How should the level one technician deliver this file?",
+    "a": "Replace all passwords in the file with <password omitted> before emailing the file and then supply the passwords by secure means, if required."
+  },
+  {
+    "q": "What determines the level of support that a call center technician will provide to an individual customer?",
+    "a": "Support is based on the SLA for that customer."
+  },
+  {
+    "q": "After resolving an intermittent CD-ROM drive fault by firmly reconnecting a loose cable, the technician then decides to inspect all other cable connections to prevent other faults from occurring. Which two conditions will help to prevent future cable and connector faults? (Choose two.)",
+    "a": "There are no missing or bent connector pins.;Cables are not bent sharply around adapter cards."
+  },
+  {
+    "q": "A technician has been asked to reinstall the OS on a computer that has a corrupted operating system. The technician inserts the installation media in the optical drive. What would be the most likely action the technician should perform next?",
+    "a": "Change the boot sequence in the BIOS."
+  },
+  {
+    "q": "What are three common causes of operating systems problems? (Choose three.)",
+    "a": "a corrupted registry;failed service pack installation;virus infection"
+  },
+  {
+    "q": "Which built-in BIOS diagnostic test would a technician run to check a computer boot problem?",
+    "a": "POST test"
+  },
+  {
+    "q": "What are three features of GPS on mobile devices? (Choose three.)",
+    "a": "navigation;specialized search results;device tracking"
+  },
+  {
+    "q": "In Windows 7, which path will give access to parental control?",
+    "a": "Start > Control Panel > User Accounts and Family Safety > Parental Controls"
+  },
+  {
+    "q": "A user calls the help desk reporting that a laptop with Linux freezes on startup and displays kernel panic. What could cause this problem?",
+    "a": "A driver has become corrupted."
+  },
+  {
+    "q": "Drag the description to its matching cable type. 7-pin cable that connects to an external hard drive | developed for high-definition televisions but also popular with computers | 6-pin mini-DIN connector for a keyboard or mouse | used for analog video and has 15 pins in 3 rows | connects coaxial cables to devices and is used with digital or analog audio and video",
+    "a": "7-pin cable that connects to an external hard drive:eSATA;developed for high-definition televisions but also popular with computers:HDMI;6-pin mini-DIN connector for a keyboard or mouse:PS/2;used for analog video and has 15 pins in 3 rows:DB-15;connects coaxial cables to devices and is used with digital or analog audio and video:BNC"
+  },
+  {
+    "q": "Match the computer problem with the area of the system affected. incomplete service pack update | corrupted registry | using default administrator password | incorrect firewall configuration | incorrect IP address | incorrect wireless configuration",
+    "a": "incomplete service pack update:Operating System;corrupted registry:Operating System;using default administrator password:Security;incorrect firewall configuration:Security;incorrect IP address:Network;incorrect wireless configuration:Network"
+  },
+  {
+    "q": "What two potential risks could result from rooting or jailbreaking a mobile device? (Choose two.)",
+    "a": "not properly creating or maintaining sandboxing features;enabling app access to the root directory"
+  },
+  {
+    "q": "What two tasks should be done regularly to preserve the security and integrity of data and applications on mobile devices? (Choose two.)",
+    "a": "Ensure that the operating system software and applications contain the latest updates.;Back up user data on a regular basis."
+  },
+  {
+    "q": "A user notices that a mobile device is draining power faster than is normal. What are three causes of quick battery drain? (Choose three.)",
+    "a": "The display is set to a high level of brightness.;An app is using too many resources.;The device is roaming between call towers."
+  },
+  {
+    "q": "Which two operations can help prevent a mobile device from being tracked without permission? (Choose two.)",
+    "a": "Disable or remove apps that allow connections to the GPS.;Turn off the GPS when not in use."
+  },
+  {
+    "q": "Which component uses the greatest amount of power on most mobile devices?",
+    "a": "LCD screen"
+  },
+  {
+    "q": "What tool is included in the Mac OS X for backing up disks to image files and recovering disk images?",
+    "a": "Disk Utility"
+  },
+  {
+    "q": "When a user tries to run a program a missing or corrupt DLL message is displayed. What are two possible solutions to this problem? (Choose two.)",
+    "a": "Run sfc/scannow in Safe Mode.;Register the DLL file using the regsvr32 command."
+  },
+  {
+    "q": "A computer repeatedly locks without any error message. Which two conditions may be the cause of the problem? (Choose two.)",
+    "a": "The computer has a virus.;An update has corrupted the operating system."
+  },
+  {
+    "q": "A user has submitted a trouble ticket stating that their computer is showing the error \"BOOTMGR is missing\". The IT technician replicates the error and finds that it occurs after the POST of this Windows 10 machine. What are two possible solutions for this problem? (Choose two.)",
+    "a": "Run chkdsk /F /R from the recovery console.;Restore BOOTMGR using the Windows Recovery Environment."
+  },
+  {
+    "q": "A user calls the help desk and reports that invalid system disk or invalid boot disk error messages display on the workstation when it is powered on. The technician suspects that the MBR is corrupted. Which process can the technician use to check and repair the MBR?",
+    "a": "Run the bootrec command."
+  },
+  {
+    "q": "A technician is visiting a website and is using Google Chrome on a Windows 10 PC. The technician is trying to view the password for the website. The technician uses the Credential Manager to view the password but cannot see it. What could be the cause?",
+    "a": "Web credentials are not saved for sites accessed by browsers other than Explorer and Edge."
+  },
+  {
+    "q": "A technician is troubleshooting an employee laptop that has a wired network connectivity issue. The laptop can connect to the internet when used inside the office but cannot connect to the network when used in a research lab. The company uses DHCP in the office but does not use DHCP in the research lab. How can the technician address this issue?",
+    "a": "Implement an Alternate Configuration IPv4 address on the laptop."
+  },
+  {
+    "q": "Which two statements are correct about level one and level two technicians? (Choose two.)",
+    "a": "Level two technicians are usually more knowledgeable about technology than the level one technicians are.;Level two technicians usually respond to the \"down calls\" as they may be able to resolve them faster."
+  },
+  {
+    "q": "What two roles or tasks are associated with level two technicians? (Choose two.)",
+    "a": "remotely updating drivers and software on customer computers;gathering diagnostic information from a customer computer"
+  },
+  {
+    "q": "When performing computer forensics what is required to prove a chain of custody?",
+    "a": "proper documentation procedures"
+  },
+  {
+    "q": "A technician has copied several commercial movies to a company server to be shared with colleagues. How would this behavior be classified?",
+    "a": "ethically wrong and illegal"
+  },
+  {
+    "q": "A call center technician answers a call from a frequent customer who is known to be impatient and lacks experience with computers. The customer has an issue with an application that the call center supports. If the technician is confident that the problem can be resolved by increasing the amount of memory in the computer, what should the technician do?",
+    "a": "Confirm the issues and give detailed instructions to solve the problem."
+  },
+  {
+    "q": "A call center technician has asked a customer to perform a simple operation to fix a problem on a computer. The customer seems unable to perform the task. What should the technician do?",
+    "a": "Determine whether the customer would prefer to receive the instructions in another form, such as emailed, illustrated written instructions."
+  },
+  {
+    "q": "An IT technician is troubleshooting a file error on an employee laptop. While working in the system files directory, the technician notices that the User Account Control (UAC) box appears requesting a password. What should the IT technician do next?",
+    "a": "Call the employee and ask the employee to come to the IT department to enter the necessary credentials."
+  },
+  {
+    "q": "Which two Windows operating systems cannot be upgraded to Windows 8.1 64-bit? (Choose two.)",
+    "a": "Windows 7 32-bit;Windows XP 64-bit"
+  },
+  {
+    "q": "A user wishes to upgrade a PC to Windows 10 from a PC that is running a 32-bit version of Windows 7. Which two editions of Windows 10 will support this upgrade? (Choose two.)",
+    "a": "32-bit Windows Home;32-bit version of Windows 10 Pro"
+  },
+  {
+    "q": "After a computer is powered on, Windows 7 fails to start. What initial procedure would a technician use to deal with this failure?",
+    "a": "Boot from a Windows 7 installation media and access the System Restore utility."
+  },
+  {
+    "q": "Which statement is correct about installing a 32-bit operating system on a x64 architecture?",
+    "a": "The OS will run correctly."
+  },
+  {
+    "q": "A technician is attempting to create multiple partitions on a hard disk that is using the boot sector standard that supports a maximum partition size of 2TB. What is the maximum number of primary partitions allowed per hard drive?",
+    "a": "4"
+  },
+  {
+    "q": "A network administrator is tasked with deployment of Windows 10 Pro for a large number of new PCs in the company. Which tool must the administrator use to remove all computer and user specific information before building a deployable image from the disk?",
+    "a": "Sysprep.exe"
+  },
+  {
+    "q": "A network analyst is booting a PC that has Windows 8 installed. The boot process is currently working on the following step: The BIOS boots the computer using the first drive that contains a valid boot sector. What is the next step that will happen in the boot process?",
+    "a": "The code in the boot sector is executed and the control of the boot process is given to Windows Boot Manager."
+  },
+  {
+    "q": "A help desk technician notices an increased number of calls relating to the performance of computers located at the manufacturing plant. The technician believes that botnets are causing the issue. What are two purposes of botnets? (Choose two.)",
+    "a": "to transmit viruses or spam to computers on the same network;to attack other computers"
+  },
+  {
+    "q": "A company has a security policy that permits the reuse of wiped drives in other computers. What are two methods that could be used to wipe data? (Choose two.)",
+    "a": "degaussing equipment;data wiping software"
+  },
+  {
+    "q": "A technician is configuring a SOHO computer and wants to create a local account that requires a password and wants a screen saver to appear if the person steps away. Which two Windows Control Panels will the technician use? (Choose two.)",
+    "a": "Personalization;User Accounts"
+  },
+  {
+    "q": "After confirming the removal of a virus from a computer, how should the technician ensure and verify the full functionality of the system?",
+    "a": "Check for the latest OS patches and updates."
+  },
+  {
+    "q": "What is the next troubleshooting step after a theory of probable cause has been established?",
+    "a": "Test the theory to determine cause."
+  },
+  {
+    "q": "A technician has been notified of a problem on the network. After investigation, the technician determines that a specific internal company computer is launching an attack on other company computers. Which type of malware is being used?",
+    "a": "Trojan"
+  },
+  {
+    "q": "What is a recommended best practice for a technician who must perform tasks that require administrative access?",
+    "a": "Use a standard account with limited permissions, and then use the Run as Administrator option to perform the task that requires elevated privileges."
+  },
+  {
+    "q": "A technician is troubleshooting a Windows 10 PC that has a .dll file for an application that has not been registered. Which administrative command-line tool or command can be used to address this?",
+    "a": "regsvr32"
+  },
+  {
+    "q": "A technician has been asked by a manager to recommend a security solution for protecting a computer against boot sector viruses. Which security technique should the technician recommend?",
+    "a": "antimalware"
+  },
+  {
+    "q": "True or False? When a user is working on a system that uses a network file system, there is no difference between accessing a file stored locally or on another computer on the network.",
+    "a": "True"
+  },
+  {
+    "q": "An instructor states: \"To synchronize a mobile device to a PC, iTunes must be installed on the PC.\" To which OS does this relate: iOS, Android, or both?",
+    "a": "iOS"
+  },
+  {
+    "q": "A client installed a new driver for a device three weeks ago; however, this driver is causing the system to freeze occasionally and the client wishes to revert back to the old driver. What option can be used to address this issue without loss of data or applications?",
+    "a": "Reset this PC."
+  },
+  {
+    "q": "When a security audit is performed at a company, the auditor reports that new users have access to network resources beyond their normal job roles. Additionally, users who move to different positions retain their prior permissions. What kind of violation is occurring?",
+    "a": "least privilege"
+  },
+  {
+    "q": "An instructor states: \"To help prevent malicious programs from infecting the device, mobile device apps are run in a sandbox that isolates them from other resources.\" To which OS does this relate: iOS, Android, or both? (Q93)",
+    "a": "both"
+  },
+  {
+    "q": "True or False? Hard drives partitioned with a master boot record (MBR) cannot have an extended partition or logical drives.",
+    "a": "False"
+  },
+  {
+    "q": "A technician is troubleshooting a Windows 10 computer that displays an \"Invalid Boot Disk\" error message. What should be the first action the technician should take?",
+    "a": "Change the boot order in the UEFI/BIOS settings to select the drive that has the operating system installed as the first boot device."
+  },
+  {
+    "q": "A technician is troubleshooting a Windows 10 PC. The PC has an application that displays an error message about a missing DLL. The technician has located the DLL file on the PC and wants to register it. Which command line tool can the technician use?",
+    "a": "regsvr32"
+  },
+  {
+    "q": "A technician wants to split a large partition on a drive in a Windows 10 PC without loss of any data. How can this be accomplished?",
+    "a": "Shrink the existing partition and create a new partition from the unallocated space."
+  },
+  {
+    "q": "A network technician is troubleshooting a DHCP issue. What is the purpose of the Alternate Configuration feature in TCP/IPv4 Properties?",
+    "a": "It allows an administrator to configure an alternative IP address for the PC to use if it is unable to contact a DHCP server."
+  },
+  {
+    "q": "Which two data storage locations contain persistent data that can be used by computer forensics specialists? (Choose two.)",
+    "a": "hard disk drives;solid state drives"
+  },
+  {
+    "q": "Chad, a level one call center technician, receives a customer phone call. The customer has an issue that Chad does not have the knowledge to answer. Which two things should Chad do next? (Choose two.)",
+    "a": "Document the reason the customer called and create a support ticket.;Escalate the customer to a level two technician."
+  },
+  {
+    "q": "What is the best definition of personally identifiable information (PII)?",
+    "a": "Data that is collected by businesses to distinguish identities of individuals."
+  },
+  {
+    "q": "An instructor states: \"Remote backups are a cloud-enabled service for mobile devices.\" To which OS does this relate: iOS, Android, or both?",
+    "a": "both"
+  },
+  {
+    "q": "A Windows 10 computer suddenly started experiencing network connectivity issues after the latest Windows updates completed a week ago. What option can be used to address this issue without loss of data or applications?",
+    "a": "Reset this PC."
+  },
+  {
+    "q": "A user wants to display and change information about computer users. Which administrative command-line tool or command can be used?",
+    "a": "net user"
+  },
+  {
+    "q": "A user wants to display the contents of a text file in a command interpreter. Which administrative command-line tool or command can be used?",
+    "a": "type"
+  },
+  {
+    "q": "True or False? Modern operating systems boot the computer, manage the file system, and support only one user, task, or CPU.",
+    "a": "False"
+  },
+  {
+    "q": "A user tries to install an application on a Windows 10 Pro PC but it fails. The user tries to uninstall the application but it fails to uninstall. What option can be used to address this issue without loss of data or applications?",
+    "a": "Use Restore Point."
+  },
+  {
+    "q": "True or False? Multitasking describes a computer operating system that is capable of running multiple applications at the same time.",
+    "a": "True"
+  },
+  {
+    "q": "A technician is working on a Windows 10 PC that keeps freezing occasionally after a driver update. System restore has been turned off. What option can be used to address this issue without loss of data or applications?",
+    "a": "Uninstall and reinstall the device using device manager."
+  },
+  {
+    "q": "A technician is troubleshooting a Windows 10 PC that will not do any windows updates automatically or manually. What option can be used to address this issue without loss of data or applications?",
+    "a": "Restart the Windows Update services."
+  },
+  {
+    "q": "A user wants to check a file system for errors, including errors with physical media. Which administrative command-line tool or command can be used?",
+    "a": "chkdsk"
+  },
+  {
+    "q": "A technician wants to create customized system image files that will be installed on computers in the network. Which administrative command-line tool or command can be used?",
+    "a": "dism"
+  },
+  {
+    "q": "A user wants to terminate a running process on a computer. Which administrative command-line tool or command can be used?",
+    "a": "taskkill"
+  },
+  {
+    "q": "A technician wants to copy files and entire directory trees from one volume to another volume on a Windows 10 PC. Which administrative command-line tool or command can be used?",
+    "a": "robocopy"
+  },
+  {
+    "q": "A technician is troubleshooting a Windows 10 PC that has corrupted system files. Which administrative command-line tool or command can be used?",
+    "a": "sfc"
+  },
+  {
+    "q": "A user wishes to see a summary of software information and system components, including hardware components, on a Windows 10 PC. Which administrative command-line tool or command can be used?",
+    "a": "msinfo32"
+  },
+  {
+    "q": "A technician has just configured the security policy on a Windows 10 PC and wants to ensure the policy is implemented immediately. Which administrative command-line tool or command can be used?",
+    "a": "gpupdate"
+  },
+  {
+    "q": "A technician has been asked by a manager to recommend a security solution for protecting a computer against keyloggers. Which security technique should the technician recommend?",
+    "a": "antimalware"
+  },
+  {
+    "q": "A technician has been asked by a manager to recommend a security solution for protecting a computer against adware programs. Which security technique should the technician recommend?",
+    "a": "antimalware"
+  },
+  {
+    "q": "A technician has been asked by a manager to recommend a security solution for protecting a computer against rootkits. Which security technique should the technician recommend?",
+    "a": "antimalware"
+  },
+  {
+    "q": "A technician has been asked by a manager to recommend a security solution for protecting a computer against Trojans. Which security technique should the technician recommend?",
+    "a": "antimalware"
+  },
+  {
+    "q": "A technician has been asked by a manager to recommend a security solution for protecting a computer against firmware viruses. Which security technique should the technician recommend?",
+    "a": "antimalware"
+  },
+  {
+    "q": "True or False? Smartphones require an operating system before they can be operated.",
+    "a": "True"
+  },
+  {
+    "q": "True or False? When a hardware device is installed, the operating system needs to use a device driver to access and use that hardware.",
+    "a": "True"
+  },
+  {
+    "q": "True or False? Windows 10 64-bit version can be installed on as little as 1GB of hard drive space.",
+    "a": "False"
+  },
+  {
+    "q": "True or False? DirectX is a collection of APIs related to multimedia tasks for Microsoft Windows.",
+    "a": "True"
+  },
+  {
+    "q": "True or False? The registry is a database that only contains information about the device drivers on a computer.",
+    "a": "False"
+  },
+  {
+    "q": "True or False? Multithreading describes an operating system that can support two or more CPUs.",
+    "a": "False"
+  },
+  {
+    "q": "An instructor states: \"The start voice control function can be performed with the home button.\" To which OS does this relate: iOS, Android, or both?",
+    "a": "iOS"
+  },
+  {
+    "q": "An instructor states: \"The mobile devices have a feature called Spotlight that is a search tool that provides information from many sources.\" To which OS does this relate: iOS, Android, or both?",
+    "a": "iOS"
+  },
+  {
+    "q": "An instructor states: \"This OS can be used by programmers to operate devices like laptops, smart TVs, and e-book readers.\" To which OS does this relate: iOS, Android, or both?",
+    "a": "Android"
+  },
+  {
+    "q": "An instructor states: \"The icon on the Home screen is a shortcut to the app.\" To which OS does this relate: iOS, Android, or both?",
+    "a": "Android"
+  },
+  {
+    "q": "An instructor states: \"To help prevent malicious programs from infecting the device, mobile device apps are run in a sandbox that isolates them from other resources.\" To which OS does this relate: iOS, Android, or both? (Q133)",
+    "a": "both"
+  },
+  {
+    "q": "An instructor states: \"WIFI hotspots are a location data source that can be used by locator apps to determine the position of a mobile device.\" To which OS does this relate: iOS, Android, or both?",
+    "a": "both"
+  },
+  {
+    "q": "An instructor states: \"GPS signals are used to enable geocaching, geotagging and device tracking on these mobile devices.\" To which OS does this relate: iOS, Android, or both?",
+    "a": "both"
+  },
+  {
+    "q": "An instructor states: \"The user interface can be extensively customized using rooting or jailbreaking into a mobile device.\" To which OS does this relate: iOS, Android, or both?",
+    "a": "both"
+  },
+  {
+    "q": "What is the purpose of \"branching\" in high-level programming languages?",
+    "a": "to have a series of control flow statements"
+  },
+  {
+    "q": "Which statement is true regarding mobile devices using the Wireless Wide Area Network (WWAN)?",
+    "a": "They require an adapter to link to a cellular provider's network through the nearest base station or transmitter."
+  },
+  {
+    "q": "A user is trying to execute a file using elevated permission. The user right-clicks the file, chooses Run as Administrator, and chooses Yes in the UAC window. The operation fails. What is the reason?",
+    "a": "The user is not a member of the administrator group."
+  },
+  {
+    "q": "A technician has just purchased a new Windows 10 PC and wants to transfer selected files, folders, profiles, and applications from the old Windows PC. What tool or utility does Microsoft recommend?",
+    "a": "PCmover Express"
+  },
+  {
+    "q": "Which tool is available to transfer user data and settings from an old Windows 10 PC to a new Windows 10 PC?",
+    "a": "User State Migration tool"
+  },
+  {
+    "q": "What is the default file system used during a fresh installation of Windows 10?",
+    "a": "NTFS"
+  },
+  {
+    "q": "What is a possible situation when it might be necessary to boot Windows 10 from a bootable recovery USB device?",
+    "a": "to repair the operating system"
+  },
+  {
+    "q": "A manager is booting a tablet that has Windows 10 installed. The boot process is currently working on: The Windows kernel takes over the boot process. What is the next step?",
+    "a": "NTOSKRNL.EXE starts the login file called WINLOGON.EXE."
+  },
+  {
+    "q": "An accountant is booting a PC with Windows 10. The boot process is currently working on: BIOS locates and reads the configuration settings stored in the CMOS memory. What is the next step?",
+    "a": "The BIOS boots the computer using the first drive that contains a valid boot sector."
+  },
+  {
+    "q": "What is the name of the Windows Phone 10 digital, or virtual, assistant?",
+    "a": "Cortana"
+  },
+  {
+    "q": "What are two possible solutions to any Windows computer restarting continuously and never displaying the desktop? (Choose two.)",
+    "a": "Run chkdsk /F /R from the recovery console.;Open Control Panel and navigate to System and Security and disable automatic restart."
+  },
+  {
+    "q": "Where are 32-bit program files located in a 64-bit version of Windows 10 Pro?",
+    "a": "c:\\Program files (x86)"
+  },
+  {
+    "q": "A corporate office is considering using an MDM policy to enhance its security parameters. What is achieved through the implementation of the MDM policy?",
+    "a": "It can be used to log the onboarding of BYOD devices."
+  },
+  {
+    "q": "A technician receives a trouble ticket from a user reporting that a website is no longer accessible. What two questions would the technician ask to narrow down the potential problem? (Choose two.)",
+    "a": "Can you access other web sites from this computer browser?;Could you access this web site previously from this device?"
+  },
+  {
+    "q": "Match the scripting language with the script file name extension.",
+    "a": "Linux Shell Script:.sh;Windows Batch File:.bat;PowerShell:.ps1;Python:.py;JavaScript:.js"
+  },
+  {
+    "q": "Match remote access authentication methods to the description. Credentials sent to SSH server verified against local user database or centralized auth server | SSH server generates challenge with public key, client decrypts with private key | SSH server generates challenge with public key, user enters passphrase to access private key",
+    "a": "Credentials are sent to the SSH server which are then verified against a local user database or sent to a centralized authentication server.:Username/Password;The SSH server generates a challenge with the public key of the client and the client must decrypt the challenge with the matching private key to complete the authentication.:Host-based authentication;The SSH server generates a challenge with the public key of the client and the user must enter a passphrase to access the matching private key which decrypts the challenge to complete the authentication.:Public key authentication"
+  }
+]

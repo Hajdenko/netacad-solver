@@ -1,0 +1,566 @@
+[
+  {
+    "q": "Match the Windows 10 boot sequence after the boot manager (bootmgr.exe) loads.",
+    "a": "the Windows boot loader winload.exe loads:Step one;ntoskrnl.exe and hal.dll are loaded:Step two;winload.exe is loaded:Step three;ntoskrnl.exe loads and executes:Step four;winlogon.exe is loaded and executes the logon process:Step five"
+  },
+  {
+    "q": "Which two tools are available to transfer user data and settings from an old Windows computer to a Windows operating system on a new computer? (Choose two.)",
+    "a": "Windows Easy Transfer;User State Migration tool"
+  },
+  {
+    "q": "A user wants to extend a primary partition formatted with the NTFS file system with the unallocated space on the hard disk. What must the user do after the primary partition is extended to make it usable?",
+    "a": "Convert the disk type to dynamic."
+  },
+  {
+    "q": "Why is a full format more beneficial than a quick format when preparing for a clean OS installation?",
+    "a": "A full format will delete files from the disk while analyzing the disk drive for errors."
+  },
+  {
+    "q": "A technician wishes to prepare the computers in the network for disaster recovery. The network consists of a variety of desktops and laptops from different vendors. All the computers are running either a 32-bit version of Windows 10 Pro or a 64-bit version of Windows 10 Pro. How would the technician prepare the recovery media?",
+    "a": "Prepare individual recovery discs for all the computers."
+  },
+  {
+    "q": "A technician wishes to deploy Windows 10 Pro to multiple PCs through the remote network installation process. The technician begins by connecting the new PCs to the network and booting them up. However, the deployment fails because the target PCs are unable to communicate with the deployment server. What is the possible cause?",
+    "a": "The NIC cards on the new PCs are not PXE-enabled."
+  },
+  {
+    "q": "Which condition is required when planning to install Windows on a GPT disk?",
+    "a": "The computer must be UEFI-based."
+  },
+  {
+    "q": "A technician wishes to perform a customized unattended network installation of Windows 10 on a PC. The requirements include the installation of specific applications and device drivers through the use of an answer file. What would the technician use to create the answer file?",
+    "a": "Windows SIM"
+  },
+  {
+    "q": "An organization has purchased a custom application for the sales staff that can only be installed on a 64-bit Windows operating system. Each member of the sales staff has a Windows 8.1 32-bit PC. What must the IT department do in order to install and run the application on the sales staff computers?",
+    "a": "Perform a clean installation of 64-bit Windows 10."
+  },
+  {
+    "q": "Match the tabs of the Windows 10 Task Manager to their functions.",
+    "a": "Details:Allows for a process to have its affinity set.;Performance:Displays resource utilization information for CPU, memory, network, disk, and others.;Startup:Allows programs that are running on system startup to be disabled.;Services:Allows for a start, stop or restart of a particular service."
+  },
+  {
+    "q": "What are two possible solutions to any Windows computer restarting continuously and never displaying the desktop? (Choose two.)",
+    "a": "Press F8 to open the Advanced Options menu and choose Disable Automatic Restart on System Failure.;Run chkdsk /F /R from the recovery console."
+  },
+  {
+    "q": "A technician uses Microsoft Deployment Image Servicing and Management (DISM) tool to create a Windows image file on one of the workstations running Windows 10. When the technician tries to clone another workstation with the image file, the workstation exhibits network connectivity issues on completion. What could cause this?",
+    "a": "The SID of the original PC is not cleared when creating the image with DISM."
+  },
+  {
+    "q": "A user complains that user files cannot be synced with the network file server while the user is traveling out of the office. The user had access to the internet but no access to the company network server. How can this be addressed?",
+    "a": "Setup a Sync partnership between the network server, Microsoft OneDrive, and the user."
+  },
+  {
+    "q": "A technician has connected a new internal hard drive to a Windows 10 PC. What must be done in order for Windows 10 to use the new hard drive?",
+    "a": "Initialize the new hard drive."
+  },
+  {
+    "q": "What service does PRINT$ provide?",
+    "a": "It provides printer drivers for printer administrators."
+  },
+  {
+    "q": "A technician is troubleshooting a Windows 10 laptop infected with a virus that has damaged the master boot record. The technician has booted the laptop using the installation media and is attempting to repair the laptop from the command line interface. Which command can the technician use to repair the corrupt master boot record?",
+    "a": "bootrec /fixmbr"
+  },
+  {
+    "q": "A user reports that a Windows 10 PC displays the error message \"Invalid Boot Disk\" during the boot process. The IT technician attempts to boot the computer and finds that the error message occurs immediately after the POST. What could be the possible cause?",
+    "a": "The MBR/GPT is corrupted."
+  },
+  {
+    "q": "Which port number is used by Virtual Network Computing (VNC) to provide remote screen sharing between devices?",
+    "a": "5900"
+  },
+  {
+    "q": "Which feature is included with macOS and provides the ability for a remote user to view and change files, folders, and applications on the local computer?",
+    "a": "Screen Sharing"
+  },
+  {
+    "q": "Which area of concern falls under the operations and planning category in IT documentation?",
+    "a": "inventory management"
+  },
+  {
+    "q": "Match the individual languages with their corresponding classification.",
+    "a": "Scripting:Windows batch files;Scripting:PowerShell;Scripting:Linux shell script;Scripting:VBScript;Scripting:JavaScript;Scripting:Python;Compiled:C;Compiled:C++;Compiled:C#;Compiled:Java"
+  },
+  {
+    "q": "Which two actions should a technician take if illegal content, such as child pornography, is discovered on the hard drive of a customer computer? (Choose two.)",
+    "a": "Contact a first responder.;Document as much information as possible."
+  },
+  {
+    "q": "What are three pieces of information a level one technician should gather from a customer? (Choose three.)",
+    "a": "contact information;description of the problem;details of any recent changes to the computer"
+  },
+  {
+    "q": "What two actions are appropriate for a support desk technician to take when assisting customers? (Choose two.)",
+    "a": "Let a customer finish talking before asking additional questions.;If you have to put the customer on hold, ask the customer for permission."
+  },
+  {
+    "q": "A support desk technician is dealing with an angry customer. Which two approaches should the technician take in dealing with the customer? (Choose two.)",
+    "a": "Work to redirect the conversation to solving the problem.;Let the customer explain the problem without interrupting."
+  },
+  {
+    "q": "What two kinds of problems should be escalated from a level one technician to a level two technician? (Choose two.)",
+    "a": "problems that are complicated and will take a long time to resolve;problems that are beyond the scope of the knowledge of the level one technician"
+  },
+  {
+    "q": "An IT technician in a service company has provided extensive remote IT support with product deployment for a customer. After the completion of the contract, a complaint is filed against the IT technician for not following company policy by sending unsolicited emails about services and products that are not related to the contract. What two things should the IT support technician have done differently? (Choose two.)",
+    "a": "The IT technician should have researched the company policy about personal communication with customers on company time.;The IT technician should have asked the customer if the customer was interested in receiving information regarding other new services and products."
+  },
+  {
+    "q": "What are two characteristics of the Microsoft Remote Desktop Protocol (RDP)? (Choose two.)",
+    "a": "RDP uses an encrypted session.;RDP connects on TCP port 3389."
+  },
+  {
+    "q": "Which subject area describes collecting and analyzing data from computer systems, networks, and storage devices, as part of an investigation of alleged illegal activity?",
+    "a": "computer forensics"
+  },
+  {
+    "q": "In a computer forensics investigation, which type of data is considered volatile data and can be lost if power is removed from the computer?",
+    "a": "data in transit between RAM and the CPU"
+  },
+  {
+    "q": "How should the level one technician deliver a file that contains passwords to the level two technician?",
+    "a": "Replace all passwords in the file with <password omitted> before emailing the file and then supply the passwords by secure means, if required."
+  },
+  {
+    "q": "What skill is essential for a level one technician to have?",
+    "a": "the ability to translate a description of a customer problem into a few succinct sentences and enter it into the work order"
+  },
+  {
+    "q": "What is used to control illegal use of software and content?",
+    "a": "digital rights management"
+  },
+  {
+    "q": "What determines the level of support that a call center technician will provide to an individual customer?",
+    "a": "Support is based on the SLA for that customer."
+  },
+  {
+    "q": "A bench technician enters the server room and finds the backup server computer case open. The hard drives containing patient medical data are all physically disconnected from the motherboard and the SATA data cables are hanging outside the case. Which step should the technician immediately take?",
+    "a": "Locate an employee qualified to collect evidence."
+  },
+  {
+    "q": "What is the difference between a scripting language and a compiled language?",
+    "a": "Scripting languages are interpreted and executed line by line when a script is run, while compiled languages need to be converted into executable code."
+  },
+  {
+    "q": "Which methods can be used to implement multifactor authentication?",
+    "a": "passwords and fingerprints"
+  },
+  {
+    "q": "When responding to a call from a customer who is experiencing problems with a computer, the technician notices that a number of system files on the computer have been renamed. Which two possible solutions could the technician implement to resolve the problem? (Choose two.)",
+    "a": "Use antivirus software to remove a virus.;Restore the computer from a backup."
+  },
+  {
+    "q": "A technician suspects that a security issue is causing problems with a computer. What two actions could be performed to test theories of probable cause when troubleshooting the PC? (Choose two.)",
+    "a": "Log in as a different user.;Disconnect the computer from the network."
+  },
+  {
+    "q": "The CIO wants to secure data on company laptops by implementing file encryption. The technician determines the best method is to encrypt each hard drive using Windows BitLocker. Which two things are needed to implement this solution? (Choose two.)",
+    "a": "at least two volumes;TPM"
+  },
+  {
+    "q": "What is an accurate description of asymmetric encryption technology?",
+    "a": "It is an encryption process that uses a public and private key pair to encrypt/decrypt data."
+  },
+  {
+    "q": "Which type of security threat can be transferred through email and is used to gain sensitive information by recording the keystrokes of the email recipient?",
+    "a": "virus"
+  },
+  {
+    "q": "A manager reports that unusual things are happening on a Windows computer. The technician determines that malware is the culprit. What can the technician do to remove stubborn malware?",
+    "a": "Enter Safe Mode and do a system restore."
+  },
+  {
+    "q": "An employee that has worked at the company for many years has started a home-based business selling crafts. What section of the security policy should the supervisor review when determining how to handle this situation?",
+    "a": "acceptable use policies"
+  },
+  {
+    "q": "What Windows utility should be used to configure password rules and account lockout policies on a system that is not part of a domain?",
+    "a": "Local Security Policy tool"
+  },
+  {
+    "q": "A customer brings in a computer that is asking for a password as soon as it powers on, even before the operating system boots. Which type of password is enabled?",
+    "a": "BIOS"
+  },
+  {
+    "q": "When attempting to improve system performance for Linux computers with a limited amount of memory, why is increasing the size of the swap file system not considered the best solution?",
+    "a": "A swap file system uses hard disk space to store inactive RAM content."
+  },
+  {
+    "q": "What are three features of GPS on mobile devices? (Choose three.)",
+    "a": "navigation;specialized search results;device tracking"
+  },
+  {
+    "q": "Which three components are used to assign file and directory permissions in Linux systems? (Choose three.)",
+    "a": "group;owner;all users"
+  },
+  {
+    "q": "A user downloads a widget onto his Android phone but is puzzled to see that when the widget is touched an app is launched. What is a possible cause?",
+    "a": "The widget is associated with the app and this is the normal behavior."
+  },
+  {
+    "q": "What is the purpose of running mobile device apps in a sandbox?",
+    "a": "to prevent malicious programs from infecting the device"
+  },
+  {
+    "q": "Which built-in tool is available on a Mac OS X machine to perform disk backups?",
+    "a": "Time Machine"
+  },
+  {
+    "q": "A user calls the help desk reporting that a laptop with Linux freezes on startup and displays kernel panic. What could cause this problem?",
+    "a": "A driver has become corrupted."
+  },
+  {
+    "q": "A user calls the help desk to report that a mobile device exhibits very slow performance. What could cause this problem?",
+    "a": "A power-intensive app is running in the background."
+  },
+  {
+    "q": "Which term describes a partition that is used to store and boot an operating system by default?",
+    "a": "active partition"
+  },
+  {
+    "q": "Which term describes a file system that supports a partition size up to 16 exabytes?",
+    "a": "NTFS"
+  },
+  {
+    "q": "Which term describes a file system for USB flash drives that supports files larger than 4 GB?",
+    "a": "exFAT"
+  },
+  {
+    "q": "Which term describes a partition that supports up to 23 logical drives?",
+    "a": "extended partition"
+  },
+  {
+    "q": "Which term describes a file system for optical disk media?",
+    "a": "CDFS"
+  },
+  {
+    "q": "Which term describes a type of partition that would only exist on a hard disk that has an MBR?",
+    "a": "logical drive"
+  },
+  {
+    "q": "Which term describes a type of storage device that supports a partition to be extended into adjacent unallocated space as long as it is contiguous?",
+    "a": "basic disk"
+  },
+  {
+    "q": "Which term describes a general name for physical areas on a hard drive?",
+    "a": "partition"
+  },
+  {
+    "q": "Which term describes a partition scheme that takes a portion of disk space of 512 bytes long and that contains the boot loader?",
+    "a": "MBR"
+  },
+  {
+    "q": "Which term describes a type of storage device that supports a volume that can span across more than one disk?",
+    "a": "dynamic disk"
+  },
+  {
+    "q": "A technician is booting a laptop that has Windows 10 installed with 2 GB RAM. The boot process is currently working on the following step: NTOSKRNL.EXE starts the login file called WINLOGON.EXE. What is the next step that will happen in the boot process?",
+    "a": "WINLOGON.EXE displays the Windows Welcome screen."
+  },
+  {
+    "q": "A user is booting a tablet that has Windows 10 installed. The boot process is currently working on the following step: WINLOGON.EXE displays the Windows Welcome screen. What is the next step that will happen in the boot process?",
+    "a": "There are no more steps, the boot process is complete."
+  },
+  {
+    "q": "A manager is booting a tablet that has Windows 8 installed. The boot process is currently working on the following step: POST. What is the next step that will happen in the boot process?",
+    "a": "BIOS locates and reads the configuration settings that are stored in the CMOS memory."
+  },
+  {
+    "q": "An accountant is booting a PC that has Windows 8 installed. The boot process is currently working on the following step: BIOS locates and reads the configuration settings that are stored in the CMOS memory. What is the next step that will happen in the boot process?",
+    "a": "The BIOS boots the computer using the first drive that contains a valid boot sector."
+  },
+  {
+    "q": "A network analyst is booting a PC that has Windows 7 installed with 2 GB RAM. The boot process is currently working on the following step: The code in the boot sector is executed and the control of the boot process is given to Windows Boot Manager. What is the next step that will happen in the boot process?",
+    "a": "Winload uses the path specified in BOOTMGR to find the boot partition."
+  },
+  {
+    "q": "An analyst is booting a desktop that has Windows 7 installed with 4 GB RAM. The boot process is currently working on the following step: Winload uses the path specified in BOOTMGR to find the boot partition. What is the next step that will happen in the boot process?",
+    "a": "WinLoad loads two files that make up the core of Windows: NTOSKRNL.EXE and HAL.DLL."
+  },
+  {
+    "q": "A gamer is booting a desktop that has Windows 7 installed on dynamic drives. The boot process is currently working on the following step: WinLoad reads the registry files, chooses a hardware profile, and loads the device drivers. What is the next step that will happen in the boot process?",
+    "a": "The Windows kernel takes over the boot process."
+  },
+  {
+    "q": "A technician is booting a laptop that has Windows 10 installed with 2 GB RAM. The boot process is currently working on the following step: The Windows kernel takes over the boot process. What is the next step that will happen in the boot process?",
+    "a": "NTOSKRNL.EXE starts the login file called WINLOGON.EXE."
+  },
+  {
+    "q": "A user is booting a laptop that has Windows 10 installed. The boot process is currently working on the following step: WINLOGON.EXE displays the Windows Welcome screen. What is the next step that will happen in the boot process? (second version)",
+    "a": "There are no more steps, the boot process is complete."
+  },
+  {
+    "q": "A manager is booting a tablet that has Windows 8 installed. The boot process is currently working on the following step: The Windows kernel takes over the boot process. What is the next step that will happen in the boot process?",
+    "a": "NTOSKRNL.EXE starts the login file called WINLOGON.EXE."
+  },
+  {
+    "q": "Users in a company have complained about network performance. After investigation, the IT staff has determined that the attacker was using a specific technique that affected the TCP three-way handshake. What is the type of network attack?",
+    "a": "SYN flood"
+  },
+  {
+    "q": "Users in a company have complained about network performance. After investigation, the IT staff has determined that the attacker is using a technique that compares hashed passwords to potential hashes the hacker has. What is the type of network attack?",
+    "a": "rainbow table"
+  },
+  {
+    "q": "Users in a company have complained about network performance. After investigation, the IT staff has determined that the DNS server was sent with an enormous amount of false requests, thus overwhelming the server. What is the type of network attack?",
+    "a": "DoS"
+  },
+  {
+    "q": "Users in a company have complained about network performance. After investigation, the IT staff has determined that the attacker is using a vulnerability that is known to the software vendor, but not patched yet. What is the type of network attack?",
+    "a": "zero-day"
+  },
+  {
+    "q": "Users in a company have complained about network performance. After investigation, the IT staff has determined that zombies were used to attack the firewall. What is the type of network attack?",
+    "a": "DDoS"
+  },
+  {
+    "q": "Users in a company have complained about network performance. After investigation, the IT staff has determined that the attacker is using a table of words that potentially could be used as passwords. What is the type of network attack?",
+    "a": "dictionary"
+  },
+  {
+    "q": "Users in a company have complained about network performance. After investigation, the IT staff has determined that the attacker injected false records on the server that translates IP addresses to domain names. What is the type of network attack?",
+    "a": "DNS poisoning"
+  },
+  {
+    "q": "A PC technician has been asked by a supervisor to recommend a security solution for a company that wants a device to monitor incoming and outgoing traffic and stop any malicious activity. Which security technique should the technician recommend?",
+    "a": "Buy an IPS."
+  },
+  {
+    "q": "A PC technician has been asked by a supervisor to recommend a security solution for a machine where the antimalware software cannot remove all of the malware. Which security technique should the technician recommend?",
+    "a": "Use Windows Safe Mode."
+  },
+  {
+    "q": "A PC technician has been asked by a supervisor to recommend a security solution for preventing tailgating. Which security technique should the technician recommend?",
+    "a": "Use a mantrap."
+  },
+  {
+    "q": "A PC technician has been asked by a supervisor to recommend a security solution for drive redundancy. Which security technique should the technician recommend?",
+    "a": "Implement a RAID."
+  },
+  {
+    "q": "A PC technician has been asked by a supervisor to recommend a security solution for phishing. Which security technique should the technician recommend?",
+    "a": "Provide security awareness training."
+  },
+  {
+    "q": "A PC technician has been asked by a supervisor to recommend a security solution for protecting a computer used to log in at a dental clinic from someone using a bootable disk containing hacking tools. Which security technique should the technician recommend?",
+    "a": "Disable ports."
+  },
+  {
+    "q": "A PC technician has been asked by a supervisor to recommend a security solution for a manager traveling who needs access to internal corporate resources. Which security technique should the technician recommend?",
+    "a": "Use a VPN."
+  },
+  {
+    "q": "Why would a gamer need to use the move command?",
+    "a": "to relocate a file from one Windows directory to another one"
+  },
+  {
+    "q": "Why would a gamer need to use the copy command?",
+    "a": "to move that file to a different Windows directory while also leaving the file in the current location"
+  },
+  {
+    "q": "Why would a university student need to use the robocopy command?",
+    "a": "to copy a group of files from one Windows directory to another"
+  },
+  {
+    "q": "Why would a university student need to use the xcopy command?",
+    "a": "to copy files, directories, and subdirectories from one location to another"
+  },
+  {
+    "q": "Why would a technical support representative need to use the format command?",
+    "a": "to prepare a hard drive to accept Windows files"
+  },
+  {
+    "q": "Why would a technical support representative need to use the bootrec command?",
+    "a": "to help to repair the MBR that is suspected of having issues"
+  },
+  {
+    "q": "Why would a technical support representative need to use the ipconfig command?",
+    "a": "to display the IPv6 address of the PC"
+  },
+  {
+    "q": "Why would a user need to use the netstat command?",
+    "a": "to verify activity on the PC by displaying all active TCP connections on the device"
+  },
+  {
+    "q": "Why would a user need to use the nslookup command?",
+    "a": "to query the Domain Name System (DNS) to get domain names and mapping information"
+  },
+  {
+    "q": "Why would a manager need to use the ping command?",
+    "a": "to quickly verify connectivity by sending echo-request messages to the destination and receiving a series of echo-reply messages from that destination"
+  },
+  {
+    "q": "What are two probable causes of a user unable to access local resources such as file shares or printers on a wired network? (Choose two.)",
+    "a": "bad cabling;DNS name resolution not working"
+  },
+  {
+    "q": "The IT department has just purchased 15 wireless access points in order to provide full wireless coverage for all 100 employees within the company and is looking to deploy the most secure and scalable wireless implementation. Which open source authentication method would perform authentication on behalf of all 15 wireless network devices?",
+    "a": "RADIUS"
+  },
+  {
+    "q": "A technician is upgrading many PCs used within the company. How should the technician dispose of an old inkjet printer cartridge?",
+    "a": "Recycle following local regulations."
+  },
+  {
+    "q": "A client packet is received by a server. The packet has a destination port number of 3389. What service application is the client requesting?",
+    "a": "RDP"
+  },
+  {
+    "q": "A client packet is received by a server. The packet has a destination port number of 67. What service application is the client requesting?",
+    "a": "DHCP"
+  },
+  {
+    "q": "A client packet is received by a server. The packet has a destination port number of 443. What service application is the client requesting?",
+    "a": "HTTPS"
+  },
+  {
+    "q": "A client packet is received by a server. The packet has a destination port number of 69. What service application is the client requesting?",
+    "a": "TFTP"
+  },
+  {
+    "q": "A client packet is received by a server. The packet has a destination port number of 445. What service application is the client requesting?",
+    "a": "SMB/CIFS"
+  },
+  {
+    "q": "A client packet is received by a server. The packet has a destination port number of 548. What service application is the client requesting?",
+    "a": "AFP"
+  },
+  {
+    "q": "A client packet is received by a server. The packet has a destination port number of 80. What service application is the client requesting?",
+    "a": "HTTP"
+  },
+  {
+    "q": "A PC technician has been asked by a supervisor to recommend a security solution for a small company that wants stateful firewall services. Which security technique should the technician recommend?",
+    "a": "Buy an ASA."
+  },
+  {
+    "q": "A gamer is booting a desktop that has Windows 10 installed on dynamic drives. The boot process is currently working on the following step: WinLoad reads the registry files, chooses a hardware profile, and loads the device drivers. What is the next step that will happen in the boot process?",
+    "a": "The Windows kernel takes over the boot process."
+  },
+  {
+    "q": "A technician is working on a laptop and an error message about decryption appears when opening an email. What is a possible solution for this situation?",
+    "a": "Install an appropriate certificate."
+  },
+  {
+    "q": "A technician is working on a laptop and a key on the keyboard is not responding as it should. What is a possible solution for this situation?",
+    "a": "Clean with compressed air."
+  },
+  {
+    "q": "A technician is working on a laptop and GPS is not functioning. What is a possible solution for this situation?",
+    "a": "Verify that airplane mode is not activated.|Verify the status of service."
+  },
+  {
+    "q": "Why would a manager need to use the tracert command?",
+    "a": "to display a list of the near-side router interfaces between the source device and the destination device"
+  },
+  {
+    "q": "Why would a manager need to use the sfc command?",
+    "a": "to scan and verify the integrity of all protected system files and replace incorrect versions with correct versions"
+  },
+  {
+    "q": "Why would a technician need to use the DISM command?",
+    "a": "to repair, prepare, and fix Windows images and the recovery image within an installation of the operating system"
+  },
+  {
+    "q": "Why would a technician need to use the tasklist command?",
+    "a": "to display a list of current processes running on a local or a remote computer"
+  },
+  {
+    "q": "Why would an analyst need to use the taskkill command?",
+    "a": "to end one or more processes on a PC based on process ID or image name"
+  },
+  {
+    "q": "Why would an analyst need to use the msconfig command?",
+    "a": "to select some programs that will automatically run at startup"
+  },
+  {
+    "q": "Why would an analyst need to use the dir command?",
+    "a": "to show all of the files in the current directory"
+  },
+  {
+    "q": "Why would a bank manager need to use the gpupdate command?",
+    "a": "to make the PC synchronize with new group policy settings"
+  },
+  {
+    "q": "Why would a bank manager need to use the gpresult command?",
+    "a": "to verify the settings that are suspected to be incorrect"
+  },
+  {
+    "q": "Why would a lawyer need to use the cd command?",
+    "a": "to change from the current working folder to another folder"
+  },
+  {
+    "q": "What is true of the mobile device screen showing tiles?",
+    "a": "Text messages, news, photos and other content can be displayed in the different tiles."
+  },
+  {
+    "q": "An accountant is booting a PC that has Windows 10 installed. The boot process is currently working on the following step: BIOS locates and reads the configuration settings that are stored in the CMOS memory. What is the next step that will happen in the boot process?",
+    "a": "The BIOS boots the computer using the first drive that contains a valid boot sector."
+  },
+  {
+    "q": "An analyst is booting a desktop that has Windows 10 installed with 4 GB RAM. The boot process is currently working on the following step: Winload uses the path specified in BOOTMGR to find the boot partition. What is the next step that will happen in the boot process?",
+    "a": "WinLoad loads two files that make up the core of Windows: NTOSKRNL.EXE and HAL.DLL."
+  },
+  {
+    "q": "What is a possible situation when it might be necessary to boot Windows 10 from a bootable recovery USB device?",
+    "a": "to repair the operating system"
+  },
+  {
+    "q": "Which statement is true regarding mobile devices using the Wireless Wide Area Network (WWAN)?",
+    "a": "They require an adapter to link to a cellular provider's network through the nearest base station or transmitter."
+  },
+  {
+    "q": "A Windows 10 computer locks up with a stop error during startup and then automatically reboots. The automatic restart setting is making it difficult to see any error messages. What can be done so that the error messages can be viewed?",
+    "a": "Access the System and Security options menu in the control panel and disable the auto restart function."
+  },
+  {
+    "q": "Which statement is true regarding libraries in Windows 10?",
+    "a": "Libraries allow Windows 10 to link multiple different directories."
+  },
+  {
+    "q": "A corporation would like to use three or more factors for the password authentication policy. How can this be achieved?",
+    "a": "MFA"
+  },
+  {
+    "q": "A system administrator has been asked to protect the sensitive data on Windows 10 computers of all management employees. Which Windows 10 feature can be used to selectively encrypt individual files within the user accounts of each manager?",
+    "a": "EFS"
+  },
+  {
+    "q": "Which two statements are true regarding 64-bit processor architecture? (Choose two.)",
+    "a": "It supports both 32-bit and 64-bit operating systems.;It has additional registers for 64-bit address space."
+  },
+  {
+    "q": "A manager is booting a tablet that has Windows 10 installed. The boot process is currently working on the following step: POST. What is the next step that will happen in the boot process?",
+    "a": "BIOS locates and reads the configuration settings that are stored in the CMOS memory."
+  },
+  {
+    "q": "A computer technician uses Windows tools to gather information on multiple systems. Another technician suggests automating the tasks. Which two built-in scripting capabilities in Windows enable a technician to run a simple text file created in Notepad? (Choose two.)",
+    "a": "PowerShell ISE script interpreter;command line batch script interpreter"
+  },
+  {
+    "q": "Why would a lawyer need to use the tracert command?",
+    "a": "to display a list of the near-side router interfaces between the source device and the destination device"
+  },
+  {
+    "q": "Match the file system with the respective description.",
+    "a": "NTFS:Supports partition sizes up to 16 exabytes and incorporates file system security features and extended attributes.;ExFAT:Usually used on flash drives as it can support files larger than 4GB.;FAT32:Supports partition sizes up to 2TB or 2,048GB.;CDFS:Created specifically for optical disk media.;NFS:A network-based file system that allows file access over the network."
+  },
+  {
+    "q": "Match the steps that will lead to the loading of bootmgr.exe in a 32 bit Windows 10 environment.",
+    "a": "Step 1:POST executed;Step 2:CMOS configuration settings loaded;Step 3:MBR;Step 4:VBR"
+  },
+  {
+    "q": "A technician wishes to start Windows 10 in safe mode to troubleshoot it. What key or key combination would begin this process?",
+    "a": "hold the Shift key and select the Restart option in the Power menu"
+  },
+  {
+    "q": "Select the Windows 10 version that best meets the described use.",
+    "a": "Personal computing and gaming:Windows 10 Home;Academic environment:Windows 10 Education;Small business:Windows 10 Pro;Large / mid-size business:Windows 10 Enterprise"
+  },
+  {
+    "q": "A user notes that the username and password are automatically populated in the Microsoft Edge browser when logging into a secure site. When the user tries to log into the same site using Google Chrome, the username and password do not save automatically. Why is this occurring?",
+    "a": "Google Chrome does not automatically save web credentials."
+  }
+]
