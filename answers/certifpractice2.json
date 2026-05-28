@@ -1,0 +1,486 @@
+[
+  {
+    "q": "Match the task to the Windows 10 Control Panel utility.",
+    "a": "view hidden files:File Explorer Options;configure PC to use DHCP:Network and Sharing Center;check stored web passwords:Credential Manager;change account settings:User Accounts;view hardware status:Devices and Printers"
+  },
+  {
+    "q": "Match the scripting language with the script file name extension.",
+    "a": ".py:Python;.sh:Linux Shell Script;.js:JavaScript;.bat:Windows Batch File;.ps1:PowerShell"
+  },
+  {
+    "q": "Which two data storage locations contain persistent data that can be used by computer forensics specialists? (Choose two.)",
+    "a": "hard disk drives;solid state drives"
+  },
+  {
+    "q": "On which two occasions is it most likely that a technician will have to perform a clean operating system installation if a backup has not been performed? (Choose two.)",
+    "a": "The existing operating system is corrupted.;A new replacement hard drive is installed in a computer."
+  },
+  {
+    "q": "Which three items are biometric security devices? (Choose three.)",
+    "a": "fingerprint reader;retina scanner;voice recognition"
+  },
+  {
+    "q": "Which two precautions can help prevent social engineering? (Choose two.)",
+    "a": "Always ask for the ID of unknown persons.;Escort all visitors."
+  },
+  {
+    "q": "Which two guidelines are appropriate for creating strong passwords? (Choose two.)",
+    "a": "Use at least eight characters.;Include letters, numbers, and symbols."
+  },
+  {
+    "q": "A support desk technician is dealing with an angry customer. Which two approaches should the technician take in dealing with the customer? (Choose two.)",
+    "a": "Work to redirect the conversation to solving the problem.;Let the customer explain the problem without interrupting."
+  },
+  {
+    "q": "A technician working on a computer discovers what is suspected to be illegal activity. Which three pieces of information should be immediately documented? (Choose three.)",
+    "a": "evidence of the suspected illegal activity;why the computer was accessed by the technician;location of the computer"
+  },
+  {
+    "q": "An administrative assistant tries to link a Bluetooth keyboard and mouse to a computer. The keyboard does not work, but the mouse works fine. What are two issues that could cause this situation? (Choose two.)",
+    "a": "The keyboard battery is dead.;The keyboard is too far from the computer."
+  },
+  {
+    "q": "What two roles or tasks are associated with level two technicians? (Choose two.)",
+    "a": "remotely updating drivers and software on customer computers;gathering diagnostic information from a customer computer"
+  },
+  {
+    "q": "What are two file attributes in the Windows environment? (Choose two.)",
+    "a": "archive;read-only"
+  },
+  {
+    "q": "A user finds that when launching a downloaded Windows update file, Windows Update fails. What are two possible causes for this? (Choose two.)",
+    "a": "The downloaded update file is corrupted.;A previous update that is required for the current update is not installed."
+  },
+  {
+    "q": "A store in a shopping center uses a wireless network to provide internet access for three tablet computers. The authentication to the wireless router has been configured as 128-bit WEP. Recently the store employees notice that the internet connection is getting slower. The network administrator of the shopping center reviews the logs of the wireless router and notices many non-store devices are associated with the router. Which two actions can the network administrator do to improve the security of the wireless network access? (Choose two.)",
+    "a": "Change WEP to WPA2 protocol.;Use the MAC address filtering feature."
+  },
+  {
+    "q": "A user is hiking in a city park. The user wants to make a call home but cannot get a reliable cellular signal. What are two possible causes for the bad cellular coverage? (Choose two.)",
+    "a": "There are not enough cell towers in the area.;The user is located between coverage areas of the carrier."
+  },
+  {
+    "q": "A user purchases a new smartphone and is trying to use a high quality Bluetooth headset on the new device. However, the headset is not connected to the smartphone. What are three settings that the user needs to check to troubleshoot the problem? (Choose three.)",
+    "a": "The headset is turned on.;The pin code is entered correctly.;The Bluetooth connection is enabled on the smartphone."
+  },
+  {
+    "q": "An IT technician in a service company has provided extensive remote IT support with product deployment for a customer. After the completion of the contract, a complaint is filed against the IT technician for not following company policy by sending unsolicited emails about services and products that are not related to the contract. What two things should the IT support technician have done differently? (Choose two.)",
+    "a": "The IT technician should have researched the company policy about personal communication with customers on company time.;The IT technician should have asked the customer if the customer was interested in receiving information regarding other new services and products."
+  },
+  {
+    "q": "A third-party security firm is performing a security audit of a company and recommends the company utilize the Remote Desktop Protocol. What are two characteristics of the Microsoft Remote Desktop Protocol (RDP)? (Choose two.)",
+    "a": "RDP uses an encrypted session.;RDP connects on TCP port 3389."
+  },
+  {
+    "q": "A computer can successfully ping outside the local network, but cannot access any World Wide Web services. What is the most probable cause of this problem?",
+    "a": "Windows Firewall is blocking port 80."
+  },
+  {
+    "q": "A technician notices that an application is not responding to commands and that the computer seems to respond slowly when applications are opened. What is the best administrative tool to force the release of system resources from the unresponsive application?",
+    "a": "Task Manager"
+  },
+  {
+    "q": "Which question would be an example of an open-ended question that a technician might ask when troubleshooting a security issue?",
+    "a": "What symptoms are you experiencing?"
+  },
+  {
+    "q": "A technician is troubleshooting a computer security issue. The computer was compromised by an attacker as a result of the user having a weak password. Which action should the technician take as a preventive measure against this type of attack happening in the future?",
+    "a": "Ensure the security policy is being enforced."
+  },
+  {
+    "q": "A user wants to extend a primary partition formatted with the NTFS file system with the unallocated space on the hard disk. What must the user do after the primary partition is extended to make it usable?",
+    "a": "Convert the disk type to dynamic."
+  },
+  {
+    "q": "A technician has successfully removed malware from a PC and finds that when the system is rebooted error messages are displayed about missing and corrupt system files. What utility can the technician use to replace or fix any corrupted system files?",
+    "a": "SFC"
+  },
+  {
+    "q": "What is the first step a technician should take when preparing to work on the inside of a computer?",
+    "a": "Disconnect the computer from power."
+  },
+  {
+    "q": "What is required in order to connect a Wi-Fi enabled laptop to a WPA secured wireless network?",
+    "a": "a security encryption key"
+  },
+  {
+    "q": "What is a feature that can be used by an administrator to prevent unauthorized users from connecting to a wireless access point?",
+    "a": "MAC filtering"
+  },
+  {
+    "q": "A user is configuring a wireless access point and wants to prevent any neighbors from discovering the network. What action does the user need to take?",
+    "a": "Disable SSID broadcast."
+  },
+  {
+    "q": "What type of file system allows the use of files larger than 5 GB and is mostly used on internal hard drives?",
+    "a": "NTFS"
+  },
+  {
+    "q": "Which user account should be used only to perform system management and not as the account for regular use?",
+    "a": "administrator"
+  },
+  {
+    "q": "A user has detected that one of the virtual machines in a computer is infected with a virus. Which statement about the situation is likely to be true?",
+    "a": "The host operating system is not necessarily infected with a virus."
+  },
+  {
+    "q": "After complaints from users, a technician identifies that the college web server is running very slowly. A check of the server reveals that there are an unusually large number of TCP requests coming from multiple locations on the Internet. What is the source of the problem?",
+    "a": "A DDoS attack is in progress."
+  },
+  {
+    "q": "What is true about restore points?",
+    "a": "Restore points should always be created before making changes to a system."
+  },
+  {
+    "q": "A business organization is configuring security on the mobile devices that are used in the organization. The security policy states that business data on mobile devices should only ever be accessed by employees. Which mobile device security feature can be used to best ensure that business data is rendered completely inaccessible if the device is lost or stolen?",
+    "a": "remote wipe"
+  },
+  {
+    "q": "A user is able to only access files required to perform a specific task. What type of security practice is being applied?",
+    "a": "principle of least privilege"
+  },
+  {
+    "q": "Which type of malware is disguised as a legitimate program?",
+    "a": "Trojan"
+  },
+  {
+    "q": "Which security threat hides the resources that it uses from antivirus programs?",
+    "a": "rootkit"
+  },
+  {
+    "q": "Which statement is correct about installing a 32-bit operating system on a x64 architecture?",
+    "a": "The OS will run correctly."
+  },
+  {
+    "q": "A technician is troubleshooting a workstation in a domain that has been infected with a virus. What is the first step the technician should take to clean the infected workstation?",
+    "a": "Disconnect the workstation from the network."
+  },
+  {
+    "q": "A technician needs to permanently destroy data on some drives before disposing of them. What is the best way to do this?",
+    "a": "Shatter the drive platters with a hammer."
+  },
+  {
+    "q": "A cleaner attempts to enter a computer lab but is denied entry by the receptionist because there is no scheduled cleaning for that day. What type of attack was just prevented?",
+    "a": "social engineering"
+  },
+  {
+    "q": "A company has replaced five desktop computers in the accounting and finance department with new computers. The plan is to donate the recovered computers in a fully functional state to a not-for-profit community organization. How can the company ensure that sensitive financial data cannot be accessed once the computers are donated?",
+    "a": "Data wipe the hard drives by using specialized software."
+  },
+  {
+    "q": "A technician is about to install and configure a wireless network at a small branch office. What is the first security measure the technician should apply immediately upon powering up the wireless router?",
+    "a": "Change the default user-name and password of the wireless router."
+  },
+  {
+    "q": "What does virtual memory provide to an operating system?",
+    "a": "a temporary storage of data until enough RAM is available to process it"
+  },
+  {
+    "q": "Which disk management tool scans the critical files of an operating system and replaces the corrupt files?",
+    "a": "System File Checker"
+  },
+  {
+    "q": "Why would an administrator use Windows Remote Desktop and Windows Remote Assistant?",
+    "a": "to connect to a remote computer over the network to control its applications and data"
+  },
+  {
+    "q": "A technician needs to check the system settings on a remote computer to make sure it will be compatible with a new software update that will be sent out. The technician will use an administrator account to log in and start a user session on the remote PC. Which Windows tool will the technician use to accomplish this?",
+    "a": "Windows Remote Desktop"
+  },
+  {
+    "q": "A business traveler connects to a wireless network with open authentication. What should the traveler do to secure confidential data when connecting to the business services?",
+    "a": "Connect with a VPN."
+  },
+  {
+    "q": "What determines the level of support that a call center technician will provide to an individual customer?",
+    "a": "Support is based on the SLA for that customer."
+  },
+  {
+    "q": "A corporation has expanded to include multiple remote offices around the globe. Which technology should be used to allow the remote offices to communicate and share network resources privately?",
+    "a": "VPN"
+  },
+  {
+    "q": "A user reports that a PC is losing files, not opening some files, and is performing slowly. The technician suspects problems with the hard drive. What should be done to protect the data that is on the PC and to determine the source of the problem, without risking total drive failure?",
+    "a": "Back up all important files, then run chkdsk."
+  },
+  {
+    "q": "A computer technician is notified by a user that there are no automated backups being created on an Apple computer. What is the first thing the technician should check?",
+    "a": "whether Time Machine is turned on"
+  },
+  {
+    "q": "A user has been using a smartphone for several hours, but now the applications on the device have become unresponsive. What action should the user take?",
+    "a": "Restart the device."
+  },
+  {
+    "q": "When would the PXE option be used when repairing a PC?",
+    "a": "The computer needs a replacement operating system."
+  },
+  {
+    "q": "Which statement describes most enterprise software licenses?",
+    "a": "A company is allowed to use the software campus wide."
+  },
+  {
+    "q": "A company has recently deployed Active Directory and now a workstation cannot connect to a network resource. A technician takes corrective action by modifying group policy settings. Which command should the technician use to make the workstation synchronize with the new settings?",
+    "a": "gpupdate"
+  },
+  {
+    "q": "A user logs into Active Directory on a workstation and the user home directory does not redirect to a network share on a file server. A technician suspects that the group policy setting is incorrect. Which command can the technician use to verify the group policy settings?",
+    "a": "gpresult"
+  },
+  {
+    "q": "In a Linux operating system, which component interprets user commands and forwards them to the OS?",
+    "a": "shell"
+  },
+  {
+    "q": "In Linux and OS X, which CLI command can be used to display the name of the current directory?",
+    "a": "pwd"
+  },
+  {
+    "q": "A virus has infected several computers in a small office. It is determined that the virus was spread by a USB drive that was shared by users. What can be done to prevent this problem?",
+    "a": "Set the antivirus software to scan removable media."
+  },
+  {
+    "q": "Which wireless encryption method is the least secure?",
+    "a": "WEP"
+  },
+  {
+    "q": "A user is reporting that a file has been shared specifically with another user on the network, but the other user opens the file and is unable to save it once edited. What is the probable cause?",
+    "a": "The user shared the document with Read permissions."
+  },
+  {
+    "q": "A customer is explaining a problem with a computer to a technician. The technician recognizes the problem prior to the customer finishing the explanation. What should the technician do?",
+    "a": "Wait politely for the customer to finish explaining the problem."
+  },
+  {
+    "q": "The Windows PC of a user was shutdown abruptly due to a sudden loss of power. The user then reports that the workstation has lost several files. A help desk technician suspects that part of the hard disk might be damaged. Which Windows utility can the technician use to scan the hard disk and make repairs if necessary?",
+    "a": "Chkdsk"
+  },
+  {
+    "q": "A user calls the help desk and reports that the workstation, when powering up, displays error messages about an invalid system disk or invalid boot disk. When a technician comes to the office, the user mentions that the workstation was working well the day before. The technician checks the workstation and makes sure that the cable is firmly connected between the hard drive and the motherboard. What is another likely cause of the problem?",
+    "a": "The MBR/GPT is corrupted."
+  },
+  {
+    "q": "A user reports that an application crashed. The technician tries a few other applications on the PC and finds that none of them start normally or that they crash soon after being launched. What is a possible cause of the problem?",
+    "a": "The PC is infected by a virus."
+  },
+  {
+    "q": "A user calls the help desk and reports that a security alert appears on the screen about a malware attempt to enter the PC. What should the technician instruct the user to do?",
+    "a": "Scan the PC to remove any malware."
+  },
+  {
+    "q": "A student tells a teacher that many junk emails are appearing on a new personal laptop. What is a possible cause of the problem?",
+    "a": "The new laptop does not have antivirus or anti-spam software installed."
+  },
+  {
+    "q": "A sales representative is driving to visit several customer sites in the city. The representative notices that the smartphone is draining battery power more quickly than normal. What is a possible cause of the issue?",
+    "a": "The smartphone is roaming among cell towers."
+  },
+  {
+    "q": "A user is shopping in a mall and gets a notification that a new email is received on the smartphone. The user is wondering how the email message was delivered because the data usage feature is turned off. The user notices that the smartphone is connected to the coffee shop inside the mall using Wi-Fi. What caused this connection?",
+    "a": "The smartphone is set to automatically connect to available Wi-Fi networks."
+  },
+  {
+    "q": "A user attended the wedding of a coworker and took pictures using a smartphone. The user receives phone calls from several coworkers the next day and is shocked to learn that these pictures now appear on multiple web pages. What is a possible cause for the incident?",
+    "a": "The user account for the cloud service has been hacked."
+  },
+  {
+    "q": "A student is jogging in a city park. The student has an app on the smartphone that tracks exercise activities. The student receives a notification that a new email has been received and stops to read the email message. However, the email app is slow to respond. What is a reason for the slowness of the app to open?",
+    "a": "The exercise tracking app is using the GPS service."
+  },
+  {
+    "q": "A user reports that the PC displays a warning message. The warning message indicates that the PC is infected by a virus. A technician comes with a USB drive that contains a malware detection and removal program. What should the technician do before running the program?",
+    "a": "Boot the PC in Safe Mode."
+  },
+  {
+    "q": "A user reports that a Windows 10 PC displays a warning message. The warning message indicates that the PC is infected by malware. A technician comes to the office and makes sure that the PC is disconnected from all wired and wireless networks. What should the technician do next to further investigate the incident?",
+    "a": "Save log files to removable media."
+  },
+  {
+    "q": "All Windows 10 computers in a small advertising company are configured with the System Restore service. One of the PCs was infected by malware when an employee was doing research on the internet. The IT administrator scans the system and deletes the malware from the Quarantined Items folder. What should the administrator do next to complete the remediation process?",
+    "a": "Delete all restore points."
+  },
+  {
+    "q": "A mobile user downloads and installs an app. Once the app is installed, the Android mobile device is frozen. What is a cause for the issue?",
+    "a": "The app is not compatible with the device."
+  },
+  {
+    "q": "When a user tries to run a program, a missing or corrupt DLL message is displayed. What is a solution to fix the problem?",
+    "a": "Run sfc /scannow in Safe Mode."
+  },
+  {
+    "q": "A server administrator needs to remotely configure a legacy network device. The legacy network device only supports a plain-text session connection. Which remote access tool should be used?",
+    "a": "Telnet client"
+  },
+  {
+    "q": "A programmer is building a script that will test a condition of either true or false. Which data type would the programmer use?",
+    "a": "Bool"
+  },
+  {
+    "q": "A programmer needs to automate processes and tasks in an operating system. Which tool would the programmer use to build a script file?",
+    "a": "a text editor"
+  },
+  {
+    "q": "A user has a computer that is infected with spyware. What should be performed after the spyware is completely cleaned?",
+    "a": "Delete system restore files."
+  },
+  {
+    "q": "Refer to the exhibit. In what situation would a technician use this tab?",
+    "a": "when a laptop is used both at work with DHCP and at home with a static IP address"
+  },
+  {
+    "q": "Match the file system term used in Linux to the function.",
+    "a": "ext4:supports increased file sizes;journaling:minimizes file corruption risk in the event of power loss;MBR:stores information about how the file system is organized;swap file system:provides hard drive space that holds inactive RAM content"
+  },
+  {
+    "q": "A company has a guest wireless network available for visitors while on the company premises. A technician has noted that unauthorized users are connecting to this wireless network from outside the premises. Which action can be taken to reduce unauthorized connections to the guest wireless network while enabling visitors to still connect quickly and easily without assistance while on the company premises?",
+    "a": "Reduce the radio power level."
+  },
+  {
+    "q": "What is an example of a web application using multifactor authentication?",
+    "a": "A user attends a large conference and tries to access Google Gmail at the conference site. The Gmail service sends a verification code to the smartphone of the user."
+  },
+  {
+    "q": "Which process in Windows 10 is responsible for assigning system resources and driver installation?",
+    "a": "PnP"
+  },
+  {
+    "q": "What is the default file system used during a fresh installation of Windows 10?",
+    "a": "NTFS"
+  },
+  {
+    "q": "A technician has just purchased a new Windows 10 PC and wants to transfer selected files, folders, profiles, and applications from the old Windows PC. What tool or utility does Microsoft recommend to do this?",
+    "a": "PCmover Express"
+  },
+  {
+    "q": "What is the purpose of Windows 10 ReadyBoost?",
+    "a": "It enables Windows to treat an external flash device, such as a USB drive, as a hard drive cache."
+  },
+  {
+    "q": "Where are 32-bit program files located in a 64-bit version of Windows 10 Pro?",
+    "a": "c:\\Program files (x86)"
+  },
+  {
+    "q": "Match the Windows 10 drive management condition with the respective description.",
+    "a": "Foreign:a dynamic disk that has been moved to a computer from another computer running Windows;Healthy:a volume that is functioning properly;Not Initialized:a disk that does not contain a valid signature;Offline:a dynamic disk that is corrupted or unavailable;Missing:a dynamic disk that is corrupted, turned off, or disconnected;Unreadable:a basic or dynamic disk that has experienced hardware failure, corruption, or I/O errors;Online (Errors):I/O errors detected on a dynamic disk;Initializing:a basic disk that is being converted into a dynamic disk"
+  },
+  {
+    "q": "A user signs up on an application that requires multifactor authentication. The user chooses to register the phone number for the authentication system. Which three items must the user provide in order to authenticate? (Choose three.)",
+    "a": "OTP;password;account username"
+  },
+  {
+    "q": "A user visits a trusted website. The website sends the user a link via email to the default browser window. When the user clicks on the link, a message appears stating that there is a problem with the website's security certificate. Why has this occurred?",
+    "a": "the CRLs of the browser have not been updated"
+  },
+  {
+    "q": "Which two statements are true regarding 64-bit processor architecture? (Choose two.)",
+    "a": "It supports both 32-bit and 64-bit operating systems.;It has additional registers for 64-bit address space."
+  },
+  {
+    "q": "Which two statements are true regarding GPT partitions? (Choose two.)",
+    "a": "They are commonly used in computers with UEFI firmware.;They store a backup of the partition table."
+  },
+  {
+    "q": "A technician wishes to use the reset option to repair a Windows 10 installation and chooses the option that will retain the user's personal files. Which statement is true based on using this option?",
+    "a": "Only user files will be restored together with the complete reinstallation of Windows 10."
+  },
+  {
+    "q": "A technician wishes to start Windows 10 in safe mode to troubleshoot it. What key or key combination would begin this process?",
+    "a": "hold the Shift key and select the Restart option in the Power menu"
+  },
+  {
+    "q": "What does the activation of the Offline Files feature in the Sync Center do in Windows 10?",
+    "a": "It sets up a local file location that will store the files to be synchronized."
+  },
+  {
+    "q": "What are two advantages of SD-WAN technologies over traditional WAN? (Choose two.)",
+    "a": "network consistency and reliability;integrated and automated network security features"
+  },
+  {
+    "q": "A user calls the help desk with the following situation. \"My Windows operating system is slowing down more and more each day and it now takes ages to load an application.\" What advice should the help desk agent give to the caller?",
+    "a": "Use the Disk Defragmenter to remedy the problem."
+  },
+  {
+    "q": "A user calls the help desk with the following situation. \"I was updating my operating system software and the power went out before it finished. My PC terminates before the boot process is complete.\" What advice should the help desk agent give to the caller?",
+    "a": "Press F8 during the boot process to use the last known good configuration."
+  },
+  {
+    "q": "A user calls the help desk with the following situation. \"I added a new PC to my LAN. I can ping other devices on my LAN but not any remote devices.\" What advice should the help desk agent give to the caller?",
+    "a": "Check the IP address configuration on the new PC, because the default gateway may be incorrect."
+  },
+  {
+    "q": "A technician calls the help desk with the following situation. \"I am trying to save a file to my RAID drive but my system cannot find it.\" What advice should the help desk agent give to the caller?",
+    "a": "Check the RAID controller, because it may need to be replaced."
+  },
+  {
+    "q": "An administrator calls the help desk with the following situation. \"An application on my computer is not responding and it is slowing down other applications. What should I do?\" What advice should the help desk agent give to the caller?",
+    "a": "Use Task Manager to release system resources from the unresponsive application."
+  },
+  {
+    "q": "An administrator calls the help desk with the following situation. \"I need to make changes to a file. I can open it but I am unable to make changes.\" What advice should the help desk agent give to the caller?",
+    "a": "Check the permissions for this file."
+  },
+  {
+    "q": "An administrator calls the help desk with the following situation. \"I need to use an application that is not supported by Windows on my PC.\" What advice should the help desk agent give to the caller?",
+    "a": "Create a virtual machine with an OS that supports the application."
+  },
+  {
+    "q": "Which statement describes a logical drive?",
+    "a": "It is a section of an extended partition on an MBR. It can be used to separate information for administrative purposes."
+  },
+  {
+    "q": "Which statement describes the globally unique identifier (GUID) partition table (GPT)?",
+    "a": "It is a standard for the layout of the hard drive partition table using globally unique identifiers. All partitions are primary."
+  },
+  {
+    "q": "Which statement describes a dynamic disk?",
+    "a": "It is a type of disk with the ability to create volumes that span across more than one disk even if the unallocated space is noncontiguous."
+  },
+  {
+    "q": "Which statement describes a primary partition?",
+    "a": "It is a physical section of a hard disk. It can contain an operating system to boot the system and cannot be subdivided."
+  },
+  {
+    "q": "Which statement describes formatting?",
+    "a": "It is a process to create a file system in a partition or volume for file storage."
+  },
+  {
+    "q": "Which statement describes the active partition?",
+    "a": "It is used to boot an operating system by default."
+  },
+  {
+    "q": "Which statement describes a recovery partition?",
+    "a": "It is a section of the disk, that is inaccessible to the user, containing an image that can be used to restore the computer to its original configuration."
+  },
+  {
+    "q": "A user has completed a project and wants to erase or delete one or more files from a Windows directory. What is the best Windows command to select to do the job?",
+    "a": "del"
+  },
+  {
+    "q": "A user is trying to repair, prepare, and fix Windows images and the recovery image within an installation of the operating system. What is the best Windows command to select to do the job?",
+    "a": "DISM"
+  },
+  {
+    "q": "A user is deleting old files and wants to see all files in the current directory. What is the best Windows command to select to do the job?",
+    "a": "dir"
+  },
+  {
+    "q": "A user suspects issues with the MBR and is trying to repair it. What is the best Windows command to select to do the job?",
+    "a": "bootrec"
+  },
+  {
+    "q": "A user notices that the PC behaves a bit differently from the organization group policies. The user believes that the group policy settings may have been applied incorrectly and wants to verify the settings. What is the best Windows command to select to do the job?",
+    "a": "gpresult"
+  },
+  {
+    "q": "A user cannot reach a familiar web server and wants to verify connectivity by sending echo-request messages to the server in the hope that the server will respond to confirm connectivity. What is the best Windows command to select to do the job?",
+    "a": "ping"
+  },
+  {
+    "q": "A user notices errors for some Windows operations and suspects that some system files might be corrupted. The user wants to scan and verify the integrity of all system files and replace corrupted files with correct versions. What is the best Windows command to select to do the job?",
+    "a": "sfc"
+  },
+  {
+    "q": "A user wants to copy a group of files from one Windows directory to another. What is the best Windows command to select to do the job?",
+    "a": "robocopy"
+  }
+]

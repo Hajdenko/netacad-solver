@@ -90,5 +90,125 @@
   {
     "q": "A network administrator configures the G0/0/0 interface with the ip address 10.1.1.0 255.255.255.0 command. However, when the administrator issues the show ip route command, the routing table does not show the directly connected network. What is the possible cause of the problem?",
     "a": "The G0/0/0 interface has not been activated."
+  },
+  {
+    "q": "What is a reason to escalate a problem from a level one technician to a level two technician?",
+    "a": "when drivers, applications, or operating systems need to be installed"
+  },
+  {
+    "q": "A programmer used an operator to compare values within a program and the resulting logical data type was \"false\". Which test condition would have provided the result of \"false\"?",
+    "a": "8 != 8"
+  },
+  {
+    "q": "What should a level two technician do immediately after receiving an escalated work order from a level one technician?",
+    "a": "Call the customer back to ask any additional questions and resolve the problem."
+  },
+  {
+    "q": "A worker in the records department of a hospital in the United States accidentally sends a patient's medical record to a printer in another department. When the worker arrives at the printer, the patient record printout is missing. Which two types of compliance standards best match the breach of confidentiality? (Choose two.)",
+    "a": "PHI;ePHI"
+  },
+  {
+    "q": "A support desk trainer is teaching a new support desk technician some basic rules about starting a conversation with a customer. Which statement describes the rules the trainer should be teaching?",
+    "a": "Learn the name of the customer and create a connection with the customer. Next ask questions that assess the knowledge level of the customer."
+  },
+  {
+    "q": "What is the definition of cyber law?",
+    "a": "the collection of international, country, and local laws that affect computer security professionals"
+  },
+  {
+    "q": "A customer is angry and calls to complain that the service scheduled on the computer took longer than expected. The technician reviews the work order and notices that the service was performed by a new employee. How should the technician respond?",
+    "a": "Listen to the complaint and then apologize for any inconvenience caused by the lengthy service on the computer."
+  },
+  {
+    "q": "Which change management process component is concerned with the cost and resources necessary for implementation?",
+    "a": "assessment"
+  },
+  {
+    "q": "What is a characteristic of the open source license of an application software?",
+    "a": "It allows users to modify and share the source code."
+  },
+  {
+    "q": "Which is true regarding the treatment of customer property?",
+    "a": "A customer's phone list is customer property and must be kept private."
+  },
+  {
+    "q": "Which statement best describes a call center?",
+    "a": "It is a place that exists within a company and provides computer support to both employees and customers of the company."
+  },
+  {
+    "q": "When performing computer forensics, what can be prevented with a properly and carefully documented chain of custody?",
+    "a": "evidence tampering"
+  },
+  {
+    "q": "What is a common responsibility of a level one call center technician?",
+    "a": "entering a concise description of a customer problem into a ticketing system"
+  },
+  {
+    "q": "Which statement is characteristic of most personal software licenses?",
+    "a": "A user is allowed to install the software on only one computer."
+  },
+  {
+    "q": "A technician is attempting to securely configure a Linux web server on the public-facing side of the firewall. What port type and number are most likely required to be open on the firewall to allow this traffic through?",
+    "a": "TCP port 22"
+  },
+  {
+    "q": "Which type of documentation is concerned with specifying what data must be collected and how long it must be retained in regards to an organization?",
+    "a": "policies"
+  },
+  {
+    "q": "Which task would require that a problem be escalated to a level two technician?",
+    "a": "changing CMOS settings"
+  },
+  {
+    "q": "Which are two examples of good customer service? (Choose two.)",
+    "a": "A technician notifies a customer as soon as possible that there may be a delay.;A technician follows up with a customer after services are completed."
+  },
+  {
+    "q": "Which two programming languages require the program to be converted into executable code using a compiler? (Choose two.)",
+    "a": "Java;C#"
+  },
+  {
+    "q": "A technician is troubleshooting a PC in a workplace environment and finds many pirated movies on the hard drive. What should the technician do?",
+    "a": "Report the findings through the proper channels."
+  },
+  {
+    "q": "What does a technician need in order to make changes to software installed on the computer of a customer?",
+    "a": "customer authorization"
+  },
+  {
+    "q": "Why is a chain of custody important in a cyber crime case?",
+    "a": "It authenticates evidence."
+  },
+  {
+    "q": "What two actions should a call center technician avoid when dealing with an angry customer? (Choose two.)",
+    "a": "putting the customer on hold or transferring the call;spending time explaining what caused the problem"
+  },
+  {
+    "q": "What is the definition of a script file?",
+    "a": "A simple text file used to automate processes and tasks."
+  },
+  {
+    "q": "What are two examples of personally identifiable information (PII)? (Choose two.)",
+    "a": "credit card number;street address"
+  },
+  {
+    "q": "What is a typical task performed by a level one technician in a call center?",
+    "a": "gathering information when a customer calls for help"
+  },
+  {
+    "q": "Which two rules pertain to the general daily activities of employees in a call center environment? (Choose two.)",
+    "a": "The technician should be sure to treat all customers equally.;The technician should contact the customer if the technician is going to be late for a follow-up appointment."
+  },
+  {
+    "q": "During computer forensics investigations, which type of data is lost when power is removed from the computer?",
+    "a": "data that is stored in RAM"
+  },
+  {
+    "q": "A system administrator needs to perform manual updates on a remote Linux workstation using a Windows 10 PC. Which remote access tool should the administrator use to securely access and configure the Linux device across the network?",
+    "a": "SSH client"
+  },
+  {
+    "q": "A technician receives a call from a customer who is too talkative. How should the technician handle the call?",
+    "a": "Allow the customer to speak without interruption and then try to use closed-ended questions to gather data."
   }
 ]
