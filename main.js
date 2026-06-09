@@ -182,8 +182,36 @@ Respond ONLY with pairs in format "A:2,B:1,C:4,D:3" where the letter is the cate
         if (url.endsWith('.webp')) return 'image/webp';
         return 'image/jpeg';
     }
+    
+    function buildCacheContext(currentQ, topN = 30) {
+	    if (!cache?.length) return '';
+	    
+	    const currentWords = new Set(
+	        norm(currentQ)
+	            .split(/\s+/)
+	            .filter(w => w.length > 3)
+	    );
+	    
+	    const scored = cache.map(e => {
+	        const entryWords = norm(e.q).split(/\s+/);
+	        const matches = entryWords.filter(w => currentWords.has(w)).length;
+	        const score = matches / Math.max(currentWords.size, 1);
+	        return { e, score };
+	    });
+	    
+	    const top = scored
+	        .filter(x => x.score > 0)
+	        .sort((a, b) => b.score - a.score)
+	        .slice(0, topN)
+	        .map(x => `Q: ${x.e.q}\nA: ${x.e.a}`)
+	        .join('\n---\n');
+	    
+	    if (!top) return '';
+	    return `\n\nRelated questions from official Cisco NetAcad curriculum:\n${top}`;
+	}
 
     async function groqMcq(q, answers, multi, img) {
+    	const cacheCtx = buildCacheContext(q);
         const list = answers.map((a, i) => `${i + 1}. ${a.text}`).join('\n');
         const inst = multi
             ? 'The question requires multiple correct answers. Respond with ONLY the numbers separated by commas. Example: 1,3'
@@ -203,23 +231,24 @@ Respond ONLY with pairs in format "A:2,B:1,C:4,D:3" where the letter is the cate
         const res = await fetch(API_URL, {
             method: 'POST',
             headers: { 'Content-Type': 'application/json', 'Authorization': `Bearer ${API_KEY}` },
-            body: JSON.stringify({ model: img ? 'meta-llama/llama-4-scout-17b-16e-instruct' : MODEL, messages: [{ role: 'system', content: SYS_MCQ }, { role: 'user', content }], temperature: 0 })
+            body: JSON.stringify({ model: img ? 'meta-llama/llama-4-scout-17b-16e-instruct' : MODEL, messages: [{ role: 'system', content: SYS_MCQ + cacheCtx }, { role: 'user', content }], temperature: 0 })
         });
         if (!res.ok) throw new Error(`Groq ${res.status}`);
         return (await res.json()).choices[0].message.content.trim();
     }
 
-    async function groqMatch(q, cats, opts) {
-        const catList = cats.map(c => `${c.letter}. ${c.text}`).join('\n');
-        const optList = opts.map((o, i) => `${i + 1}. ${o.text}`).join('\n');
-        const res = await fetch(API_URL, {
-            method: 'POST',
-            headers: { 'Content-Type': 'application/json', 'Authorization': `Bearer ${API_KEY}` },
-            body: JSON.stringify({ model: MODEL, messages: [{ role: 'system', content: SYS_MATCH }, { role: 'user', content: `${q ? 'Question: ' + q + '\n\n' : ''}Categories:\n${catList}\n\nOptions:\n${optList}` }], temperature: 0 })
-        });
-        if (!res.ok) throw new Error(`Groq ${res.status}`);
-        return (await res.json()).choices[0].message.content.trim();
-    }
+	async function groqMatch(q, cats, opts) {
+	    const cacheCtx = buildCacheContext(q);
+	    const catList = cats.map(c => `${c.letter}. ${c.text}`).join('\n');
+	    const optList = opts.map((o, i) => `${i + 1}. ${o.text}`).join('\n');
+	    const res = await fetch(API_URL, {
+	        method: 'POST',
+	        headers: { 'Content-Type': 'application/json', 'Authorization': `Bearer ${API_KEY}` },
+	        body: JSON.stringify({ model: MODEL, messages: [{ role: 'system', content: SYS_MATCH + cacheCtx }, { role: 'user', content: `${q ? 'Question: ' + q + '\n\n' : ''}Categories:\n${catList}\n\nOptions:\n${optList}` }], temperature: 0 })
+	    });
+	    if (!res.ok) throw new Error(`Groq ${res.status}`);
+	    return (await res.json()).choices[0].message.content.trim();
+	}
 
     function parseMcqNums(raw, answers) {
         const nums = raw.match(/\d+/g) ?? [];
