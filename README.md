@@ -37,7 +37,7 @@ Klikni na ikonu rozšíření → **„New rule: www.netacad.com"** a nastav:
 |---|---|
 | Název | cokoliv (třeba `NetAcad Solver`) |
 | URL vzor | `https://www.netacad.com/*` |
-| All frames | ✅ zapnuto |
+| All frames | ✅ zapnuto </br><img src="https://i.ibb.co/HDGLTK4S/brave-Lg-D79g2-PAS.png" width="300" /> |
 
 #### 4. Vlož skript
 
@@ -108,7 +108,7 @@ Click the extension icon → **"New rule: www.netacad.com"** and configure:
 |---|---|
 | Name | anything (e.g. `NetAcad Solver`) |
 | URL pattern | `https://www.netacad.com/*` |
-| All frames | ✅ enabled |
+| All frames | ✅ enabled </br><img src="https://i.ibb.co/HDGLTK4S/brave-Lg-D79g2-PAS.png" width="300" /> |
 
 #### 4. Paste the script
 
