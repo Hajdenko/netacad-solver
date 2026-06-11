@@ -7,13 +7,13 @@
 <a name="česky"></a>
 ## Česky
 
-Skript pro automatické odpovídání na otázky v testech **Cisco NetAcad IT Essentials**. Detekuje aktivní otázku, stáhne správné odpovědi (z cache nebo přes Groq API) a pak čeká. Podržíš CTRL, přejedeš myší přes možnosti — skript klikne na správné, špatné ignoruje.
+Skript pro automatické odpovídání na otázky v testech **Cisco NetAcad IT Essentials**. Detekuje aktivní otázku, stáhne správné odpovědi (z cache nebo přes Groq API) a pak čeká. Podržíš CTRL, přejedeš myší přes možnosti - skript klikne na správné, špatné ignoruje.
 
 ### Co to umí
 
-- odpovědi přes Groq API (`qwen/qwen3-32b`)
+- odpovědi přes AI pokud není uložená otázks (default Groq) (`qwen/qwen3-32b`)
 - offline cache s odpověďmi přímo z kurzu (JSON soubory v repozitáři)
-- ovládání přes CTRL + hover — nenápadné, přirozené
+- ovládání přes CTRL + hover - víc nenápadný jak předchozí verze
 - funguje i na otázkách s obrázky (multimodální LLM)
 - MCQ (jedno i více správných) i matching otázky
 
@@ -58,18 +58,19 @@ Klikni **Save** vpravo nahoře, zavři nastavení a refreshni netacad.com.
 ### Použití
 
 1. Otevři libovolný test na NetAcad.
-2. Podrž **CTRL** — skript na pozadí načte správné odpovědi pro aktuální otázku.
+2. Podrž **CTRL** - skript na pozadí načte správné odpovědi pro aktuální otázku.
 3. Přejíždej myší přes možnosti. Na správné klikne, špatné prostě přeskočí.
 
 #### Matching otázky
 
-Funguje ve dvou krocích — nejdřív hover na kategorii (skript ji klikne), pak hover na správnou možnost (skript přiřadí). Opakuj pro každý pár.
+Funguje ve dvou krocích - nejdřív hover na kategorii (skript ji klikne), pak hover na správnou možnost (skript přiřadí). Opakuj pro každý pár.
 
 ---
 
 ### ⚠️ Disclaimer
 
-Jen pro studijní účely. Použití u ostrých zkoušek může porušovat podmínky Cisco NetAcad. Autor neručí za nic.
+Je jen jeden typ otázky, který tento script nezvládá a to jsou multi otázky, kde rozklikneš box a máš tam několik odpovědí, které vybereš.
+Jen pro studijní účely. Použití u ostrých zkoušek může porušovat podmínky Cisco NetAcad. Autor neručí za nic, skript nebyl testován autorem.
 
 ---
 ---
@@ -77,13 +78,13 @@ Jen pro studijní účely. Použití u ostrých zkoušek může porušovat podm�
 <a name="english"></a>
 ## English
 
-A script that automatically answers questions in **Cisco NetAcad IT Essentials** quizzes. It detects the active question, fetches correct answers (from cache or via Groq API), and waits. Hold CTRL, hover over the options — it clicks the correct ones and ignores the rest.
+A script that automatically answers questions in **Cisco NetAcad IT Essentials** quizzes. It detects the active question, fetches correct answers (from cache or via Groq API), and waits. Hold CTRL, hover over the options - it clicks the correct ones and ignores the rest.
 
 ### Features
 
 - AI answers via Groq API (`qwen/qwen3-32b`)
 - offline cache with answers from the official Cisco curriculum (JSON files in this repo)
-- CTRL + hover control — low-key, natural
+- CTRL + hover control - low-key, natural
 - works on image-based questions (multimodal LLM)
 - supports MCQ (single and multi-select) and matching questions
 
@@ -128,17 +129,18 @@ Hit **Save** top right, close the extension, refresh netacad.com.
 ### Usage
 
 1. Open any quiz on NetAcad.
-2. Hold **CTRL** — the script fetches the correct answers for the current question in the background.
+2. Hold **CTRL** - the script fetches the correct answers for the current question in the background.
 3. Hover over the options. It clicks the correct ones and does nothing on wrong ones.
 
 #### Matching questions
 
-Two steps — hover over a category first (script clicks it), then hover over the correct option (script assigns it). Repeat for each pair.
+Two steps - hover over a category first (script clicks it), then hover over the correct option (script assigns it). Repeat for each pair.
 
 ---
 
 ### ⚠️ Disclaimer
 
+The only question type this script doesn't work for is the multi-answer question type where your goal is to open the answer box and pick from multiple answers.
 For study purposes only. Using this during official exams may violate Cisco NetAcad's Terms of Service. Use at your own risk.
 
 ---
@@ -158,4 +160,3 @@ netacad-solver/
 
 - [NetAcad](https://www.netacad.com/)
 - [User JavaScript & CSS](https://chromewebstore.google.com/detail/user-javascript-and-css/nbhcbdghjpllgmfilhnhkllmkecfmpld)
-- [Groq Console](https://console.groq.com)
