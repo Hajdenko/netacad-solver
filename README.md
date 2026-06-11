@@ -42,12 +42,11 @@ Klikni na ikonu rozšíření → **„New rule: www.netacad.com"** a nastav:
 #### 4. Vlož skript
 
 Zkopíruj obsah `minified.js` (nebo `main.js` pokud minifikovaný nefunguje) do sekce JavaScript. Na začátku nastav API klíč:
+- Lidi, který znám osobně ten klíč rovnou posílám.
 
 ```js
 const API_KEY = 'TVŮJ_API_KLÍČ';
 ```
-
-Bezplatný klíč na [console.groq.com](https://console.groq.com).
 
 #### 5. Ulož a obnov stránku
 
