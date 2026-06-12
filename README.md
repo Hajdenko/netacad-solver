@@ -71,7 +71,7 @@ Funguje ve dvou krocích - nejdřív hover na kategorii (skript ji klikne), pak 
 ---
 
 <a name="problemy"></a>
-### Známé problémy
+### 🐛 Známé problémy
 Někdy se stává, že to kliká na (skoro) každou odpověď, toto se stává když se špatně přečetla otázka a skočilo to zároveň na AI, tohle úplně jednoduše opravíte když načtete stránku znovu. 
 
 ### ⚠️ Disclaimer
@@ -152,7 +152,7 @@ Two steps - hover over a category first (script clicks it), then hover over the 
 
 ---
 <a name="knownbugs"></a>
-### Known Bugs
+### 🐛 Known Bugs
 Sometimes it clicks on (almost) every answer. This happens when the question is misread, causing it to default to the AI at the same time. You can easily fix this simply by reloading the page.
 
 ### ⚠️ Disclaimer
