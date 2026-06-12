@@ -2,6 +2,7 @@
 
 > <img src="https://emojigraph.org/media/joypixels/flag-czechia_1f1e8-1f1ff.png" width="10" /> [Česky](#česky) | <img src="https://emojigraph.org/media/joypixels/flag-united-states_1f1fa-1f1f8.png" width="10" /> [English](#english)
 
+> [Známé problémy](#problemy) | [Known bugs](#knownbugs)
 ---
 
 <a name="česky"></a>
@@ -69,12 +70,21 @@ Funguje ve dvou krocích - nejdřív hover na kategorii (skript ji klikne), pak 
 
 ---
 
+<a name="problemy"></a>
+### Známé problémy
+Někdy se stává, že to kliká na (skoro) každou odpověď, toto se stává když se špatně přečetla otázka a skočilo to zároveň na AI, tohle úplně jednoduše opravíte když načtete stránku znovu. 
+
 ### ⚠️ Disclaimer
 
 Je jen jeden typ otázky, který tento script nezvládá a to jsou multi otázky, kde rozklikneš box a máš tam několik odpovědí, které vybereš.
 Jen pro studijní účely. Použití u ostrých zkoušek může porušovat podmínky Cisco NetAcad. Autor neručí za nic, skript nebyl testován autorem.
 
 ---
+
+</br>
+</br>
+</br>
+
 ---
 
 <a name="english"></a>
@@ -141,6 +151,9 @@ Hit **Save**: <img src="https://i.ibb.co/tMF578yQ/image.png" width="30"/> top ri
 Two steps - hover over a category first (script clicks it), then hover over the correct option (script assigns it). Repeat for each pair.
 
 ---
+<a name="knownbugs"></a>
+### Known Bugs
+Sometimes it clicks on (almost) every answer. This happens when the question is misread, causing it to default to the AI at the same time. You can easily fix this simply by reloading the page.
 
 ### ⚠️ Disclaimer
 
