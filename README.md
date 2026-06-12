@@ -1,13 +1,14 @@
 # NetAcad Solver
 
-> [Česky](#česky) | [English](#english)
+> <img src="https://emojigraph.org/media/joypixels/flag-czechia_1f1e8-1f1ff.png" width="10" /> [Česky](#česky) | <img src="https://emojigraph.org/media/joypixels/flag-united-states_1f1fa-1f1f8.png" width="10" /> [English](#english)
 
 ---
 
 <a name="česky"></a>
-## Česky
 
-Skript pro automatické odpovídání na otázky v testech **Cisco NetAcad IT Essentials**. Detekuje aktivní otázku, stáhne správné odpovědi (z cache nebo přes Groq API) a pak čeká. Podržíš CTRL, přejedeš myší přes možnosti - skript klikne na správné, špatné ignoruje.
+## <img src="https://emojigraph.org/media/joypixels/flag-czechia_1f1e8-1f1ff.png" width="20" /> Česky
+
+Skript pro automatické odpovídání na otázky v testech **Cisco NetAcad IT Essentials**. Detekuje aktivní otázku, stáhne správné odpovědi (z cache nebo přes AI) a pak čeká. Podržíš CTRL, přejedeš myší přes možnosti - skript klikne na správné, špatné ignoruje.
 
 ### Co to umí
 
@@ -24,6 +25,7 @@ Skript pro automatické odpovídání na otázky v testech **Cisco NetAcad IT Es
 #### 1. Rozšíření do prohlížeče
 
 Nainstaluj **[User JavaScript & CSS](https://chromewebstore.google.com/detail/user-javascript-and-css/nbhcbdghjpllgmfilhnhkllmkecfmpld)** do Chrome a ujisti se, že má povoleno spouštět skripty.
+</br><img src="https://i.ibb.co/QFMvVMyy/image.png" width="625"/>
 
 #### 2. Otevři NetAcad
 
@@ -32,6 +34,7 @@ Nainstaluj **[User JavaScript & CSS](https://chromewebstore.google.com/detail/us
 #### 3. Nové pravidlo
 
 Klikni na ikonu rozšíření → **„New rule: www.netacad.com"** a nastav:
+</br><img src="https://i.ibb.co/C5S4MLWV/image.png" width="200"/>
 
 | Nastavení | Hodnota |
 |---|---|
@@ -41,7 +44,7 @@ Klikni na ikonu rozšíření → **„New rule: www.netacad.com"** a nastav:
 
 #### 4. Vlož skript
 
-Zkopíruj obsah `minified.js` (nebo `main.js` pokud minifikovaný nefunguje) do sekce JavaScript. Na začátku nastav API klíč:
+Zkopíruj obsah [`minified.js`](https://github.com/Hajdenko/netacad-solver/blob/main/minified.js) (nebo [`main.js`](https://github.com/Hajdenko/netacad-solver/blob/main/main.js) pokud minifikovaný nefunguje) do sekce JavaScript. Na začátku nastav API klíč:
 - Lidi, který znám osobně ten klíč rovnou posílám.
 
 ```js
@@ -50,7 +53,7 @@ const API_KEY = 'TVŮJ_API_KLÍČ';
 
 #### 5. Ulož a obnov stránku
 
-Klikni **Save** vpravo nahoře, zavři nastavení a refreshni netacad.com.
+Klikni na **Save** tlačítko: <img src="https://i.ibb.co/tMF578yQ/image.png" width="30"/> vpravo nahoře, zavři nastavení a refreshni netacad.com.
 
 ---
 
@@ -75,7 +78,7 @@ Jen pro studijní účely. Použití u ostrých zkoušek může porušovat podm�
 ---
 
 <a name="english"></a>
-## English
+## <img src="https://emojigraph.org/media/joypixels/flag-united-states_1f1fa-1f1f8.png" width="20" /> English
 
 A script that automatically answers questions in **Cisco NetAcad IT Essentials** quizzes. It detects the active question, fetches correct answers (from cache or via Groq API), and waits. Hold CTRL, hover over the options - it clicks the correct ones and ignores the rest.
 
@@ -94,6 +97,7 @@ A script that automatically answers questions in **Cisco NetAcad IT Essentials**
 #### 1. Browser extension
 
 Install **[User JavaScript & CSS](https://chromewebstore.google.com/detail/user-javascript-and-css/nbhcbdghjpllgmfilhnhkllmkecfmpld)** in Chrome and make sure it's allowed to run user scripts.
+</br><img src="https://i.ibb.co/QFMvVMyy/image.png" width="605"/>
 
 #### 2. Open NetAcad
 
@@ -102,6 +106,7 @@ Install **[User JavaScript & CSS](https://chromewebstore.google.com/detail/user-
 #### 3. New rule
 
 Click the extension icon → **"New rule: www.netacad.com"** and configure:
+</br><img src="https://i.ibb.co/C5S4MLWV/image.png" width="200"/>
 
 | Setting | Value |
 |---|---|
@@ -111,7 +116,7 @@ Click the extension icon → **"New rule: www.netacad.com"** and configure:
 
 #### 4. Paste the script
 
-Copy the contents of `minified.js` (or `main.js` if minified breaks) into the JavaScript section. Set your API key at the top:
+Copy the contents of [`minified.js`](https://github.com/Hajdenko/netacad-solver/blob/main/minified.js) (or [`main.js`](https://github.com/Hajdenko/netacad-solver/blob/main/main.js) if minified breaks) into the JavaScript section. Set your API key at the top:
 
 ```js
 const API_KEY = 'YOUR_API_KEY';
@@ -121,7 +126,7 @@ Free key at [console.groq.com](https://console.groq.com).
 
 #### 5. Save and refresh
 
-Hit **Save** top right, close the extension, refresh netacad.com.
+Hit **Save**: <img src="https://i.ibb.co/tMF578yQ/image.png" width="30"/> top right, close the extension, refresh netacad.com.
 
 ---
 
