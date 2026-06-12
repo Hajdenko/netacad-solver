@@ -3,6 +3,7 @@
 > <img src="https://emojigraph.org/media/joypixels/flag-czechia_1f1e8-1f1ff.png" width="10" /> [Česky](#česky) | <img src="https://emojigraph.org/media/joypixels/flag-united-states_1f1fa-1f1f8.png" width="10" /> [English](#english)
 
 > 🐛 [Známé problémy](#problemy) | [Known bugs](#knownbugs)
+
 ---
 
 <a name="česky"></a>
@@ -81,6 +82,33 @@ Jen pro studijní účely. Použití u ostrých zkoušek může porušovat podm�
 
 ---
 
+### ❓ Časté otázky (FAQ)
+
+**Můžu použít Tampermonkey místo User JavaScript & CSS?**
+Ano, Tampermonkey funguje také. Rozšíření níže je jen hezčí a jednodušší na vysvětlení, zvlášť když si potřebuješ sám změnit API klíč.
+
+**Funguje to na Firefoxu nebo Edgi?**
+User JavaScript & CSS je dostupný jen pro Chrome/Chromium prohlížeče. Na Firefoxu použij Tampermonkey nebo Greasemonkey - skript samotný funguje v obou.
+
+**Funguje to na všech testech a cvičeních?**
+Zatím ne - skript funguje spolehlivě pouze na testech a cvičeních od modulu 10 výše až po závěrečný test. Podpora pro nižší moduly je plánovaná.
+
+**Proč musí být zapnuté „All frames"?**
+NetAcad načítá obsah testů uvnitř `<iframe>` elementů - tedy v oddělených rámcích stránky. Bez tohoto nastavení skript běží jen na hlavní stránce a samotné otázky vůbec nevidí.
+
+**Pozná to NetAcad / můžu být zabanovaný?**
+Skript simuluje normální kliknutí myší a nevypadá jinak než ruční ovládání. Žádné reporty o banu nejsou známy, ale nikdo to nemůže 100% zaručit - používáš na vlastní riziko.
+
+**Funguje to i při ostrém (certifikačním) testu?**
+Technicky ano, ale použití u ostrých zkoušek s největší pravděpodobností porušuje podmínky Cisco NetAcad a může vést k diskvalifikaci nebo odebrání certifikátu.
+
+**Skript nekliká vůbec nic - co s tím?**
+Zkontroluj, že máš v rozšíření zapnuté **All frames** (viz instalace), API klíč je správně vyplněný a stránka byla po uložení skriptu refreshnutá. Pokud je otázka textová a stále nic nefunguje, zkus znovu načíst stránku.
+
+**Musím mít připojení k internetu?**
+Pro otázky pokryté cache ne - ty fungují offline. Nové nebo neznámé otázky ale vyžadují připojení pro dotaz na Groq API.
+
+---
 </br>
 </br>
 </br>
@@ -159,6 +187,35 @@ Sometimes it clicks on (almost) every answer. This happens when the question is 
 
 The only question type this script doesn't work for is the multi-answer question type where your goal is to open the answer box and pick from multiple answers.
 For study purposes only. Using this during official exams may violate Cisco NetAcad's Terms of Service. Use at your own risk.
+
+---
+
+### ❓ FAQ
+
+**Can I use Tampermonkey instead?**
+Yes, Tampermonkey works fine. The extension below is just prettier and much easier to use and explain, especially when you need to change the API key yourself.
+
+**Does it work on Firefox or Edge?**
+User JavaScript & CSS is Chrome/Chromium only. On Firefox, use Tampermonkey or Greasemonkey instead, the script itself runs fine in both.
+
+**Does this work on all exams and practices?**
+Not yet. The script works reliably on exams and practices from module 10 onwards up to the final exam. Support for lower modules is planned.
+
+**Why does it need to be running in all frames?**
+NetAcad loads quiz content inside `<iframe>` elements (separate frames within the page). Without this setting the script only runs on the main page and can't see the questions at all.
+
+**Will NetAcad detect it / can I get banned?**
+The script simulates normal mouse clicks and is indistinguishable from manual input. No bans have been reported, but nothing can be guaranteed, use at your own risk.
+If you're talking about getting caught by your teacher or instructor, yes this can happen while installing this script so be quick and use this at your own risk.
+
+**Does it work during the official certification exam?**
+Technically yes, but using it during official exams most likely violates Cisco NetAcad's Terms of Service and could result in disqualification or certificate revocation if caught.
+
+**The script isn't clicking anything - what do I do?**
+Make sure **All frames** is enabled in the extension (see installation), your API key is filled in correctly, and the page was refreshed after saving the script. If the question is text-based and it's still not working, try reloading the page.
+
+**Do I need an internet connection?**
+Not for questions covered by the cache - those work offline. New or unknown questions require a connection to call the Groq API.
 
 ---
 
