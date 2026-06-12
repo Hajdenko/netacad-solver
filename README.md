@@ -4,7 +4,7 @@
 
 > 🐛 [Známé problémy](#problemy) | [Known bugs](#knownbugs)
 
-> 🐛 [Časté Otázky](#czfaq) | [FAQ](#usfaq)
+> ❓ [Časté Otázky](#czfaq) | [FAQ](#usfaq)
 
 ---
 
