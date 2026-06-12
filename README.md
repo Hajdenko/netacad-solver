@@ -2,7 +2,7 @@
 
 > <img src="https://emojigraph.org/media/joypixels/flag-czechia_1f1e8-1f1ff.png" width="10" /> [Česky](#česky) | <img src="https://emojigraph.org/media/joypixels/flag-united-states_1f1fa-1f1f8.png" width="10" /> [English](#english)
 
-> [Známé problémy](#problemy) | [Known bugs](#knownbugs)
+> 🐛 [Známé problémy](#problemy) | [Known bugs](#knownbugs)
 ---
 
 <a name="česky"></a>
