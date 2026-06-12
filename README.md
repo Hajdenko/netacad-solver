@@ -4,6 +4,8 @@
 
 > 🐛 [Známé problémy](#problemy) | [Known bugs](#knownbugs)
 
+> 🐛 [Časté Otázky](#czfaq) | [FAQ](#usfaq)
+
 ---
 
 <a name="česky"></a>
@@ -81,7 +83,7 @@ Je jen jeden typ otázky, který tento script nezvládá a to jsou multi otázky
 Jen pro studijní účely. Použití u ostrých zkoušek může porušovat podmínky Cisco NetAcad. Autor neručí za nic, skript nebyl testován autorem.
 
 ---
-
+<a name="czfaq"></a>
 ### ❓ Časté otázky (FAQ)
 
 **Můžu použít Tampermonkey místo User JavaScript & CSS?**
@@ -190,7 +192,7 @@ The only question type this script doesn't work for is the multi-answer question
 For study purposes only. Using this during official exams may violate Cisco NetAcad's Terms of Service. Use at your own risk.
 
 ---
-
+<a name="usfaq"></a>
 ### ❓ FAQ
 
 **Can I use Tampermonkey instead?**
